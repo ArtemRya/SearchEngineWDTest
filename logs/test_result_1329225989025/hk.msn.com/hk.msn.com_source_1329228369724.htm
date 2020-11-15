@@ -1,0 +1,542 @@
+<HTML dir=ltr lang=zh-hk xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-hk" sizcache="43" sizset="0" xmlns:og = "http://ogp.me/ns#" xmlns:fb = "http://www.facebook.com/2008/fbml"><HEAD><TITLE>MSN, Messenger, Hotmail – MSN HK 香港</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META content=IE=7 http-equiv=X-UA-Compatible><LINK rel="SHORTCUT ICON" type=image/x-icon href="http://kaw.stb.s-msn.com/i/EC/FA6946226F21BD7E8F75BBFA03146.ico">
+<META name=description content="MSN、Messenger、Hotmail.com、Web Messenger 的入口。 由此登入 Hotmail、下載 Messenger。MSN 香港新聞、娛樂、影音、占卜。">
+<META name=keywords content="新聞, 娛樂, 生活, 電影, 健康, 減肥, 時尚, 購物, 女性, MSN 香港, MSN HongKong, MSN, messenger, hotmail, hotmail.com, msn messenger, web messenger, windows live messenger, hotmail">
+<META content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "Single file v2.0" l gen true for "http://v15.HK.msn.com" r (nz 1 vz 1 lz 1 oz 1 cz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://v15.HK.msn.com" r (n 0 s 0 v 0 l 0)' http-equiv=pics-label><LINK rel=canonical href="http://hk.msn.com/"><LINK rel=stylesheet type=text/css href="http://kaw.stc.s-msn.com/br/sc/css/8b/54d256563debbc646aefea6330978d.css" media=all><LINK rel=stylesheet type=text/css href="http://kaw.stc.s-msn.com/br/sc/css/01/2f268693bd7cd3ca1a98993e916df8.css" media=all>
+<SCRIPT type=text/javascript src="http://kaw.stj.s-msn.com/br/sc/js/jquery/jquery-1.4.2.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>/*<![CDATA[*/(function($){$.extend({dapUrl:"http://ads1.msads.net/library/dapmsn.js",signedIn:"False",jsUrl:"http://kaw.stj.s-msn.com/br/sc/js/fb/f86e920edec0de68fe0e891e0e4a37.js",cookie:document.cookie});})(jQuery);(function(b){function a(b,d,c){return typeof b=="number"&&(a(d)?b>=d:true)&&(a(c)?b<=c:true)}function d(c,b){return typeof c=="string"&&(a(b)?c.length>=b:true)}var c=b.isArray;b.extend({isNumber:a,isString:d,isObject:function(a){return typeof a=="object"&&a!==null},isDefined:function(a){return typeof a!="undefined"},isArray:function(d,b){return c(d)&&(a(b)?d.length>=b:true)}})})(jQuery);(function(a){var b,g={voteCookie:"pv",currentCookie:"current",groupCookie:"psid",hideclass:"hide",answerCookie:"pa"};function e(c){c=a.isDefined(c)&&!!c;a(".poll .question").toggleClass(b.hideclass,c);a(".poll .result").toggleClass(b.hideclass,!c)}function d(c){b.groupCookie.setCookie(a("#pollgroupid").val(),30);b.currentCookie.setCookie(c,30);window.location.hash="#scppoll";location.reload(true)}function c(c){c=a.isDefined(c)&&!!c;a(".poll .backtovoting").toggleClass(b.hideclass,!c);e(c)}function f(){var c=a(".poll .question input:checked");if(a("#signinUrl").length>0){c.length>0&&b.answerCookie.setCookie(c.attr("value"),30);window.location.href=a("#signinUrl").val()}else{if(c.length==0){alert(a("#pollnoanswer").val());return}if(a(".poll .firstvote").hasClass("active")){a(".poll .firstvote").removeClass(b.hideclass);a(".poll .question, .textonly .result, .poll .imageonly .result, .poll .textimage .result").addClass(b.hideclass);a(".poll .bottom .result").removeClass(b.hideclass)}else e(1);a(".poll .backtovoting").addClass(b.hideclass);a(".poll .backtovoting").parent().addClass(b.hideclass);var d="";if(typeof SCPFingerPrint!="undefined"){var f=new SCPFingerPrint;d=f.GetFingerPrint()}var g="{0}?pid={1}&aid={2}&scpfp={3}".format(a("#pollpath").val(),a("#pollid").val(),c.attr("value"),d);a.ajax({type:"POST",url:g,data:null})}}var h=function(e){b=a.extend(true,{},g,e);var h=a(".poll");if(h.length>0){a(".poll .votebtn").click(function(a){f();a.preventDefault()});a(".poll .skiptoresult").click(function(a){c(1);a.preventDefault()});a(".poll .backtovoting a").click(function(a){c(0);a.preventDefault()});a(".poll .prev").click(function(b){d(a("#pollidprevious").val());b.preventDefault()});a(".poll .next").click(function(b){d(a("#pollidnext").val());b.preventDefault()});a(".poll .pollreload").click(function(a){a.preventDefault();location.reload(true)});if(b.answerCookie.getCookie().length!=0&&a("#signinUrl").length==0){a(".poll .question input[value='"+b.answerCookie.getCookie()+"']")[0].checked=true;b.answerCookie.setCookie("",-1);f()}}return this};jQuery.Polls={init:h}})(jQuery);function SCPFingerPrint(){this.IntMax=4294967296;this.FlashList=["ShockwaveFlash.ShockwaveFlash","ShockwaveFlash.ShockwaveFlash.7","ShockwaveFlash.ShockwaveFlash.6"];this.PluginString="";this.HashCode=function(b){if(typeof b!="string")return 0;for(var d=0,a=0,c=0;c<b.length;c++){d+=b.charCodeAt(c)<<a;a=(a+8)%32}return d%this.IntMax};this.GetActiveX=function(b){var a=null;try{a=new ActiveXObject(b)}catch(c){}return a};this.GetFlash=function(){try{for(var a=0;a<this.FlashList.length;a++){var b=this.GetActiveX(this.FlashList[a]);if(b!==null)if(a==2){var c="6,0,21";try{b.AllowScriptAccess="always";c=b.GetVariable("$version")}catch(e){}return this.FlashList[a]+c}else return this.FlashList[a]+b.GetVariable("$version")}}catch(d){}return""};this.GetNextVersion=function(b,d){for(var c=[],a=0;a<b.length;a++)if(a==d)c[a]=b[a]+1;else c[a]=b[a];return c};this.GetVersionString=function(b){for(var c="",a=0;a<b.length;a++)if(a<b.length-1)c+=b[a]+".";else c+=b[a];return c};this.GetSilverLight=function(){try{var a=[1,0,0,0],d=this.GetActiveX("AgControl.AgControl");if(d!==null){for(var b=0;b<a.length;b++){while(a[b]<this.IntMax&&d.isVersionSupported(this.GetVersionString(a)))a[b]=a[b]===0?1:a[b]*2;var e=a[b],c=parseInt(a[b]/2,10);a[b]=parseInt((e+c)/2,10);while(a[b]>c){var g=this.GetNextVersion(a,b),f=d.isVersionSupported(this.GetVersionString(a));if(f&&!d.isVersionSupported(this.GetVersionString(g)))break;if(f)c=a[b];else e=a[b];a[b]=parseInt((e+c)/2,10)}}return"SilverLight "+this.GetVersionString(a)}}catch(h){}return""};this.GetWMPlayer=function(){try{var a=this.GetActiveX("wmplayer.ocx");if(a!==null)return"WMPlayer "+a.versionInfo}catch(b){}return""};this.GetAdobeReader=function(){try{var a=this.GetActiveX("AcroPDF.PDF");if(a===null)a=this.GetActiveX("PDF.PdfCtrl");if(a!==null)return"Adobe Reader "+a.GetVersions()}catch(b){}return""};this.GetPlugIns=function(){try{if(this.PluginString==""&&navigator.plugins){var c=navigator.plugins.length;if(c>0)for(var b=0;b<c;b++){var a=navigator.plugins[b];this.PluginString+=a.name+a.description+a.filename+a.length}else this.PluginString=[this.GetFlash(),this.GetWMPlayer(),this.GetAdobeReader(),this.GetSilverLight()].join("")}}catch(d){}return this.HashCode(this.PluginString)};this.GetTimezoneOffset=function(){try{var a=new Date;return a.getTimezoneOffset()}catch(b){return 0}};this.GetScreenSizeAndDepth=function(){try{var a=window.screen;return a.height+"X"+a.width+"X"+a.availHeight+"X"+a.availWidth+"X"+a.colorDepth}catch(b){return""}};this.GetFingerPrint=function(){return this.GetPlugIns()+"|"+this.GetTimezoneOffset()+"|"+this.GetScreenSizeAndDepth()}}(function(a){var g={timeout:50},h={},d=[],e=[],i,f=a.isString,l=a.isFunction,j=window;function n(n,e,o){var q;if(f(n,1)&&(q=this[n])){if(l(e))c(e,this);else if(l(q))if(a.isArray(e))c(q,this,e);else!a.isDefined(e)&&c(q,this)}else if(f(o)){var p=h[o];if(p)p.push(new b(n,e,this));else{h[o]=[new b(n,e,this)];a.ajax({url:o,dataType:"script",cache:1,success:function(){p=h[o];for(var a,b=0;a=p[b];++b)m(a)}})}}else if(f(n,1)){d.push(new b(n,e,this));if(!i)i=j.setTimeout(k,g.timeout)}}function c(f,c,d){if(c.selector&&c.size()==0){e.push(new b(f,d,c));return}if(c.selector&&a.isArray(d)&&d[0].asyncp){c=c.filter(o);e.push(new b(f,d,c.end()))}if(d)f.apply(c,d);else f.apply(c)}function o(){var b=a(this);if(b.data("asyncfilter"))return 0;b.data("asyncfilter",1);return 1}function p(){var g=e;e=[];for(var b,d,f=0;b=g[f];++f){d=a(b.callee.selector,b.callee.context);c(b.func,d,b.action)}}function k(){var c=d;d=[];for(var a,b=0;a=c[b];++b)m(a);i=d.length==0?0:j.setTimeout(k,g.timeout)}function m(a){n.call(a.callee,a.func,a.action)}function b(c,a,b){this.func=c;this.action=a;this.callee=b}a.async=a.fn.async=j.async=n;a.async.defaults=g;a.async.delayed=p})(jQuery);(function($){$.async(0,0,$.jsUrl);})(jQuery);(function(){String.prototype.getCookie=function(){var b=new RegExp("\\b"+this+"\\s*=\\s*([^;]*)","i"),a=b.exec(document.cookie);return a&&a.length>1?a[1]:""}})();(function(a){var b={bannerCookieName:"hppr"},d=1e4,e=1e6,f=9;function c(m,k){var j=a.extend(true,{},b,k),i,l=j.bannerCookieName.getCookie(),c=RegExp("(^|,)"+m+":([^,:]+):?([^,]*)","gi").exec(l);if(c){var h=+new Date;h=""+(c[3]&&c[3].length>=f?Math.round(h/d):Math.round(h/e));if(!c[3]||h<c[3]){i={value:c[2]};!j.iexp&&a.extend(i,{expiration:c[3],expirationTime:g(c[3])})}}return i}function g(a){var b;if(a)b=a.length>=f?new Date(a*d):new Date(a*e);return b}function h(g,f){var e=a.extend(true,{},b,f,{iexp:1}),d=c(g,e);return d&&d.value?d.value:null}a.extend(true,{condition:{getCookie:h,getCookieInfo:c,defaults:b}})})(jQuery);document.write("<style type='text/css'>.cogr .co{display:none}.cogr .cof .co{display:block}</style>");(function(b){var d="IntTickler",f="iab",c=/[?&]rd=1(&|$)/i,a;if(c.test(window.location)){a="redirect";if(d.getCookie()){var e=b.condition.getCookie(f);if(!e)a="banner"}else a="dialog"}a&&b.extend(true,{dapAd:{defaults:{disabled:a=="dialog"}},iaState:a})})(jQuery);(function(){String.prototype.format=function(){for(var b=this,a=0;a<arguments.length;++a)b=b.replace(new RegExp("\\{"+a+"\\}","g"),arguments[a]);return b};String.prototype.findKey=function(g,b,a){b=b||"|";a=a||":";var f=null,c=this.split(b);if(c)for(var d=0;d<c.length;d++){var e=c[d].split(a);if(e[0]==g){f=e[1];break}}return f}})();(function(a){var b={silverlightVersions:["5.0","4.0","3.0","2.0"],silverlightMimeType:"application/x-silverlight-2"};function c(l){var h=a.extend(true,{},b,l),j=window,c;if(!a.isArray(h.silverlightVersions,1))return 0;var d=0;try{var m=j.navigator,f=m.plugins;if(f&&f.length){c=f["Silverlight Plug-In"];if(c)d=/^\d+\.\d+/.exec(c.description)[0];c=0}else if(j.ActiveXObject){var k=new ActiveXObject("AgControl.AgControl");if(k){d=1;var e=a("<OBJECT/>")[0];e.codeType=h.silverlightMimeType;if(typeof e.IsVersionSupported!="undefined")for(var g,i=0;g=h.silverlightVersions[i];++i)if(e.IsVersionSupported(g)){d=g;break}e=0}}}catch(n){}return d}function d(){var c=window.navigator.userAgent.toLowerCase(),d={"windows nt":"windows","mozilla/4.0 (compatible; msie 6.0)":"windows","intel mac os x":"macintel"},a,b={};for(a in d)if(c.indexOf(a)>=0){b.os=d[a];b.version=c.match(/(windows|intel mac os)\s(nt|xp|ce|x)?\s*(\d+\[._]\d+|\d+)/);break}return b}function e(){var d=navigator.userAgent.toLowerCase(),a={},c={chrome:"chrome",webkit:"safari",opera:"opera",msie:"msie",mozilla:"mozilla"};for(var b in c)if(d.indexOf(b)>=0){a.browser=c[b];break}a.version=(d.match(/.+(?:rv|it|ra|ie)[\/: ](\d+\.\d+)/)||[0,"0"])[1];return a}function g(){var f=false,c=d().os,a=e(),i={windows:{mozilla:1.5,msie:6},macintel:{mozilla:1.5,safari:1}};if(c&&a.browser){var g=i[c];if(g){var b=g[a.browser];if(b){var h=parseFloat(a.version);f=h>=b}}}return f}function f(e,b){var a=[],c,d;a.push("<object");for(c in b.attr)a.push(" ",c,'="',b.attr[c],'"');a.push(">");for(d in b.params)a.push('<param name="',d,'" value="',b.params[d],'"/>');a.push(e.innerHTML,"</object>");e.innerHTML=a.join("")}a.silverlight=c;a.silverlight.version=c();a.silverlight.isSupported=g;a.silverlight.createObject=f;a.silverlight.defaults=b})(jQuery);(function(){var a=function(d,g,b,c,e,f){if(d){var a=[d,"=",g];b&&a.push(";expires=",b);c&&a.push(";domain=",c);e&&a.push(";path=",e);f&&a.push(";secure");document.cookie=a.join("")}};String.prototype.setCookie=function(g,d,e,h,f){var c;if(d){var b=new Date;b.setTime(b.getTime()+d*8.64e7);c=b.toUTCString()}a(this,g,c,e,h,f)};String.prototype.delCookie=function(b,d,c){a(this,"","Fri, 31 Dec 1999 23:59:59 GMT",b,d,c)}})();(function(a){a.fireAndForget=function(b){if(b){var a=new Image;a.onload=a.onerror=function(){a.onload=a.onerror=null};a.src=b.replace(/&amp;/gi,"&")}}})(jQuery);(function(a){var b=a.dapUrl,c={acb:0,imm:1};function d(k,m,j,e,d){d=a.extend(true,{},a.dapAd.defaults,d);var l=!!d.acb,i=!!d.imm,c=a("#"+e).parents("div.co");if(c.length){var g=c.parents("div.cogr.cotb");if(g.length)h("OnTabFocus");else{g=c.parents("div.cogr.coss");if(g.length)h("OnSlideFocus");else f()}}else f();function h(a){c.bind(a,function(){c.unbind(a,arguments.callee);f()})}function f(){i?c():a(c);function c(){if(!d.disabled){var a=window;a.async("dapMgr",function(){a.dapMgr.enableACB(e,l);a.dapMgr.renderAd(e,k,m,j)},b)}}}}a.extend(true,{dap:d,dapAd:{defaults:c}});b&&a.async(0,0,b)})(jQuery);(function($){$.sm = (location.href.match(/[?&]ll=0(&|$)/i)) ? (function(a){$.fireAndForget("http://kaw.stc.s-msn.com/br/sc/i/f8/614595fba50d96389708a4135776e4.gif?loc="+ a + "&ts="+ +new Date);}):$.noop;})(jQuery);$.sm("ab1");$(window).load(function(){$.sm("onload");setTimeout(function(){$.sm("ab2")},2000);});(function(a){var c=document,f=window,i=f.location,g="aop",h="tcm",k="tevt=",e,j={evtType:"click",spinTimeout:150,nonNavClckEvt:"click_nonnav",navMouseEnterEvt:"mouseenter_nav",trackInfoOpts:{notrack:"notrack",cmSeparator:">",defaultModule:"body",defaultFormHeadline:"[form submit]",piitxt:"piitxt",piiurl:"piiurl",wrapperId:"wrapper",defaultConnectionType:"LAN",smpCookie:"Sample",smpExp:182,MUIDCookie:"MUID",event:{},sitePage:{},userStatic:{}}};function b(n){var c=a.extend(true,{},j,n);b.recipients=[];b.trackInfo=new d(c.trackInfoOpts);b.register=function(){b.recipients=b.recipients.concat(Array.prototype.slice.call(arguments));return b};b.trackEvent=function(i,g,a,d,h,j,c){b.trackInfo.event=i;b.trackInfo.createReport(g,a,d,h,j,c)&&f("getEventTrackingUrl",true);e=""};b.trackPage=function(){f("getPageViewTrackingUrl",false)};a.fn.trackForms=function(){return this.each(function(){var b=a(this);b=!b.is("form")?a("form",b):b;b.bind("submit",i)})};function f(d,f){b.trackInfo.incrementEventNumber();for(var g in b.recipients){var e=b.recipients[g];a.isFunction(e[d])&&a.fireAndForget(e[d](b.trackInfo))}l(f,c.spinTimeout)}function l(d,a){if(d&&!b.trackInfo.client.isIE()){if(null==a)a=c.spinTimeout;var e=a+ +new Date;while(e>+new Date);}}function m(d){if(d&&d.target&&d.button!=2){var f=a(d.target),e=f.filter("*[href]:first");if(!e.length)e=f.closest("*[href]");if(e.length&&e[0].href){if(e[0].href.indexOf("#")!=-1){var h=g(e[0].href);if(h)d.type=h}d.type==c.nonNavClckEvt&&d.preventDefault();b.trackEvent(d,e[0])}}}function g(a){var b=null;if(a)if(a.indexOf(k)==-1){if(window.location.href.split("#")[0].toUpperCase()==a.split("#")[0].toUpperCase())b=c.nonNavClckEvt}else b=h(a);return b}function h(d){var b=null,c=/#tevt=([A-Za-z0-9]+_[A-Za-z0-9]+)(;*)/g,a=c.exec(d);if(a&&a.length>=1&&a[1])b=a[1];return b}function i(a){b.trackEvent(a)}a(document).bind([c.evtType,c.nonNavClckEvt,c.navMouseEnterEvt].join(" "),m).bind("impr",b.trackEvent);a(window).bind("load unload",b.trackEvent);a(function(){a("body").trackForms()});return b}a.track=b;function d(u){var p=screen,g=d.prototype,e=a.extend(true,{},u);g.sitePage=e.sitePage;g.userStatic=e.userStatic;g.cmSeparator=e.cmSeparator;g.wrapperId=e.wrapperId;var k,l,o,j=-1,n,m;g.client=a.extend({screenResolution:function(){return p.width+"x"+p.height},clientId:function(){if(!m){var a=e.MUIDCookie.getCookie();m=a?a:e.userStatic.requestId}return m},colorDepth:p.colorDepth,cookieSupport:function(){return c.cookie?"Y":"N"},height:function(){!k&&r();return k},width:function(){!l&&r();return l},isIE:function(){if(!a.isDefined(o))o=a.isDefined(f.ActiveXObject);return o},connectionType:function(){return e.defaultConnectionType},pageUrl:i.href,referrer:c.referrer,sample:function(){if(j==-1){var c=e.smpCookie.getCookie();j=parseInt(c);j=!isNaN(j)?j%100:Math.floor(Math.random()*100);var a=location.hostname.match(/([^.]+\.[^.]*)$/),b=a?a[0]:"";e.smpCookie.setCookie(j,e.smpExp,b)}return j},timezone:function(){if(!n){var b=new Date,a=new Date;a.setMonth(b.getMonth()+6);var c=Math.round(b.getTimezoneOffset()/60)*-1,d=Math.round(a.getTimezoneOffset()/60)*-1;n=c<d?c:d}return n}},g.client);g.createReport=function(c,n,g,v,x,s){var d,j=this;if(!c&&j.event&&j.event.target)c=j.event.target;if(c&&!a(c).attr(e.notrack)){var f=a(c);d={destinationUrl:n,campaignId:"",contentElement:x,contentModule:v,headline:g,sourceIndex:c.sourceIndex?c.sourceIndex:"",nodeName:c.nodeName};if(!n){var w=c.href||c.action;d.destinationUrl=f.attr(e.piiurl)||w||""}if(!g){g=f.attr(e.piitxt);if(!g)if(f.filter("form").length)g=e.defaultFormHeadline;else try{g=f.text()||f.attr("alt")||a("[alt]",f).attr("alt")}catch(z){g=""}d.headline=g}var u=c.className||(c.getAttribute?c.getAttribute("class",2):c["class"])||"";d.campaignId=s||(/GT1-(\d+)\b/i.exec(u)?RegExp.$1:"")||t(d.destinationUrl);var k=f.parents("[id]");if(!d.contentModule){for(var l=[],o,p=0;o=k[p];++p){var r=o.id;if(r==e.wrapperId)break;l.splice(0,0,r)}var y=b.trackInfo,i=y.userDynamic.getTrackingParam(h);if(i&&i.length){i=l.concat(i);d.contentModule=i.join(e.cmSeparator)}else d.contentModule=l.join(e.cmSeparator);if(!d.contentModule)d.contentModule=e.defaultModule}if(!d.contentElement){var m=0;if(f.attr("id"))m=1;else if(k.length)m=q(k[0],c,-1);d.contentElement=m}}j.report=d;return d};g.report={};g.incrementEventNumber=function(){this.userDynamic.eventNumber++};g.isSampled=function(a){return!(g.client.sample()>a)};g.generateUrl=function(i,j,h,k,b){var f="",d=a.extend(true,{},k,j);b=a.extend(true,{},h,b);if(b)for(var c in b)if(this[c]){var g=s(b[c],this[c]);d=a.extend(true,{},g,d)}var e=a.param(d);if(e.length>0)f=i+e;return f};function s(c,d){var e={};if(c&&d)for(var f in c){var g=c[f],b=d[g];if(b)e[f]=a.isFunction(b)?b():b}return e}function q(h,f,b){if(!b)b=-1;for(var i=a(h).children(),c,g=0;b<0&&(c=i[g]);++g){if(c==f)return-b;var d=a(c);if(!d.attr("id")){if(d.attr("href")&&!d.attr(e.notrack))--b;b=q(c,f,b)}}return b}function t(b){var a=/\bGT1=(\d+)/i.exec(b);return a?a[1]:""}function r(){if(a.isNumber(f.innerWidth)){l=f.innerWidth;k=f.innerHeight}else{var b=c.documentElement;if(b)if(b.clientWidth){l=b.clientWidth;k=b.clientHeight}else if(b.offsetWidth){l=b.offsetWidth;k=b.offsetHeight}}}}d.prototype.client={};d.prototype.userDynamic={isHomePage:function(){var b=c.documentElement,e=0,d="behaviorAdded";try{if(a.isDefined(b.addBehavior)&&(a(c).data(d)=="1"||b.addBehavior("#default#homePage")&&a(c).data(d,"1")))e=b.isHomePage(i.href)?"Y":"N"}catch(f){}return e},anid:function(){return"ANON".getCookie()},timeStamp:function(){return+new Date},getJSonFromElement:function(b){try{if(b&&b.length>0){var c=a(b[0]).attr("value");if(c)return a.parseJSON(c)}}catch(e){}return null},AOP:function(){if(a.isDefined(e)&&e.length<=0){var d=b.trackInfo,c=d.userDynamic.getTrackingParam(g);if(c.length>0)e=c.join(d.cmSeparator)}return e},getTrackingParam:function(e){var k=b.trackInfo.event,d=[];if(k){var c,n=">.trak",m=a(k.target).parents(),i,f=a(n,k.target),j=b.trackInfo;c=j.userDynamic.getJSonFromElement(f);e==g&&c&&c.taop&&d.splice(0,0,c.taop);if(e==h&&c&&c.tcm){d.splice(0,0,c.tcm);return d}for(var l=0;l<m.length;++l){i=m[l];if(i.id==j.wrapperId)break;f=a(n,i);c=j.userDynamic.getJSonFromElement(f);e==g&&c&&c.taop&&d.splice(0,0,c.taop);if(e==h&&c&&c.tcm){d.splice(0,0,c.tcm);break}}}return d},eventNumber:0};b.trackInfo=d})(jQuery);(function(c){var a={itemSeparator:",",keyValueSeparator:":",trueValue:"t",falseValue:"f",socialTrackList:[{uid:"facebook_userid",trk:"fb"},{uid:"twitter_userid",trk:"tw"}]},e=c.track,b,d;if(e&&(b=e.trackInfo)&&(d=b.prototype.userDynamic))d.settings=function(){var d=[];for(var i in a.socialTrackList){var f=a.socialTrackList[i],g=f.trk,h=f.uid;g&&h&&d.push(g+a.keyValueSeparator+(c.isString(h.getCookie(),1)?a.trueValue:a.falseValue))}var e=b.prototype.userStatic;e&&e.settings&&d.push(e.settings);return d.join(a.itemSeparator)};c.fn.pageSettingsDefaults=a})(jQuery);(function(b){var a={cookieName:"stvs",crossSessionCookieName:"stvx",itemSeparator:",",keyvalueSeparator:":"};b.fn.stickyTabDefaults=a;if(b.track&&b.track.trackInfo&&b.track.trackInfo.prototype.userDynamic)b.track.trackInfo.prototype.userDynamic.defaultSlotTrees=function(){var f=a.cookieName.getCookie()||"",e=a.crossSessionCookieName.getCookie()||"",d=[];e&&d.push(e);if(f){d.length&&d.push(a.itemSeparator);d.push(f)}var g=b.track.trackInfo.userStatic.defaultSlotTrees||"";return c(g,d.join(""))};function c(j,i){var d=i.split(a.itemSeparator),e=j.split(a.itemSeparator),f=[];for(var h in e){var b=e[h].split(a.keyvalueSeparator);for(var g in d){var c=d[g].split(a.keyvalueSeparator);if(c[0]==b[0]){b[1]=c[1];break}}f.push(b.join(a.keyvalueSeparator))}return f.join(a.itemSeparator)}})(jQuery);(function(a){function d(){if(b==-1)b=a.silverlight&&a.silverlight.version?a.silverlight.version:"";return b}if(a.track&&a.track.trackInfo){var c=a.track.trackInfo.prototype.client,b=-1;if(c){c.silverlightVersion=d;c.silverlightEnabled=function(){return Number(d()>0)}}}})(jQuery);(function(b){function g(){return a.userStatic&&a.userStatic.userGroup}if(b.track&&b.track.trackInfo){var a=b.track.trackInfo.prototype,f=a.client;if(f){var d,c,e;f=b.extend(f,{flightKey:function(){if(!d){var a=g();d=a&&a.substring(0,a.indexOf(":"))||"default"}return d},groupAssignment:function(){if(!c){var a=g();c=a&&parseInt(a.substring(a.indexOf(":")+1))?"S":"P"}return c},optKey:function(){if(!e)e=a.userStatic.optKey||"default";return e}})}}})(jQuery);(function(a){var b={base:"",samplingRate:100,eventAlias:{submit:"click",mouseenter:"click",mouseleave:"click",click_nonnav:"click",mouseenter_nav:"click"}};a.track.genericTracking=function(e){var d=this,c=d.opts=a.extend(true,{},b,e);d.getEventTrackingUrl=function(f,d){var g="";if(f.isSampled(c.samplingRate)){d=d?d:f.event.type;var b=c[d];if(!a.isDefined(b)&&a.isDefined(c.eventAlias[d]))b=c[c.eventAlias[d]];if(a.isDefined(b)){var e=b.condition;if(!a.isDefined(e)||a.isNumber(e)&&e||a.isFunction(a[e])&&a[e].call()){var h=c.base+(b.url?b.url:"");g=f.generateUrl(h,c.common,c.commonMap,b.param,b.paramMap)}}}return g};d.getPageViewTrackingUrl=function(a){return d.getEventTrackingUrl(a,"impr")}}})(jQuery);(function(b){var a=new Date,d={base:"",linkTrack:1,samplingRate:100,common:{v:"Y",j:"1.3"},commonMap:{client:{c:"colorDepth"}},page:{v1:a.getMonth()+1+"/"+a.getFullYear(),v2:a.getMonth()+1+"/"+a.getDate()+"/"+a.getFullYear(),t:c()},pageMap:{sitePage:{c3:"pageVersion"}},link:{t:c(),ndh:1,pidt:1,pe:"lnk_o"},linkMap:{sitePage:{c38:"pageVersion"}},eventList:["click","mouseenter","mouseleave","submit","click_nonnav","mouseenter_nav"]};b.track.omniTracking=function(e){var c=this,a=c.opts=b.extend(true,{},d,e);c.getEventTrackingUrl=function(c){var e="";if(c.isSampled(a.samplingRate)){var d=c.event?c.event.type:"";if(a.linkTrack&&b.inArray(d,a.eventList)!=-1){var g=b.extend(true,{},a.link,{c11:d=="mouseenter"||d=="mouseleave"?"hover":d,events:"events4"}),f=c.generateUrl("",a.common,a.commonMap,g,a.linkMap);e=a.base.format(c.userDynamic.timeStamp(),f)}}return e};c.getPageViewTrackingUrl=function(b){var c="";if(b.isSampled(a.samplingRate)){var d=b.generateUrl("",a.common,a.commonMap,a.page,a.pageMap);c=a.base.format(b.userDynamic.timeStamp(),d)}return c}};function c(){var b=[a.getDate(),"/",a.getMonth(),"/",a.getFullYear()," ",a.getHours(),":",a.getMinutes(),":",a.getSeconds()," ",a.getDay()," ",a.getTimezoneOffset()];return b.join("")}b.track.omniTracking.defaults=d})(jQuery);$.track({trackInfoOpts:{sitePage:{lang:"zh-hk",siteGroupId:"MSFT",pageName:"ZHHKHP",pageVersion:"v15",omniPageName:"ZHHKHP:MSFT",domainId:"2",propertyId:"9569",propertySpecific:"10274",sourceUrl:"http://hk.msn.com/default.aspx",pageId:"220518"},userStatic:{signedIn:"False",birthdate:"",gender:"",userGroup:"D1:default",optKey:"",beginRequestTicks:"634648251365473363",requestId:"e2b450c320e04b1499439139ccbe1c53",defaultSlotTrees:"tabmodule:a,socialmodule:hotmail,tabgroup:weather"}},spinTimeout:150}).register(new $.track.genericTracking({base:"http://apac.rel.msn.com/default.aspx?",linkTrack:1,common:{parsergroup:'hops'},commonMap:{client:{fk:'flightKey',gp:'groupAssignment',optkey:'optKey'},sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',pageid:'pageId',mk:'lang'}},impr:{paramMap:{client:{rf:'referrer'},sitePage:{tp:'sourceUrl',tv:'defaultSlotTrees'}}},click:{paramMap:{sitePage:{su:'sourceUrl',pn:'pageName'},report:{ce:'contentElement',cm:'contentModule',hl:'headline', gt1:'campaignId',du:'destinationUrl'}}}}),new $.track.genericTracking({base:"http://g.msn.com.hk/_0nwzhhk0/00/00?",linkTrack:1,commonMap:{sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',tp:'sourceUrl'},userStatic:{rid:'requestId',ts: 'beginRequestTicks'},client:{rf:'referrer'}},click:{paramMap:{sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',su:'sourceUrl'},report:{ce:'contentElement',cm:'contentModule',hl:'headline', gt1:'campaignId',du:'destinationUrl'}}}}),new $.track.genericTracking({base:"http://udc.msn.com/c.gif?",linkTrack:1,commonMap:{event:{evt:'type'},userStatic:{rid:'requestId'},userDynamic:{cts:'timeStamp'},client:{fk:'flightKey',gp:'groupAssignment',optkey:'optKey', clid:'clientId'}},impr:{param:{evt:'impr',js:'1'},paramMap:{client:{rf:'referrer',cu:'pageUrl',sl:'silverlightEnabled',slv:'silverlightVersion',bh:'height',bw:'width',cu:'pageUrl',scr:'screenResolution',sd:'colorDepth'},sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',br:'siteGroupId',mk:'lang', pn:'pageName',pid:'pageId',mv:'pageVersion',su:'sourceUrl'},userStatic:{pp:'signedIn'},userDynamic:{'dv.snlogin':'settings','dv.grpfrmod':'defaultSlotTrees'}}},click:{paramMap:{report:{ce:'contentElement',cm:'contentModule',hl:'headline',du:'destinationUrl'}}},unload:{/**/}, br: { paramMap:{ event:{ evt:'type'}, report: {ce:'contentElement', hl:'headline', cm:'contentModule'} }}}),new $.track.genericTracking({base:"http://b.scorecardresearch.com/b?",linkTrack:0,impr:{param:{c1:'2',c2:'3000001'},paramMap:{client:{c7:'pageUrl',c9:'referrer'},userDynamic:{rn:'timeStamp'}}}}),new $.track.genericTracking({base:"http://c.hk.msn.com/c.gif?",linkTrack:0,impr:{param:{udc:'true'},paramMap:{sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',lng:'lang',tp:'sourceUrl'},userStatic:{rid:'requestId'},userDynamic:{rnd:'timeStamp'},client:{rf:'referrer',scr:'screenResolution'}}}}),new $.track.omniTracking({base:"http://msnportal.112.2o7.net/b/ss/msnportalhkhome/1/H.1-pdv-2/s{0}?[AQB]&{1}&[AQE]",linkTrack:1,samplingRate:9,common:{ns:"msnportalhkhome"},commonMap:{client:{bh:'height',bw:'width',g:'pageUrl',s:'screenResolution',k:'cookieSupport'},sitePage:{pageName:'pageName'},userDynamic:{hp:'isHomePage'}},page:{server:"Msn.com",c1:"Portal"},pageMap:{client:{c29:'pageUrl',c42:'silverlightVersion',ct:'connectionType',r:'referrer'},sitePage:{c2:'lang',ch:'siteGroupId'},userStatic:{c22:'signedIn',c25:'birthdate',c26:'gender'},userDynamic:{c19:'settings',c7:'defaultSlotTrees',c23:'anid'}},link:{events:"events4"},linkMap:{report:{c12:'destinationUrl',c13:'contentModule',c15:'contentElement',c16:'headline',c18:'campaignId',oi:'sourceIndex',oid:'destinationUrl',ot:'nodeName',pev1:'destinationUrl',pev2:'headline',v11:'headline',v12:'destinationUrl'},sitePage:{pid:'pageName',c17:'omniPageName'},userDynamic:{hp:'isHomePage'}}}));//]]></SCRIPT>
+
+<STYLE type=text/css>.cogr .co{display:none}.cogr .cof .co{display:block}</STYLE>
+
+<STYLE>div.pgopt1 .signin,div.pgopt1 .optlink, div.pgopt1 .opt{line-height: 1.33em;}</STYLE>
+</HEAD>
+<BODY class="font80 higheadtext02" sizcache="43" sizset="0">
+<DIV style="Z-INDEX: 10000; BORDER-BOTTOM: 0px; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: visible; BORDER-TOP: 0px; TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; LEFT: 0px" dir=ltr id=eyeDiv>
+<SCRIPT>function ebBannerFlash_0_5554894882551558_DoFSCommand(command,args){ebScriptWin0_5554894882551558.gEbBanners[0].displayUnit.handleFSCommand(command,args,"ebBannerFlash_0_5554894882551558");}</SCRIPT>
+
+<SCRIPT for=ebBannerFlash_0_5554894882551558 event=FSCommand(command,args)>ebBannerFlash_0_5554894882551558_DoFSCommand(command,args);</SCRIPT>
+
+<SCRIPT>function ebIsFlashExtInterfaceExist(){return true;}</SCRIPT>
+</DIV>
+<DIV class=none>
+<SCRIPT type=text/javascript>/*<![CDATA[*/jQuery.track.trackPage();//]]></SCRIPT>
+<NOSCRIPT></NOSCRIPT><IMG alt="" src="http://www.bing.com/partner/primedns.gif" width=1 height=1></DIV>
+<DIV id=wrapper class="pa w12" sizcache="43" sizset="0">
+<DIV id=head sizcache="43" sizset="0">
+<DIV class=ro>
+<DIV class="ce ce1 cel w12">
+<DIV class="co1b1 co coa2 coc1 m3  cepintl_content1">
+<DIV class="br br1 superbanner1">
+<DIV class=advertisement>
+<DIV style="MARGIN: 0px auto" id=superbannerbigad><IFRAME id=dapIfM0 height=1 src="javascript:'<html><head><title>Advertisement</title></head><body id=&quot;dapIfM0&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot; style=&quot;background-color:transparent&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;</script><script type=&quot;text/javascript&quot;>function startTimer(){if (event.srcElement.readyState == &quot;complete&quot;) {parent.verifyDapResize(0);window.setTimeout(&quot;document.close();&quot;, 2000);}}</script><script type=&quot;text/javascript&quot;  src=&quot;//rad.msn.com/ADSAdClient31.dll?GetSAd=&amp;DPJS=4&amp;PN=MSFT&amp;ID=3885A7A37D386F761D45A4A579386FE5&amp;MUID=3885A7A37D386F761D45A4A579386FE5&amp;amp;PG=HKHPB1&amp;amp;AP=1390&quot; onreadystatechange=&quot;startTimer();&quot; onload=&quot;parent.verifyDapResize(0);&quot;></script></body></html>'" frameBorder=0 width=1 allowTransparency scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=HKHPB1&amp;AP=1390",728,90,"superbannerbigad");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro sizcache="43" sizset="0">
+<DIV class="ce ce1 cel w12" sizcache="43" sizset="0">
+<DIV id=icons4 class="co4b5 co coa1 coc1  headerbar3" sizcache="43" sizset="0">
+<DIV class="br br1" sizcache="43" sizset="0">
+<DIV class=ro sizcache="43" sizset="0">
+<DIV class="ce ce1 cel w12" sizcache="43" sizset="0">
+<DIV id=head1 class="co3b4 co coa1 coc1 m3  cepintl_content1" sizcache="43" sizset="0">
+<DIV class="br br1 w5" sizcache="43" sizset="0">
+<UL class=linklist1 sizcache="43" sizset="0">
+<LI class=first sizcache="43" sizset="0"><A href="http://g.msn.com/0AD00001/1674121.1?!&amp;&amp;PID=5841014&amp;UIT=A&amp;TargetID=8066473&amp;AN=1093337626&amp;PG=HKTX01">下載最新版本Messenger </A>
+<LI class=last sizcache="43" sizset="1"><A href="#"></A></LI></UL></DIV>
+<DIV class="br br2">
+<DIV class=link>2012年02月14日(星期二)</DIV></DIV>
+<DIV class="br br3 brl" sizcache="43" sizset="2">
+<DIV style="BEHAVIOR: url('#default#homepage')" id=DHP_Promo class=dhppromo1 sizcache="43" sizset="2" jQuery1329228337096="3">
+<DIV id=DHP_Promo_promo sizcache="43" sizset="2"><A href="http://hk.msn.com/" jQuery1329228337096="53">將MSN 香港設為首頁</A></DIV></DIV></DIV></DIV>
+<DIV id=head2 class="co2b2 co coa1 coc1 m3  cepintl_content1" sizcache="43" sizset="3">
+<DIV class="br br1" sizcache="43" sizset="3">
+<DIV class=pgopt1 sizcache="43" sizset="3" jQuery1329228337096="60">
+<UL class=js sizcache="43" sizset="3">
+<LI class=opt sizcache="43" sizset="3">
+<DIV sizcache="43" sizset="3"><A href="#">網頁選項</A>
+<UL style="WIDTH: 16.7em" sizcache="43" sizset="4">
+<LI class=first sizcache="43" sizset="4"><A id=fontsize class=opennew href="http://onlinehelp.microsoft.com/en-us/msn/ff808788.aspx" target="[object Object]" jQuery1329228337096="58">放大字</A></LI>
+<LI class=last sizcache="43" sizset="5"><A id=addtostart href="http://ie9.discoverbing.com/index_nie9.html" jQuery1329228337096="59">安装IE9</A></LI></UL></DIV></LI>
+<LI class="pipe signin" sizcache="43" sizset="6"><A class=dMSNME_1 href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1329228336&amp;rver=5.5.4177.0&amp;wp=MBI_SSL&amp;wreply=https:%2F%2Flogin.secure.kaw.msn.com%2Fwlsignin.aspx%3Fru%3Dhttp%253a%252f%252fhk.msn.com%252f&amp;lc=1028&amp;id=74351">登入</A></LI></UL></DIV></DIV>
+<DIV class="br br2 brl">
+<DIV class=richtext></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=headlogo class="br br2 w2"><IMG title="MSN 香港" alt="MSN 香港" src="http://kaw.stb00.s-msn.com/i/A2/B7D4DA6EC81916124FA76393D89FF5.gif" width=118 height=51></DIV><BR class=b3>
+<DIV id=headsrch class="br br3" sizcache="43" sizset="7">
+<DIV class=websearch2 sizcache="43" sizset="7">
+<H2>Bing Search</H2>
+<FORM id=srchfrm method=get action=http://hk.bing.com/search target=_blank sizcache="43" sizset="7" jQuery1329228337096="4">
+<DIV class="scopes cf" sizcache="43" sizset="7"><A class="first selected" href="http://hk.bing.com/search?q=&amp;FORM=&amp;mkt=zh-hk" jQuery1329228337096="54">網頁</A><SPAN> | </SPAN><A href="http://hk.bing.com/news/search?q=&amp;mkt=zh-hk&amp;scope=news" jQuery1329228337096="55">新聞</A><SPAN> | </SPAN><A class=last href="http://hk.bing.com/images/search?q=&amp;mkt=zh-hk&amp;scope=images" jQuery1329228337096="56">圖片</A></DIV>
+<DIV class="search cf" sizcache="39" sizset="2"><SPAN class=bo sizcache="39" sizset="3"><SPAN class=bi><LABEL class=hide for=q>Search:</LABEL><INPUT accessKey=S id=q class=text value=沖繩看海 maxLength=250 size=69 name=q jQuery1329228337096="57"><INPUT style="WIDTH: 162px; HEIGHT: 33px" class=image title=網頁搜尋 value=網頁搜尋 alt=網頁搜尋 src="http://kaw.stc.s-msn.com/br/sc/i/ed/151dd922c10a52ad9e1c9eeef846e0.gif" type=image><INPUT value=MSNH73 type=hidden name=form><INPUT value=zh-hk type=hidden name=mkt></SPAN></SPAN></DIV>
+<DIV class=opt sizcache="43" sizset="10">
+<DIV class=delimited sizcache="43" sizset="10"><STRONG>熱門搜尋: </STRONG><A href="http://hk.bing.com/search?q=%E9%9B%B2%E5%A6%AE%E4%BE%AF%E6%96%AF%E9%A0%93">雲妮侯斯頓</A><SPAN></SPAN><A href="http://hk.bing.com/search?q=%E6%9E%97%E6%9B%B8%E8%B1%AA">林書豪</A><SPAN></SPAN><A href="http://hk.bing.com/search?q=%E5%94%90%E8%8B%B1%E5%B9%B4">唐英年</A><SPAN></SPAN><A href="http://hk.bing.com/search?q=%E8%87%AA%E9%A7%95%E9%81%8A">自駕遊</A><SPAN></SPAN><A href="http://hk.bing.com/search?q=%E7%A6%81%E5%8D%80%E9%96%8B%E6%94%BE">禁區開放</A><SPAN></SPAN><A href="http://hk.bing.com/search?q=%E6%83%85%E4%BA%BA%E7%AF%80">情人節</A></DIV></DIV></FORM></DIV></DIV>
+<DIV id=headwlcard class="br br4 brl wlcard1" sizcache="43" sizset="16">
+<UL class="linkedimglinklist8 cf" sizcache="43" sizset="16">
+<LI class=first sizcache="43" sizset="16"><A id=to_inbox href="http://www.hotmail.com/?mkt=zh-HK" sizcache="39" sizset="9"><IMG alt=Hotmail src="http://kaw.stb01.s-msn.com/i/34/1E7BD01CF748D3D99066E6788C20.gif" width=24 height=24><SPAN style="TEXT-ALIGN: left">Hotmail</SPAN></A></LI>
+<LI sizcache="43" sizset="17"><A href="http://promotion.hk.msn.com/messenger/" sizcache="39" sizset="10"><IMG alt=Messenger src="http://kaw.stb00.s-msn.com/i/05/2BFAAB966C8992BBD1C47791A7.gif" width=24 height=24><SPAN style="TEXT-ALIGN: left">Messenger</SPAN></A></LI>
+<LI sizcache="43" sizset="18"><A href="http://clk.atdmt.com/GBL/go/201252187/direct/01/" sizcache="39" sizset="11"><IMG alt=SkyDrive src="http://kaw.stb00.s-msn.com/i/11/B6D62FDDB68457A61F297E4A5E5A49.gif" width=24 height=24><SPAN style="TEXT-ALIGN: left">SkyDrive</SPAN></A></LI>
+<LI class=last sizcache="43" sizset="19"><A href="http://ie9.discoverbing.com/intl/zh-HK/index.html" sizcache="39" sizset="12"><IMG alt=IE9 src="http://kaw.stb01.s-msn.com/i/E9/B9D7E283797ACE260265B461561FA.gif" width=24 height=24><SPAN style="TEXT-ALIGN: left">IE9</SPAN></A></LI></UL></DIV></DIV></DIV></DIV></DIV>
+<DIV id=page sizcache="43" sizset="20">
+<DIV id=nav>
+<DIV class=ro>
+<DIV class="ce ce1 cel w12">
+<DIV class="co1b1 co coa2 coc1 m3  cepintl_content1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=silver_ad1>
+<TABLE style="DISPLAY: inline" id=ebBannerTable_0_5554894882551558 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV style="BORDER-BOTTOM: 0px; TEXT-ALIGN: left; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 970px; PADDING-RIGHT: 0px; DISPLAY: inline; HEIGHT: 19px; OVERFLOW: visible; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px">
+<DIV style="BORDER-BOTTOM: 0px; TEXT-ALIGN: left; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 970px; PADDING-RIGHT: 0px; DISPLAY: inline; OVERFLOW: visible; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px" id=ebBannerDiv_0_5554894882551558 vAlign="top">
+<OBJECT style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 970px; PADDING-RIGHT: 0px; HEIGHT: 19px; OVERFLOW: visible; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; textAlign: left" id=ebBannerFlash_0_5554894882551558 name=ebBannerFlash_0_5554894882551558 codeBase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM NAME="_cx" VALUE="25664"><PARAM NAME="_cy" VALUE="502"><PARAM NAME="FlashVars" VALUE="&amp;clickTag=http%3A//msntest.serving-sys.com/BurstingCachedScripts//ReportPage_2_4_22.html%3FebReportURL%3Dhttp%253A//bs.serving-sys.com/BurstingPipe/adServer.bs%253Fcn%253Dbrd%2526Page%253D%2526PluID%253D45%2526Pos%253D5554894882551558%2526EyeblasterID%253D8002713%2526dg%253D250591%2526di%253D0%24%24ebImpressionID%3D5554894882551558%24%24ebTURLs%3D%5B%22http%3A//g.msn.com/_2AD0006Y/24000000000071070.1%3F%21%26%26PID%3D9735803%26UIT%3DG%26TargetID%3D58572420%26AN%3D1648034189%26PG%3DHKHPSV%26ASID%3De15a5157778c48299953fd3880a195d9%22%5D&amp;clickTAG=http%3A//msntest.serving-sys.com/BurstingCachedScripts//ReportPage_2_4_22.html%3FebReportURL%3Dhttp%253A//bs.serving-sys.com/BurstingPipe/adServer.bs%253Fcn%253Dbrd%2526Page%253D%2526PluID%253D45%2526Pos%253D5554894882551558%2526EyeblasterID%253D8002713%2526dg%253D250591%2526di%253D0%24%24ebImpressionID%3D5554894882551558%24%24ebTURLs%3D%5B%22http%3A//g.msn.com/_2AD0006Y/24000000000071070.1%3F%21%26%26PID%3D9735803%26UIT%3DG%26TargetID%3D58572420%26AN%3D1648034189%26PG%3DHKHPSV%26ASID%3De15a5157778c48299953fd3880a195d9%22%5D&amp;clicktag=http%3A//msntest.serving-sys.com/BurstingCachedScripts//ReportPage_2_4_22.html%3FebReportURL%3Dhttp%253A//bs.serving-sys.com/BurstingPipe/adServer.bs%253Fcn%253Dbrd%2526Page%253D%2526PluID%253D45%2526Pos%253D5554894882551558%2526EyeblasterID%253D8002713%2526dg%253D250591%2526di%253D0%24%24ebImpressionID%3D5554894882551558%24%24ebTURLs%3D%5B%22http%3A//g.msn.com/_2AD0006Y/24000000000071070.1%3F%21%26%26PID%3D9735803%26UIT%3DG%26TargetID%3D58572420%26AN%3D1648034189%26PG%3DHKHPSV%26ASID%3De15a5157778c48299953fd3880a195d9%22%5D&amp;clickTARGET=_blank&amp;&amp;ebFSCmdHandler=&amp;ebFlashID=ebBannerFlash_0_5554894882551558&amp;ebDelayExp=0&amp;ebPageGUID=5554894882551558"><PARAM NAME="Movie" VALUE="http://msntest.serving-sys.com/BurstingRes//Site-36521/Type-2/d976a933-4086-4371-8446-fe5a87f7afd2.swf?ebDomain=hk.msn.com&amp;ebAdID=8002713&amp;cp=http://msntest.serving-sys.com/BurstingCachedScripts//Res/ebV54_&amp;ebIntTime=http://msntest.serving-sys.com/BurstingCachedScripts//Res/ebInteractionTimeV62_12.swf&amp;ebDCPipe=http://bs.serving-sys.com/BurstingPipe/BurstingDataCapturePipe.asp&amp;ebResourcePath=http://msntest.serving-sys.com/BurstingRes//&amp;ebCampaignID=194211&amp;ebStreamingAppURL=rtmp%3A//cp57388.edgefcs.net/ondemand&amp;ebStreamVirtualPath=Res/Site-36521/&amp;ebAdIdentifier=gEbBanners[0].displayUnit_8002713&amp;ebResPath=http%3A//msntest.serving-sys.com/BurstingRes//&amp;ebLC=gEbBanners[0].displayUnit_ebBannerFlash_8002713"><PARAM NAME="Src" VALUE="http://msntest.serving-sys.com/BurstingRes//Site-36521/Type-2/d976a933-4086-4371-8446-fe5a87f7afd2.swf?ebDomain=hk.msn.com&amp;ebAdID=8002713&amp;cp=http://msntest.serving-sys.com/BurstingCachedScripts//Res/ebV54_&amp;ebIntTime=http://msntest.serving-sys.com/BurstingCachedScripts//Res/ebInteractionTimeV62_12.swf&amp;ebDCPipe=http://bs.serving-sys.com/BurstingPipe/BurstingDataCapturePipe.asp&amp;ebResourcePath=http://msntest.serving-sys.com/BurstingRes//&amp;ebCampaignID=194211&amp;ebStreamingAppURL=rtmp%3A//cp57388.edgefcs.net/ondemand&amp;ebStreamVirtualPath=Res/Site-36521/&amp;ebAdIdentifier=gEbBanners[0].displayUnit_8002713&amp;ebResPath=http%3A//msntest.serving-sys.com/BurstingRes//&amp;ebLC=gEbBanners[0].displayUnit_ebBannerFlash_8002713"><PARAM NAME="WMode" VALUE="Opaque"><PARAM NAME="Play" VALUE="-1"><PARAM NAME="Loop" VALUE="-1"><PARAM NAME="Quality" VALUE="High"><PARAM NAME="SAlign" VALUE=""><PARAM NAME="Menu" VALUE="0"><PARAM NAME="Base" VALUE=""><PARAM NAME="AllowScriptAccess" VALUE="always"><PARAM NAME="Scale" VALUE="ShowAll"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE=""><PARAM NAME="SWRemote" VALUE=""><PARAM NAME="MovieData" VALUE=""><PARAM NAME="SeamlessTabbing" VALUE="1"><PARAM NAME="Profile" VALUE="0"><PARAM NAME="ProfileAddress" VALUE=""><PARAM NAME="ProfilePort" VALUE="0"><PARAM NAME="AllowNetworking" VALUE="all"><PARAM NAME="AllowFullScreen" VALUE="true"></OBJECT></DIV></DIV></TD></TR></TBODY></TABLE><IFRAME style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 0px; HEIGHT: 0px; VISIBILITY: hidden; BORDER-TOP: 0px; BORDER-RIGHT: 0px" id=dapIfM1Child height=0 src="javascript:void(document.write('<html><head><title>Advertisement</title></head><body id=&quot;dapIfM1Child&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;window.setTimeout(&quot;document.close();&quot;,30000);</script><script src=&quot;http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&amp;c=28&amp;pli=3773194&amp;PluID=45&amp;w=970&amp;h=19&amp;ord=1648034189&amp;ucm=true&amp;ifl=$$http://www.msn.com.hk/blipimages/hk/eyeblaster/addineyeV2.html$$&amp;ncu=$$http://g.msn.com/_2AD0006Y/24000000000071070.1?!&amp;amp;&amp;amp;PID=9735803&amp;amp;UIT=G&amp;amp;TargetID=58572420&amp;amp;AN=1648034189&amp;amp;PG=HKHPSV&amp;amp;ASID=e15a5157778c48299953fd3880a195d9$$&quot;></script>\n</body></html>'));" frameBorder=0 width=0 scrolling=no></IFRAME><IFRAME id=dapIfM1 height=0 src="javascript:'<html><head><title>Advertisement</title></head><body id=&quot;dapIfM1&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot; style=&quot;background-color:transparent&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;</script><script type=&quot;text/javascript&quot;>function startTimer(){if (event.srcElement.readyState == &quot;complete&quot;) {parent.verifyDapResize(1);window.setTimeout(&quot;document.close();&quot;, 2000);}}</script><script type=&quot;text/javascript&quot;  src=&quot;//rad.msn.com/ADSAdClient31.dll?GetSAd=&amp;DPJS=4&amp;PN=MSFT&amp;ID=3885A7A37D386F761D45A4A579386FE5&amp;MUID=3885A7A37D386F761D45A4A579386FE5&amp;amp;PG=HKHPSV&amp;amp;AP=1402&quot; onreadystatechange=&quot;startTimer();&quot; onload=&quot;parent.verifyDapResize(1);&quot;></script></body></html>'" frameBorder=0 width=0 allowTransparency scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=HKHPSV&amp;AP=1402",1,1,"silver_ad1");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=content sizcache="43" sizset="20">
+<DIV id=subhead></DIV>
+<DIV id=area1 class="re w2" sizcache="43" sizset="20">
+<DIV class=ro sizcache="43" sizset="20">
+<DIV class="ce ce1 cel w2" sizcache="43" sizset="20">
+<DIV class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="20">
+<DIV class="br br1" sizcache="43" sizset="20">
+<DIV class="menubar3 cf" sizcache="43" sizset="20" jQuery1329228337096="73">
+<UL class=js sizcache="43" sizset="20">
+<LI class="coc1 first category" sizcache="43" sizset="20"><A href="http://news.hk.msn.com/" sizcache="39" sizset="13">新聞頻道<SPAN class="icon new">&nbsp;</SPAN></A>
+<UL sizcache="43" sizset="21">
+<LI class=first sizcache="43" sizset="21"><A href="http://news.hk.msn.com/instant/">即時新聞</A>
+<LI sizcache="43" sizset="22"><A href="http://news.hk.msn.com/highlight/">要聞</A>
+<LI sizcache="43" sizset="23"><A href="http://news.hk.msn.com/local/">港聞</A>
+<LI sizcache="43" sizset="24"><A href="http://news.hk.msn.com/gcr/">兩岸</A>
+<LI sizcache="43" sizset="25"><A href="http://news.hk.msn.com/international/">國際</A>
+<LI sizcache="43" sizset="26"><A href="http://news.hk.msn.com/sport/">體育</A>
+<LI sizcache="43" sizset="27"><A href="http://news.hk.msn.com/entertainment/">娛樂</A>
+<LI sizcache="43" sizset="28"><A href="http://news.hk.msn.com/korea_ent/">韓國娛樂</A>
+<LI sizcache="43" sizset="29"><A href="http://news.hk.msn.com/sunday/">星期日生活</A>
+<LI sizcache="43" sizset="30"><A href="http://news.hk.msn.com/video/">韓國娛樂影片</A>
+<LI class="last new" sizcache="43" sizset="31"><A href="http://news.hk.msn.com/news_video/" sizcache="39" sizset="14">視像新聞<SPAN class="icon new">&nbsp;</SPAN></A></LI></UL>
+<LI class=coc2 sizcache="43" sizset="32"><A href="http://women.hk.msn.com/">Women</A>
+<LI class=coc3 sizcache="43" sizset="33"><A href="http://luxury.hk.msn.com/">Luxury</A>
+<LI class=coc4 sizcache="43" sizset="34"><A href="http://movies.hk.msn.com/">電影頻道</A>
+<LI class=coc5 sizcache="43" sizset="35"><A href="http://travel.hk.msn.com/" sizcache="39" sizset="15">旅遊頻道<SPAN class="icon ">&nbsp;</SPAN></A>
+<LI class=coc6 sizcache="43" sizset="36"><A href="http://lifestyle.hk.msn.com/hot/">流行國度</A>
+<LI class=coc7 sizcache="43" sizset="37"><A href="http://lifestyle.hk.msn.com/food/">飲食頻道</A>
+<LI class=coc8 sizcache="43" sizset="38"><A href="http://lifestyle.hk.msn.com/health/" sizcache="39" sizset="16">健康專線<SPAN class="icon new">&nbsp;</SPAN></A>
+<LI class=coc9 sizcache="43" sizset="39"><A href="http://property.hk.msn.com/">地產頻道</A>
+<LI class=coc10 sizcache="43" sizset="40"><A href="http://horoscope.hk.msn.com/">星相塔羅</A>
+<LI class=coc11 sizcache="43" sizset="41"><A href="http://lifestyle.hk.msn.com/valentines_day_2012/default.aspx" sizcache="39" sizset="17">2012情人節特集 <SPAN class="icon new">&nbsp;</SPAN></A>
+<LI class=coc12 sizcache="43" sizset="42"><A href="http://video.hk.msn.com/">影片頻道</A>
+<LI class=coc13 sizcache="43" sizset="43"><A href="http://groupon.hk.msn.com/?ad=pm-msn-website-text-1" sizcache="39" sizset="18">每日團購<SPAN class="icon new">&nbsp;</SPAN></A>
+<LI class=coc14 sizcache="43" sizset="44"><A href="http://promotion.hk.msn.com/">推廣活動</A>
+<LI class="coc15 last" sizcache="43" sizset="45"><A href="http://go.microsoft.com/?linkid=9742339" sizcache="39" sizset="19">交友<SPAN class="icon new">&nbsp;</SPAN></A></LI></UL></DIV></DIV></DIV>
+<DIV class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="46">
+<H2 class="h2 cf" sizcache="39" sizset="20"><SPAN>全城熱話</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="46">
+<SCRIPT type=text/javascript>/*<![CDATA[*/if (typeof($) === 'function' && $.scpTrack) $.scpTrack.add('scpPolls');/*]]>*/</SCRIPT>
+
+<DIV id=scplatformPolls_a991fb9c-a752-4076-b019-687d27ecc0db class="content polls" sizcache="43" sizset="46">
+<DIV class="child c1 first" sizcache="43" sizset="46"><NOSCRIPT></NOSCRIPT>
+<DIV id=scppoll class=poll sizcache="47" sizset="0"><INPUT id=pollid value=a991fb9c-a752-4076-b019-687d27ecc0db type=hidden><INPUT id=pollpath value=PollVote.aspx type=hidden><INPUT id=pollnoanswer value=請選擇一個答案。 type=hidden><INPUT id=pollgroupid value=9b4972a9-2b32-4db8-8bbf-ea1ad7e46ee5 type=hidden><INPUT id=pollidprevious value=00000000-0000-0000-0000-000000000000 type=hidden><INPUT id=pollidnext value=472cf9b1-3184-4112-99f9-e0a61a78b88e type=hidden><INPUT id=trackclick value=Disable type=hidden>
+<H4>情人節最唔想收到的情人節禮物﹕</H4>
+<DIV id=firstvote class="firstvote hide" sizcache="47" sizset="0">
+<P sizcache="47" sizset="0">感謝您第一個參與投票，投票結果將在稍後更新。&nbsp;<A class=pollreload href="#" jQuery1329228337096="78">查看投票結果</A></P></DIV>
+<OL class=textonly sizcache="44" sizset="48">
+<LI sizcache="39" sizset="21">
+<DIV class=question><INPUT id=pollq1 value=eed1e129-2b1d-47d7-86a9-f4a487181a74 type=radio name=q1><LABEL for=pollq1>花 - 不切實際，情人節又貴到離譜</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="21">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="21">
+<DIV class=ansitemleft sizcache="39" sizset="21">
+<DIV style="WIDTH: 26px" class="bar maxvote">&nbsp;</DIV><SPAN class=maxpercenttexttype>26 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="22">
+<DIV class=forresulttext sizcache="39" sizset="22"><SPAN class=maxresulttext>花 - 不切實際，情人節又貴到離譜</SPAN><BR><SPAN class=forresultvote>278&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="24">
+<DIV class=question><INPUT id=pollq2 value=16f18620-4585-4e9d-ba00-ee682bfb1641 type=radio name=q1><LABEL for=pollq2>朱古力 - 太行貨</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="24">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="24">
+<DIV class=ansitemleft sizcache="39" sizset="24">
+<DIV style="WIDTH: 7px" class="bar othervote">&nbsp;</DIV><SPAN class=percenttexttype>7 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="25">
+<DIV class=forresulttext sizcache="39" sizset="25"><SPAN class=regularresulttext>朱古力 - 太行貨</SPAN><BR><SPAN class=forresultvote>80&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="27">
+<DIV class=question><INPUT id=pollq3 value=d14f36f3-597d-4212-9c0a-0e09285b5963 type=radio name=q1><LABEL for=pollq3>毛公仔 - 仲當我三歲咩</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="27">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="27">
+<DIV class=ansitemleft sizcache="39" sizset="27">
+<DIV style="WIDTH: 13px" class="bar othervote">&nbsp;</DIV><SPAN class=percenttexttype>13 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="28">
+<DIV class=forresulttext sizcache="39" sizset="28"><SPAN class=regularresulttext>毛公仔 - 仲當我三歲咩</SPAN><BR><SPAN class=forresultvote>142&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="30">
+<DIV class=question><INPUT id=pollq4 value=19c0ec1e-0f33-406a-ba0e-86ebbe1776fe type=radio name=q1><LABEL for=pollq4>卡 - 唔環保</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="30">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="30">
+<DIV class=ansitemleft sizcache="39" sizset="30">
+<DIV style="WIDTH: 6px" class="bar othervote">&nbsp;</DIV><SPAN class=percenttexttype>6 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="31">
+<DIV class=forresulttext sizcache="39" sizset="31"><SPAN class=regularresulttext>卡 - 唔環保</SPAN><BR><SPAN class=forresultvote>69&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="33">
+<DIV class=question><INPUT id=pollq5 value=0a9d1836-84a8-4a7c-a26a-a56ebd1c5fe7 type=radio name=q1><LABEL for=pollq5>鬚刨 - 應該留返父親節送</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="33">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="33">
+<DIV class=ansitemleft sizcache="39" sizset="33">
+<DIV style="WIDTH: 5px" class="bar othervote">&nbsp;</DIV><SPAN class=percenttexttype>5 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="34">
+<DIV class=forresulttext sizcache="39" sizset="34"><SPAN class=regularresulttext>鬚刨 - 應該留返父親節送</SPAN><BR><SPAN class=forresultvote>59&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="36">
+<DIV class=question><INPUT id=pollq6 value=d4efa499-d2cb-4722-b14b-4962f0c623eb type=radio name=q1><LABEL for=pollq6>呔 - 永遠買唔啱我心水</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="36">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="36">
+<DIV class=ansitemleft sizcache="39" sizset="36">
+<DIV class=bar>&nbsp;</DIV><SPAN class=percenttexttype>2 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="37">
+<DIV class=forresulttext sizcache="39" sizset="37"><SPAN class=regularresulttext>呔 - 永遠買唔啱我心水</SPAN><BR><SPAN class=forresultvote>20&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="39">
+<DIV class=question><INPUT id=pollq7 value=4e5a0363-6375-4063-ab7b-95c789807ab6 type=radio name=q1><LABEL for=pollq7>Gadgets - 令我時時刻刻都在工作Mode之中</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="39">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="39">
+<DIV class=ansitemleft sizcache="39" sizset="39">
+<DIV style="WIDTH: 3px" class="bar othervote">&nbsp;</DIV><SPAN class=percenttexttype>3 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="40">
+<DIV class=forresulttext sizcache="39" sizset="40"><SPAN class=regularresulttext>Gadgets - 令我時時刻刻都在工作Mode之中</SPAN><BR><SPAN class=forresultvote>35&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="42">
+<DIV class=question><INPUT id=pollq8 value=7bbf51b7-90e1-4efd-bb96-1f3d243a7ccb type=radio name=q1><LABEL for=pollq8>情趣用品 - 你當我是什麼</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="42">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="42">
+<DIV class=ansitemleft sizcache="39" sizset="42">
+<DIV style="WIDTH: 14px" class="bar othervote">&nbsp;</DIV><SPAN class=percenttexttype>14 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="43">
+<DIV class=forresulttext sizcache="39" sizset="43"><SPAN class=regularresulttext>情趣用品 - 你當我是什麼</SPAN><BR><SPAN class=forresultvote>150&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="45">
+<DIV class=question><INPUT id=pollq9 value=8f4b1bd9-8a1a-41ec-9a0f-0fd0160ed558 type=radio name=q1><LABEL for=pollq9>心型氣球 - 吹漲</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="45">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="45">
+<DIV class=ansitemleft sizcache="39" sizset="45">
+<DIV style="WIDTH: 18px" class="bar othervote">&nbsp;</DIV><SPAN class=percenttexttype>18 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="46">
+<DIV class=forresulttext sizcache="39" sizset="46"><SPAN class=regularresulttext>心型氣球 - 吹漲</SPAN><BR><SPAN class=forresultvote>203&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI sizcache="39" sizset="48">
+<DIV class=question><INPUT id=pollq10 value=fddea668-f657-426f-a5b4-2b115c23be03 type=radio name=q1><LABEL for=pollq10>DIY禮物 - 要諗吓點唔封塵都幾頭痕</LABEL></DIV>
+<DIV class="result hide" sizcache="39" sizset="48">
+<DIV class=ansitemleftcontainer sizcache="39" sizset="48">
+<DIV class=ansitemleft sizcache="39" sizset="48">
+<DIV style="WIDTH: 6px" class="bar othervote">&nbsp;</DIV><SPAN class=percenttexttype>6 % </SPAN></DIV></DIV>
+<DIV class=ansitemrightcontainer sizcache="39" sizset="49">
+<DIV class=forresulttext sizcache="39" sizset="49"><SPAN class=regularresulttext>DIY禮物 - 要諗吓點唔封塵都幾頭痕</SPAN><BR><SPAN class=forresultvote>70&nbsp;票</SPAN></DIV></DIV></DIV>
+<LI class=bottom sizcache="44" sizset="48">
+<DIV class=question sizcache="43" sizset="47"><SPAN id=vote sizcache="41" sizset="0"><INPUT class=votebtn value=投票 alt=vote type=button jQuery1329228337096="74"></SPAN><SPAN id=skipToResult sizcache="43" sizset="47"><A class=skiptoresult href="#" jQuery1329228337096="75">查看投票結果</A></SPAN></DIV>
+<DIV id=backtovoting class="result hide" sizcache="44" sizset="48">
+<DIV class="backtovoting hide" sizcache="43" sizset="48"><A href="#" jQuery1329228337096="76">返回投票畫面</A></DIV></DIV></LI></OL>
+<DIV class=bottom>
+<DIV class="result hide">
+<P>總投票數：&nbsp;1,106<BR>該投票會定期刷新</P></DIV></DIV>
+<DIV class=prevnext sizcache="46" sizset="0">
+<DIV id=nextPoll class=next sizcache="43" sizset="49" jQuery1329228337096="77"><A href="#"></A></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=service class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="50">
+<H2 class="h2 cf" sizcache="39" sizset="53"><SPAN>線上服務及下載</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="50">
+<UL class="linkedimglinklist1 cf" sizcache="43" sizset="50">
+<LI class=first sizcache="43" sizset="50"><A href="http://ie9.discoverbing.com/intl/zh-HK/index.html" sizcache="39" sizset="54"><IMG alt=MSN版IE9 src="http://kaw.stb00.s-msn.com/i/E1/3DB281A569B8B12ED3878CCBBBB97.gif" width=24 height=24><SPAN>MSN版IE9</SPAN></A></LI>
+<LI sizcache="43" sizset="51"><A href="http://www.bing.com/?scope=web&amp;mkt=zh-hk" sizcache="39" sizset="55"><IMG alt=Bing搜索 src="http://kaw.stb01.s-msn.com/i/AF/ED2D0A84F83FB3225AD353CFA474D.gif" width=24 height=24><SPAN>Bing必應搜索</SPAN></A></LI>
+<LI sizcache="43" sizset="52"><A href="http://promotion.hk.msn.com/hotmail/" sizcache="39" sizset="56"><IMG alt=Hotmail src="http://kaw.stb01.s-msn.com/i/1F/5DDF3AD01E8038434F330BC95C695.gif" width=24 height=24><SPAN>Hotmail.com.hk</SPAN></A></LI>
+<LI sizcache="43" sizset="53"><A href="http://explore.live.com/windows-live-messenger" sizcache="39" sizset="57"><IMG alt=Messenger src="http://kaw.stb00.s-msn.com/i/BD/C6EAF8DED0C04F1FBCC914F29DC69E.gif" width=24 height=24><SPAN>Messenger</SPAN></A></LI>
+<LI sizcache="43" sizset="54"><A href="http://explore.live.com/windows-live-skydrive" sizcache="39" sizset="58"><IMG alt=SkyDrive src="http://kaw.stb00.s-msn.com/i/32/CD94E38685D48523C7BC7D2A35A21D.gif" width=24 height=24><SPAN>SkyDrive</SPAN></A></LI>
+<LI sizcache="43" sizset="55"><A href="http://explore.live.com/windows-live-essentials" sizcache="39" sizset="59"><IMG alt="Windows Live 程式集" src="http://kaw.stb00.s-msn.com/i/B5/E2A44FF46F37B761149E43076191B.png" width=24 height=24><SPAN>Windows Live 程式集</SPAN></A></LI>
+<LI sizcache="43" sizset="56"><A href="http://download.live.com/writer/?mkt=zh-hk" sizcache="39" sizset="60"><IMG alt=Writer src="http://kaw.stb01.s-msn.com/i/AF/AEE3D138058F1D7768DD15CCFBD56.png" width=24 height=24><SPAN>Writer</SPAN></A></LI>
+<LI sizcache="43" sizset="57"><A href="http://explore.live.com/windows-live-movie-maker" sizcache="39" sizset="61"><IMG alt="Movie Maker" src="http://kaw.stb01.s-msn.com/i/C9/EA5981FEF1FAFCECB92250B4176B67.png" width=24 height=24><SPAN>Movie Maker</SPAN></A></LI>
+<LI sizcache="43" sizset="58"><A href="http://explore.live.com/windows-live-photo-gallery" sizcache="39" sizset="62"><IMG alt=影像中心 src="http://kaw.stb00.s-msn.com/i/95/B77C34A07427B613F0945CFC57A8A1.gif" width=24 height=24><SPAN>影像中心</SPAN></A></LI>
+<LI sizcache="43" sizset="59"><A href="http://download.live.com/familysafety/?mkt=zh-hk" sizcache="39" sizset="63"><IMG alt=家長監護服務 src="http://kaw.stb00.s-msn.com/i/9A/B1682D304C463EA9BCEB3C7E552F.png" width=24 height=24><SPAN>家長監護服務</SPAN></A></LI>
+<LI class=last sizcache="43" sizset="60"><A href="http://windowslivehelp.com/" sizcache="39" sizset="64"><IMG alt="Windows Live Help" src="http://kaw.stb00.s-msn.com/i/B5/E2A44FF46F37B761149E43076191B.png" width=24 height=24><SPAN>Windows Live Help</SPAN></A></LI></UL></DIV></DIV></DIV></DIV></DIV>
+<DIV id=area2 class="re w10" sizcache="43" sizset="61">
+<DIV class=ro sizcache="43" sizset="61">
+<DIV class="ce ce1 w6" sizcache="43" sizset="61">
+<DIV id=tabmodule class="cogr cotb cogrsx news_module cogrhig" sizcache="43" sizset="61">
+<DIV class="cotb js" sizcache="43" sizset="61">
+<UL class="cotb cf coc1" sizcache="43" sizset="61">
+<LI class="first tabsel" sizcache="43" sizset="61"><A style="DISPLAY: none" class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="9">最新</A><SPAN class="coc1 tabsel">最新</SPAN></LI>
+<LI sizcache="43" sizset="62"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="12">新聞</A></LI>
+<LI sizcache="43" sizset="63"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="15">旅遊</A></LI>
+<LI sizcache="43" sizset="64"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="18">電影</A></LI>
+<LI sizcache="43" sizset="65"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="21">Lux</A></LI>
+<LI sizcache="43" sizset="66"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="24">Women</A></LI>
+<LI sizcache="43" sizset="67"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="27">地產</A></LI>
+<LI class=last sizcache="43" sizset="68"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="30">生活</A></LI></UL></DIV>
+<DIV id=a class=cof sizcache="43" sizset="69">
+<DIV style="DISPLAY: block" id=hcpnews1_hops class="co1b1 co coa2 coc1 m3  single1" sizcache="43" sizset="69" jQuery1329228337096="10">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="66" jQuery1329228337096="8"><SPAN>最新</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="69">
+<DIV style="CLEAR: both" class="hlcp1 cf" sizcache="43" sizset="69">
+<DIV style="WIDTH: 160px; FLOAT: left" class=pri sizcache="43" sizset="69">
+<DIV class=first sizcache="43" sizset="69">
+<DIV sizcache="43" sizset="69"><A href="http://video.hk.msn.com/watch/video/panda-thief-steals-snack/1yksj4lru"><IMG class=landscape alt="[影片] 搶食！可愛熊貓爭竹吃！" src="http://kaw.stb00.s-msn.com/i/16/31E0E7D886AA1849062E365314D.jpg" width=160 height=135></A></DIV>
+<DIV sizcache="43" sizset="70"><A href="http://video.hk.msn.com/watch/video/panda-thief-steals-snack/1yksj4lru">[影片] 搶食！可愛熊貓爭竹吃！</A></DIV></DIV></DIV>
+<UL style="PADDING-LEFT: 25px; MARGIN-LEFT: 160px" sizcache="43" sizset="71">
+<LI class="ter tertiarytop" sizcache="43" sizset="71"><A href="http://video.hk.msn.com/watch/video/puppy-saved-from-underground-pipe/1yktdr77p">[影片] 小狗被困地下水管 奇蹟獲救</A>
+<LI class=ter sizcache="43" sizset="72"><A href="http://video.hk.msn.com/watch/video/spectacular-lanterns-light-the-sky/1ykoukukl">[影片] 天燈照耀台灣夜空</A>
+<LI class=ter sizcache="43" sizset="73"><A href="http://video.hk.msn.com/watch/video/self-leveling-pool-table/1ykufoa63">[影片] 郵輪新科技 不搖桌球枱</A>
+<LI class=ter sizcache="43" sizset="74"><A href="http://video.hk.msn.com/watch/video/awesome-dog-dj/1yki3skys">[影片] DJ狗捽碟無難度</A>
+<LI class=ter sizcache="43" sizset="75"><A href="http://video.hk.msn.com/watch/video/embarrassed-dog-walks-away-in-shame/1yk5wrbjx">[影片] 瘀皮狗倒地搖尾走</A>
+<LI class=ter sizcache="43" sizset="76"><A href="http://video.hk.msn.com/watch/video/%E9%9F%93%E5%A5%B3%E5%9C%98miss-a%E5%9B%9E%E6%AD%B8-touch-%E9%A6%96%E8%BC%AA%E9%A0%90%E5%91%8A%E7%89%87%E6%9B%9D%E5%85%89/1njjwcr9v">[韓娛] 韓女團Miss A回歸</A>
+<LI class=ter sizcache="43" sizset="77"><A href="http://video.hk.msn.com/watch/video/dior%E7%BE%8E%E5%A6%9D%E7%A4%BA%E7%AF%84-keep-your-eyes-on-me/1rda21hjp">[美容] Dior眼部美妝示範</A></LI></UL></DIV></DIV></DIV></DIV>
+<DIV id=b sizcache="43" sizset="78">
+<DIV style="DISPLAY: none" id=news class="co1b1 co coa2 coc1 m3  single1" sizcache="43" sizset="78" jQuery1329228337096="13">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="67" jQuery1329228337096="11"><SPAN>新聞</SPAN></H2><A class=more href="http://news.hk.msn.com">更多</A></DIV></DIV>
+<DIV id=c sizcache="43" sizset="79">
+<DIV style="DISPLAY: none" class="co1b1 co coa2 coc1 m3  zh-hk1" sizcache="43" sizset="79" jQuery1329228337096="16">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="68" jQuery1329228337096="14"><SPAN>旅遊</SPAN></H2><A class=more href="http://travel.hk.msn.com/">更多</A></DIV></DIV>
+<DIV id=d sizcache="43" sizset="80">
+<DIV style="DISPLAY: none" class="co1b1 co coa2 coc1 m3  zh-hk1" sizcache="43" sizset="80" jQuery1329228337096="19">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="69" jQuery1329228337096="17"><SPAN>電影</SPAN></H2><A class=more href="http://movies.hk.msn.com/">更多</A></DIV></DIV>
+<DIV id=e sizcache="43" sizset="81">
+<DIV style="DISPLAY: none" class="co1b1 co coa2 coc1 m3  zh-hk1" sizcache="43" sizset="81" jQuery1329228337096="22">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="70" jQuery1329228337096="20"><SPAN>Lux</SPAN></H2><A class=more href="http://luxury.hk.msn.com/">更多</A></DIV></DIV>
+<DIV id=f sizcache="43" sizset="82">
+<DIV style="DISPLAY: none" class="co1b1 co coa2 coc1 m3  zh-hk1" sizcache="43" sizset="82" jQuery1329228337096="25">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="71" jQuery1329228337096="23"><SPAN>Women</SPAN></H2><A class=more href="http://women.hk.msn.com/">更多</A></DIV></DIV>
+<DIV id=g sizcache="43" sizset="83">
+<DIV style="DISPLAY: none" class="co1b1 co coa2 coc1 m3  zh-hk1" sizcache="43" sizset="83" jQuery1329228337096="28">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="72" jQuery1329228337096="26"><SPAN>地產</SPAN></H2><A class=more href="http://property.hk.msn.com/">更多</A></DIV></DIV>
+<DIV id=h sizcache="43" sizset="84">
+<DIV style="DISPLAY: none" class="co1b1 co coa2 coc1 m3  zh-hk1" sizcache="43" sizset="84" jQuery1329228337096="31">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="73" jQuery1329228337096="29"><SPAN>生活</SPAN></H2><A class=more href="http://lifestyle.hk.msn.com/">更多</A></DIV></DIV></DIV>
+<DIV id=textlink2 class="co1b1 co coa2 coc1 m5  zh-hk1" sizcache="43" sizset="85">
+<DIV class="br br1 promotionallink1" sizcache="43" sizset="85">
+<UL class="linklist14 cf" sizcache="43" sizset="85">
+<LI class=first sizcache="43" sizset="85"><A href="http://groupon.hk.msn.com/?ad=pm-msn-website-text-1">每日團購: 立即購買今日熱Buy!</A></LI>
+<LI class=last sizcache="43" sizset="86"><A href="http://pixel-hk.pixelinteractivemedia.com/adr/redirect/172846044525/13687/19857/1320033030/1/0/0/trc/d?http://englishtown.msn.com.hk/community/Channels/AcademicTest/?lng=hk&amp;pach=no&amp;etag=Mshk_textlink-ST">你英文水平有幾勁？20分鐘即知</A></LI></UL></DIV></DIV>
+<DIV class="co1b1 co coa2 coc1 m3  adbar2">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=adbar3><IFRAME id=dapIfM2 height=60 src="javascript:'<html><head><title>Advertisement</title></head><body id=&quot;dapIfM2&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot; style=&quot;background-color:transparent&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;</script><script type=&quot;text/javascript&quot;>function startTimer(){if (event.srcElement.readyState == &quot;complete&quot;) {parent.verifyDapResize(2);window.setTimeout(&quot;document.close();&quot;, 2000);}}</script><script type=&quot;text/javascript&quot;  src=&quot;//rad.msn.com/ADSAdClient31.dll?GetSAd=&amp;DPJS=4&amp;PN=MSFT&amp;ID=3885A7A37D386F761D45A4A579386FE5&amp;MUID=3885A7A37D386F761D45A4A579386FE5&amp;amp;PG=HKHP2A&amp;amp;AP=1402&quot; onreadystatechange=&quot;startTimer();&quot; onload=&quot;parent.verifyDapResize(2);&quot;></script></body></html>'" frameBorder=0 width=468 allowTransparency scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=HKHP2A&amp;AP=1402",468,60,"adbar3");</SCRIPT>
+</DIV></DIV></DIV></DIV>
+<DIV id=editorpicks class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="87">
+<H2 class="h2 cf" sizcache="39" sizset="74"><SPAN>編輯推介</SPAN></H2>
+<DIV class="br br1 mvideo" sizcache="43" sizset="87">
+<UL class="imglinkabslist7 cf" sizcache="43" sizset="87">
+<LI style="CLEAR: left" class=first sizcache="43" sizset="87"><A href="http://pixel-hk.pixelinteractivemedia.com/adr/redirect/719089804523/13685/19855/1320033030/1/0/0/trc/d?http://englishtown.msn.com.hk/community/Channels/AcademicTest/?lng=hk&amp;pach=no&amp;etag=Mshk_MSNToday_ST"><IMG alt=港人英文水平下降？ src="http://kaw.stb01.s-msn.com/i/83/FEC777F72B365A224F9DB3C9FD5835.gif" width=218 height=100></A><A href="http://pixel-hk.pixelinteractivemedia.com/adr/redirect/719089804523/13685/19855/1320033030/1/0/0/trc/d?http://englishtown.msn.com.hk/community/Channels/AcademicTest/?lng=hk&amp;pach=no&amp;etag=Mshk_MSNToday_ST"><STRONG>港人英文水平下降？</STRONG></A>
+<DIV class=richtext>
+<P>有教育機構調查發現，8成上班族的聽、講能力僅得中一、二程度…你夠唔夠膽做個英語測試？睇下自己嘅英文水平去到邊？</P></DIV></LI>
+<LI sizcache="43" sizset="89"><A href="http://ad-apac.doubleclick.net/clk;253177053;77037441;f?http://www.americanexpress.com/hk/cn/microsite/platinum-credit-card/credit-card-offer/index.shtml?sourcecode=ADB042LK38&amp;cpid=100035896"><IMG alt=美國運通白金信用卡迎新獎賞 src="http://kaw.stb01.s-msn.com/i/38/91D5811C78A187BEC0BDB459678BA1.jpg" width=218 height=100></A><A href="http://ad-apac.doubleclick.net/clk;253177053;77037441;f?http://www.americanexpress.com/hk/cn/microsite/platinum-credit-card/credit-card-offer/index.shtml?sourcecode=ADB042LK38&amp;cpid=100035896"><STRONG>美國運通白金信用卡迎新獎賞</STRONG></A>
+<DIV class=richtext>
+<P>4月30日前成功申請，專享迎新優惠HK$1,000現金券，及賺取高達30萬積分兌換 HK$1,000現金券！</P></DIV></LI>
+<LI style="CLEAR: left" sizcache="43" sizset="91"><A href="http://pixel-hk.pixelinteractivemedia.com/adr/redirect/609651607341/19642/28689/1322710713/1/0/0/trc/d?http%253A%252F%252Fwomen.hk.msn.com%252Frhymeetparis_default.aspx"><IMG alt="Rhyme et Paris by Judy Ip" src="http://kaw.stb00.s-msn.com/i/37/7BBCF8FB88344B49A9FFBF3D0FBCF.jpg" width=218 height=100></A><A href="http://pixel-hk.pixelinteractivemedia.com/adr/redirect/609651607341/19642/28689/1322710713/1/0/0/trc/d?http%253A%252F%252Fwomen.hk.msn.com%252Frhymeetparis_default.aspx"><STRONG>Rhyme et Paris by Judy Ip</STRONG></A>
+<DIV class=richtext>
+<P>今時今日，手機除了是日常必需品之外，更成為配飾的一部份。今次HTC 推出潮流與型格集一身的 HTC Rhyme，就邀請到 Judy Ip 為 HTC Rhyme 的派對舉行了一場時裝騷...</P></DIV></LI>
+<LI class=last sizcache="43" sizset="93"><A href="http://pixel-hk.pixelinteractivemedia.com/adr/redirect/326648765829/16530/24229/1305538842/1/0/0/trc/d?http://luxury.hk.msn.com/watch_jewelry/new_jewelry/article_5124.asp"><IMG alt=情人節卡地亞送上濃情厚愛 src="http://kaw.stb00.s-msn.com/i/19/C046ED63EA82D64E62FBCCBB6F72D.jpg" width=218 height=100></A><A href="http://pixel-hk.pixelinteractivemedia.com/adr/redirect/326648765829/16530/24229/1305538842/1/0/0/trc/d?http://luxury.hk.msn.com/watch_jewelry/new_jewelry/article_5124.asp"><STRONG>情人節卡地亞送上濃情厚愛</STRONG></A>
+<DIV class=richtext>
+<P>在二月十四日送上卡地亞最動人至深的Love系列，簡單直接，讓她感受你的甜蜜愛意，無盡浪漫。經典醉人的作品包括項鍊、指環...</P></DIV></LI></UL></DIV></DIV>
+<DIV id=koreastar class="co1b1 co coa2 coc1 m3  cepintl_content1" sizcache="43" sizset="95">
+<DIV class="br br1 infopane1" sizcache="43" sizset="95">
+<DIV class="headlinelist3 cf" sizcache="43" sizset="95">
+<DIV style="WIDTH: 150px" sizcache="43" sizset="95"><A href="http://news.hk.msn.com/korea_ent/article.aspx?cp-documentid=5845864"><IMG alt="韓男團神話復出演唱會《THE RETURN》2萬…" src="http://kaw.stb00.s-msn.com/i/ED/2194629EB31B13F3C6DF359F75D1E.jpg" width=150 height=150></A></DIV>
+<UL style="MARGIN-LEFT: 160px" sizcache="43" sizset="96">
+<LI class=first sizcache="43" sizset="96"><A href="http://news.hk.msn.com/korea_ent/article.aspx?cp-documentid=5845864">韓男團神話復出演唱會《THE RETURN》2萬…</A>
+<LI sizcache="43" sizset="97"><A href="http://news.hk.msn.com/korea_ent/article.aspx?cp-documentid=5845863">韓女團Wonder Girls新曲《Like Money》…</A>
+<LI sizcache="43" sizset="98"><A href="http://news.hk.msn.com/korea_ent/article.aspx?cp-documentid=5845862">韓女團Miss A孟佳曬黑色長髮全新造型美…</A>
+<LI sizcache="43" sizset="99"><A href="http://news.hk.msn.com/korea_ent/article.aspx?cp-documentid=5845861">韓劇《Dream High 2》姜素拉、智妍街頭…</A>
+<LI sizcache="43" sizset="100"><A href="http://news.hk.msn.com/korea_ent/article.aspx?cp-documentid=5845549">韓劇《暴力羅曼史》李詩英、李東旭、Je…</A>
+<LI class=last sizcache="43" sizset="101"><A href="http://news.hk.msn.com/korea_ent/article.aspx?cp-documentid=5845548">韓劇《鵲橋兄弟們》After School uee身…</A></LI></UL></DIV></DIV></DIV>
+<DIV class="co1b1 co coa2 coc1 m3  adbar2">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=adbar2><IFRAME id=dapIfM3Child height=60 src="javascript:void(document.write('<html><head><title>Advertisement</title></head><body id=&quot;dapIfM3Child&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;window.setTimeout(&quot;document.close();&quot;,30000);</script><script src=&quot;http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&amp;c=28&amp;pli=3860571&amp;PluID=45&amp;w=468&amp;h=60&amp;ord=1107364250&amp;ucm=true&amp;ifl=$$http://www.msn.com.hk/blipimages/hk/eyeblaster/addineyeV2.html$$&amp;ncu=$$http://g.msn.com/_2AD0006X/21000000000075638.1?!&amp;amp;&amp;amp;PID=9587900&amp;amp;UIT=G&amp;amp;TargetID=100085884&amp;amp;AN=1107364250&amp;amp;PG=HKHP2B&amp;amp;ASID=cb53868f06644b1c98ad8625fa2f5839$$&quot;></script>\n</body></html>'));" frameBorder=0 width=468 scrolling=no></IFRAME><IFRAME id=dapIfM3 height=0 src="javascript:'<html><head><title>Advertisement</title></head><body id=&quot;dapIfM3&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot; style=&quot;background-color:transparent&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;</script><script type=&quot;text/javascript&quot;>function startTimer(){if (event.srcElement.readyState == &quot;complete&quot;) {parent.verifyDapResize(3);window.setTimeout(&quot;document.close();&quot;, 2000);}}</script><script type=&quot;text/javascript&quot;  src=&quot;//rad.msn.com/ADSAdClient31.dll?GetSAd=&amp;DPJS=4&amp;PN=MSFT&amp;ID=3885A7A37D386F761D45A4A579386FE5&amp;MUID=3885A7A37D386F761D45A4A579386FE5&amp;amp;PG=HKHP2B&amp;amp;AP=1402&quot; onreadystatechange=&quot;startTimer();&quot; onload=&quot;parent.verifyDapResize(3);&quot;></script></body></html>'" frameBorder=0 width=0 allowTransparency scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=HKHP2B&amp;AP=1402",468,60,"adbar2");</SCRIPT>
+</DIV></DIV></DIV></DIV>
+<DIV id=hotcontent class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="102">
+<H2 class="h2 cf" sizcache="39" sizset="75"><SPAN>人氣內容</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="102">
+<UL class="linklist14 cf" sizcache="43" sizset="102">
+<LI class=first sizcache="43" sizset="102"><A href="http://news.hk.msn.com/feature/whitneyhouston/">[國際] 雲妮侯斯頓逝世專輯</A></LI>
+<LI sizcache="43" sizset="103"><A href="http://luxury.hk.msn.com/cover/cover/article_5115.asp">[專訪] 薛凱琪：情人節，沒甚麼</A></LI>
+<LI sizcache="43" sizset="104"><A href="http://travel.hk.msn.com/gallery.aspx?cp-documentid=5833546">[旅遊] 旅行靚相2011精彩作品</A></LI>
+<LI sizcache="43" sizset="105"><A href="http://travel.hk.msn.com/gallery.aspx?cp-documentid=5836209">[旅遊] 世上最性感酒店</A></LI>
+<LI sizcache="43" sizset="106"><A href="http://lifestyle.hk.msn.com/hot/gallery.aspx?cp-documentid=5812552">[科技] Facebook IPO誰人勁賺？</A></LI>
+<LI sizcache="43" sizset="107"><A href="http://movies.hk.msn.com/gallery.aspx?cp-documentid=5800756">[電影] 鐵金剛最神奇交通工具巡禮</A></LI>
+<LI sizcache="43" sizset="108"><A href="http://movies.hk.msn.com/gallery.aspx?cp-documentid=5795358">[電影] 創新獎項奧斯卡有得諗</A></LI>
+<LI sizcache="43" sizset="109"><A href="http://women.hk.msn.com/gallery.aspx?cp-documentid=5547278">[健康] 草本治療有幾好？</A></LI>
+<LI sizcache="43" sizset="110"><A href="http://horoscope.hk.msn.com/eiffel/tarot/article.aspx?cp-documentid=5842209">[占卜] 有錢會養小三的指數</A></LI>
+<LI class=last sizcache="43" sizset="111"><A href="http://video.hk.msn.com/watch/video/baby-just-wants-a-million-bucks/1ykfmheg7">[影片] 皺眉BB見錢即轉臉！</A></LI></UL></DIV></DIV>
+<DIV id=lifestylehot class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="112">
+<H2 class="h2 cf" sizcache="39" sizset="76"><SPAN>潮流生活</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="112">
+<UL class="linkedimglinklist8 cf" sizcache="43" sizset="112">
+<LI class=first sizcache="43" sizset="112"><A href="http://lifestyle.hk.msn.com/hot/hi-tech/article.aspx?cp-documentid=5829160" sizcache="39" sizset="77"><IMG alt=藉着手機說愛你 src="http://kaw.stb00.s-msn.com/i/56/9AD6D3A7A52C463536DD271C61A49.jpg" width=100 height=100><SPAN style="TEXT-ALIGN: left">藉着手機說愛你</SPAN></A></LI>
+<LI sizcache="43" sizset="113"><A href="http://lifestyle.hk.msn.com/hot/fashion/article.aspx?cp-documentid=5796726" sizcache="39" sizset="78"><IMG alt="美式日製KEATON CHASE圍巾" src="http://kaw.stb00.s-msn.com/i/F3/8416A9B6A9ACBACB7C0BD9252D640.jpg" width=100 height=100><SPAN style="TEXT-ALIGN: left">美式日製KEATON CHASE圍巾</SPAN></A></LI>
+<LI sizcache="43" sizset="114"><A href="http://lifestyle.hk.msn.com/hot/coolstuff/article.aspx?cp-documentid=5815420" sizcache="39" sizset="79"><IMG alt="向WALT DISNEY致敬" src="http://kaw.stb01.s-msn.com/i/50/BC37DE5A3072149D37C9A8ED6EB19B.jpg" width=100 height=100><SPAN style="TEXT-ALIGN: left">向WALT DISNEY致敬</SPAN></A></LI>
+<LI class=last sizcache="43" sizset="115"><A href="http://lifestyle.hk.msn.com/hot/toys/article.aspx?cp-documentid=5815425" sizcache="39" sizset="80"><IMG alt="山口式IRON MAN MK2" src="http://kaw.stb00.s-msn.com/i/49/3EFC97AC4CE728E2EE7CA8DF7D1D.jpg" width=100 height=100><SPAN style="TEXT-ALIGN: left">山口式IRON MAN MK2</SPAN></A></LI></UL></DIV></DIV></DIV>
+<DIV class="ce ce2 cel w4" sizcache="43" sizset="116">
+<DIV class="co1b1 co coa7 coc1 m3  cepintl_content1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=rightdapad><IFRAME id=dapIfM4 height=1 src="javascript:'<html><head><title>Advertisement</title></head><body id=&quot;dapIfM4&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot; style=&quot;background-color:transparent&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;</script><script type=&quot;text/javascript&quot;>function startTimer(){if (event.srcElement.readyState == &quot;complete&quot;) {parent.verifyDapResize(4);window.setTimeout(&quot;document.close();&quot;, 2000);}}</script><script type=&quot;text/javascript&quot;  src=&quot;//rad.msn.com/ADSAdClient31.dll?GetSAd=&amp;DPJS=4&amp;PN=MSFT&amp;ID=3885A7A37D386F761D45A4A579386FE5&amp;MUID=3885A7A37D386F761D45A4A579386FE5&amp;amp;PG=HKHMPR&amp;amp;AP=1089&quot; onreadystatechange=&quot;startTimer();&quot; onload=&quot;parent.verifyDapResize(4);&quot;></script></body></html>'" frameBorder=0 width=1 allowTransparency scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=HKHMPR&amp;AP=1089",300,250,"rightdapad");</SCRIPT>
+</DIV></DIV></DIV></DIV>
+<DIV id=socialmodule class="cogr cotb cogrsx cogrhig" sizcache="43" sizset="116">
+<DIV class="cotb js" sizcache="43" sizset="116">
+<UL class="cotb cf coc1" sizcache="43" sizset="116">
+<LI class="first tabsel" sizcache="43" sizset="116"><A style="DISPLAY: none" class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="33"><IMG alt="" src="http://kaw.stc.s-msn.com/br/sc/i/5c/94b2d3ceed5a7105b62f1c2361115b.png" width=57 height=14></A><SPAN class="coc1 tabsel"><IMG alt="" src="http://kaw.stc.s-msn.com/br/sc/i/5c/94b2d3ceed5a7105b62f1c2361115b.png" width=57 height=14></SPAN></LI>
+<LI sizcache="43" sizset="117"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="36"><IMG alt="" src="http://kaw.stc.s-msn.com/br/sc/i/94/a0bfb8bf34b186bc3b756e2abbef53.png" width=57 height=14></A></LI>
+<LI class=last sizcache="43" sizset="118"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="39"><IMG alt="" src="http://kaw.stc.s-msn.com/br/sc/i/c5/96bde3b5dc83b66f843b8ff215bc31.png" width=57 height=14></A></LI></UL></DIV>
+<DIV id=hotmail class=cof sizcache="43" sizset="119">
+<DIV style="DISPLAY: block" class="co1b1 co coa7 coc1 m3  hotmail1" sizcache="43" sizset="119" jQuery1329228337096="34">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="82" jQuery1329228337096="32"><SPAN><IMG alt="" src="http://kaw.stc.s-msn.com/br/sc/i/5c/94b2d3ceed5a7105b62f1c2361115b.png" width=57 height=14></SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="119">
+<DIV class=hminbox1 sizcache="43" sizset="119">
+<P>Windows Live Hotmail 給你更多服務。更多的空間 (5GB)、更安全，而且依然免費。</P>
+<UL class="actions cf" sizcache="43" sizset="119">
+<LI class=first sizcache="43" sizset="119"><A class=dMSNME_1 href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1329228336&amp;rver=5.5.4177.0&amp;wp=MBI_SSL&amp;wreply=https:%2F%2Flogin.secure.kaw.msn.com%2Fwlsignin.aspx%3Fru%3Dhttp%253a%252f%252fhk.msn.com%252f&amp;lc=1028&amp;id=74351">登入</A></LI>
+<LI class=last sizcache="43" sizset="120"><A href="http://www.hotmail.com/">註冊</A></LI></UL>
+<DIV class=logo></DIV>
+<DIV class=hr></DIV></DIV></DIV></DIV></DIV>
+<DIV id=twitter sizcache="43" sizset="121">
+<DIV style="DISPLAY: none" class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="121" jQuery1329228337096="37">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="83" jQuery1329228337096="35"><SPAN><IMG alt="" src="http://kaw.stc.s-msn.com/br/sc/i/94/a0bfb8bf34b186bc3b756e2abbef53.png" width=57 height=14></SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="121">
+<DIV class="actfeed1 twitter" sizcache="43" sizset="121" jQuery1329228337096="61"><NOSCRIPT></NOSCRIPT>
+<DIV class="ac-head ac-error cf none" sizcache="43" sizset="121">
+<DIV class=ac-errortext sizcache="43" sizset="121">無法顯示活動訊息。 <A class=ac-refreshlink href="#" jQuery1329228337096="64">請再試一次。</A></DIV>
+<DIV class=ac-signout sizcache="43" sizset="122"><A class="ac-link ac-signinoutajax" href="scp/AuthServiceTwitterLogOff.aspx?redirectTo=0&amp;mkt=zh-hk&amp;format=Homepage" jQuery1329228337096="63">登出</A></DIV></DIV>
+<DIV style="DISPLAY: block" class="ac-head  ac-signin none cf" sizcache="43" sizset="123" jQuery1329228337096="65">
+<DIV class=ac-heading>取得 Twitter 最新訊息</DIV>
+<DIV class="ac-signinlink ac-signinupsell cf" sizcache="43" sizset="123"><A class="ac-link ac-signinoutpopup" href="scp/AuthServiceTwitter.aspx?redirectTo=0&amp;mkt=zh-hk&amp;format=Homepage&amp;unifiedSignIn=false&amp;SPSAdapterAlias=SpsAdapter&amp;WLProductID=msnactivity" rel=twitter_800_390 sizcache="39" sizset="84" jQuery1329228337096="62"><SPAN class=ac-twsignin></SPAN><SPAN class=signintxt>點選此處連結 Twitter</SPAN></A></DIV>
+<DIV class=ac-spanupsell>發佈推文，同時取得你跟隨的朋友的最新訊息</DIV></DIV></DIV>
+<DIV class="ac-load none ac-updatestatus">請稍待…<BR>需要請您稍待一會。</DIV>
+<DIV class="ac-error none ac-head ac-errortext">無法顯示活動訊息，請稍候再試。</DIV></DIV></DIV></DIV>
+<DIV id=facebook sizcache="43" sizset="124">
+<DIV style="DISPLAY: none" class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="124" jQuery1329228337096="40">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="86" jQuery1329228337096="38"><SPAN><IMG alt="" src="http://kaw.stc.s-msn.com/br/sc/i/c5/96bde3b5dc83b66f843b8ff215bc31.png" width=57 height=14></SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="124">
+<DIV class="actfeed1 facebook" sizcache="43" sizset="124" jQuery1329228337096="66"><NOSCRIPT></NOSCRIPT>
+<DIV class="ac-head ac-error cf none" sizcache="43" sizset="124">
+<DIV class=ac-errortext sizcache="43" sizset="124">無法顯示活動訊息。 <A class=ac-refreshlink href="#" jQuery1329228337096="69">請再試一次。</A></DIV>
+<DIV class=ac-signout sizcache="43" sizset="125"><A class="ac-link ac-signinoutpopup" href="scp/AuthServiceFacebookLogOff.aspx?redirectTo=0&amp;mkt=zh-hk&amp;format=Homepage" jQuery1329228337096="67">登出</A></DIV></DIV>
+<DIV style="DISPLAY: block" class="ac-head ac-signin ac-upsellfb none cf" sizcache="43" sizset="126" jQuery1329228337096="70">
+<DIV class=ac-heading>取得 Facebook 的即時狀態更新</DIV>
+<DIV class="ac-signinupsell fbsigninold cf" sizcache="43" sizset="126">
+<DIV class="ac-signinlink fbsigninold" sizcache="43" sizset="126"><A class="ac-link ac-signinoutpopup " href="scp/AuthServiceFacebook.aspx?redirectTo=0&amp;mkt=zh-hk&amp;format=Homepage&amp;unifiedSignIn=false&amp;SPSAdapterAlias=SpsAdapter&amp;WLProductID=msnactivity" rel=facebook_480_440 sizcache="39" sizset="87" jQuery1329228337096="68"><SPAN>登入</SPAN></A>
+<DIV class=fbnonunified>登入以便取得即時狀態更新。</DIV></DIV></DIV>
+<DIV class=ac-spanupsell sizcache="39" sizset="88"><SPAN>回應朋友的訊息，或告訴他們你在想什麼</SPAN></DIV></DIV></DIV>
+<DIV class="ac-load none ac-updatestatus">請稍待…<BR>需要請您稍待一會。</DIV>
+<DIV class="ac-error none ac-head ac-errortext">無法顯示活動訊息，請稍候再試。</DIV></DIV></DIV></DIV></DIV>
+<DIV id=tabgroup class="cogr cotb cogrsx cogrhig" sizcache="43" sizset="127">
+<DIV class="cotb js" sizcache="43" sizset="127">
+<UL class="cotb cf coc1" sizcache="43" sizset="127">
+<LI class="first tabsel" sizcache="43" sizset="127"><A style="DISPLAY: none" class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="42">天氣</A><SPAN class="coc1 tabsel">天氣</SPAN></LI>
+<LI sizcache="43" sizset="128"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="45">星座</A></LI>
+<LI sizcache="43" sizset="129"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="48">占卜</A></LI>
+<LI class=last sizcache="43" sizset="130"><A class=coc1 href="http://hk.msn.com/#" jQuery1329228337096="51">MSN網頁版</A></LI></UL></DIV>
+<DIV id=weather class=cof sizcache="43" sizset="131">
+<DIV style="DISPLAY: block" id=wea1 class="co1b1 co coa7 coc1 m3  cepintl_content1" sizcache="43" sizset="131" jQuery1329228337096="43">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="90" jQuery1329228337096="41"><SPAN>天氣</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="131">
+<DIV class=weamulti1 sizcache="43" sizset="131">
+<H3 class="h3 cf" sizcache="43" sizset="131"><A class=locheading href="#" jQuery1329228337096="71">編輯我的位置</A></H3>
+<UL sizcache="39" sizset="91">
+<LI class=forecast sizcache="39" sizset="91">
+<H3>莫斯科, 俄羅斯</H3>
+<UL sizcache="39" sizset="91">
+<LI class=first sizcache="39" sizset="91">
+<H4>Tuesday</H4><IMG title=多雲時晴 alt=多雲時晴 src="http://stjp.msn.com/as/wea3/i/zh-cht/30.gif">
+<DIV sizcache="39" sizset="91"><SPAN>-12°</SPAN> / <SPAN class=low>-16°</SPAN></DIV></LI>
+<LI sizcache="39" sizset="93">
+<H4>Wednesday</H4><IMG title=陣雪 alt=陣雪 src="http://stjp.msn.com/as/wea3/i/zh-cht/13.gif">
+<DIV sizcache="39" sizset="93"><SPAN>-4°</SPAN> / <SPAN class=low>-11°</SPAN></DIV></LI>
+<LI sizcache="39" sizset="95">
+<H4>Thursday</H4><IMG title=小雪 alt=小雪 src="http://stjp.msn.com/as/wea3/i/zh-cht/16.gif">
+<DIV sizcache="39" sizset="95"><SPAN>-7°</SPAN> / <SPAN class=low>-12°</SPAN></DIV></LI>
+<LI class=last sizcache="39" sizset="97">
+<H4>Friday</H4><IMG title=小雪 alt=小雪 src="http://stjp.msn.com/as/wea3/i/zh-cht/16.gif">
+<DIV sizcache="39" sizset="97"><SPAN>-8°</SPAN> / <SPAN class=low>-15°</SPAN></DIV></LI></UL></LI></UL></DIV></DIV></DIV></DIV>
+<DIV id=horoscope sizcache="43" sizset="132">
+<DIV style="DISPLAY: none" class="co2b2 co coa7 coc1 m3  horoscopem1" sizcache="43" sizset="132" jQuery1329228337096="46">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="99" jQuery1329228337096="44"><SPAN>星座</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="132">
+<DIV id=zodcap class=hrscop1 sizcache="43" sizset="132">
+<DIV sizcache="43" sizset="132"><A href="http://horoscope.hk.msn.com?cap" name=cap><IMG alt=山羊座 src="http://kaw.stc.s-msn.com/br/sc/i/horo/cap.jpg" width=52 height=52></A>
+<H4 sizcache="43" sizset="133"><A href="http://horoscope.hk.msn.com?cap">山羊座</A></H4><SPAN sizcache="43" sizset="134"><A href="http://horoscope.hk.msn.com?cap">12/21 – 1/19</A></SPAN>
+<DIV>你的體力和精神都十分旺盛，異性緣大好，思考能力也不錯，組織力更強，對事業上有所進展。不過不要一下子衝太快了，也不要全為了自己，有時要多替別人想想。</DIV></DIV></DIV></DIV>
+<DIV class="br br2 brl" sizcache="35" sizset="1">
+<FORM class="complex1 cf" method=get action=http://horoscopos.prodigy.msn.com/msnmx/ sizcache="33" sizset="0" jQuery1329228337096="5">
+<DIV sizcache="33" sizset="0">
+<P></P>
+<FIELDSET class=last sizcache="33" sizset="0"><LABEL for=horo>選擇您的星座，查看每日星座運勢。</LABEL><SELECT id=horo name=horo sizcache="30" sizset="0" jQuery1329228337096="72"><OPTION class=choose value=0>選擇您的星座，查看每日星座運勢。</OPTION><OPTION value=ari>白羊座</OPTION><OPTION value=tau>金牛座</OPTION><OPTION value=gem>雙子座</OPTION><OPTION value=can>巨蟹座</OPTION><OPTION value=leo>獅子座</OPTION><OPTION value=vir>處女座</OPTION><OPTION value=lib>天秤座</OPTION><OPTION value=sco>天蠍座</OPTION><OPTION value=sag>人馬座</OPTION><OPTION selected value=cap>山羊座</OPTION><OPTION value=aqu>水瓶座</OPTION><OPTION value=pis>雙魚座</OPTION></SELECT>
+<DIV><INPUT style="WIDTH: 39px; HEIGHT: 24px" class=image title=檢索 value=檢索 alt=檢索 src="http://kaw.stb01.s-msn.com/i/DE/D35D262D5F7E1AE31923568E20466F.png" type=image></DIV></FIELDSET></DIV></FORM></DIV></DIV></DIV>
+<DIV id=transit sizcache="43" sizset="135">
+<DIV style="DISPLAY: none" class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="135" jQuery1329228337096="49">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="101" jQuery1329228337096="47"><SPAN>占卜</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="135">
+<UL class="imglinkabslist1 cf" sizcache="43" sizset="135">
+<LI class=first sizcache="43" sizset="135"><A href="http://horoscope.hk.msn.com/eiffel/tarot/article.aspx?cp-documentid=5833322"></A><A href="http://horoscope.hk.msn.com/eiffel/tarot/article.aspx?cp-documentid=5833322">『西洋情人節』，快來迎接新桃花</A></LI>
+<LI sizcache="43" sizset="137"><A href="http://horoscope.hk.msn.com/eiffel/tarot/article.aspx?cp-documentid=5821700"></A><A href="http://horoscope.hk.msn.com/eiffel/tarot/article.aspx?cp-documentid=5821700">情人搞外遇，是『不低頭』還是『不回頭』</A></LI>
+<LI class=last sizcache="43" sizset="139"><A href="http://horoscope.hk.msn.com/daiya/article.aspx?cp-documentid=5793687"></A><A href="http://horoscope.hk.msn.com/daiya/article.aspx?cp-documentid=5793687">從斗數看2012之世界末日</A></LI></UL></DIV></DIV></DIV>
+<DIV id=webmessenger sizcache="43" sizset="141">
+<DIV style="DISPLAY: none" class="co1b1 co coa2 coc1 m3  zh-hk1" sizcache="43" sizset="141" jQuery1329228337096="52">
+<H2 style="DISPLAY: none" class="h2 cf" sizcache="39" sizset="102" jQuery1329228337096="50"><SPAN>MSN網頁版</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="141">
+<DIV class="imglinkabs1 cf" sizcache="43" sizset="141"><IMG alt="Web IM" src="http://kaw.stb00.s-msn.com/i/DA/E02C3446FDE2768B7633B9955C6.jpg" width=85 height=85><A href="http://promotion.hk.msn.com/webmsn/"><STRONG>MSN網頁版</STRONG></A>
+<DIV class=richtext>
+<P>無論身在何地，你只需透過瀏覽器登入 Windows Live Messenger 網頁版，即可與好友作即時交談，隨時隨地保持緊密聯絡！</P></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=right1 class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="142">
+<H2 class="h2 cf" sizcache="39" sizset="103"><SPAN>著數推廣</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="142">
+<DIV class="imglinkabs1 cf" sizcache="43" sizset="142"><IMG title="跑Online 8心地圖" alt="跑Online 8心地圖" src="http://kaw.stb00.s-msn.com/i/D1/5C84109133EA8E79191EB47FE584FB.gif" width=85 height=85><A href="http://pixel-hk.pixelinteractivemedia.com/adr/redirect/876436274594/13764/20021/1293615662/1/0/0/trc/d?http://event2.funtown.com.hk/counter/counter.php?header=news_2411"><STRONG>跑Online 8心地圖</STRONG></A>
+<DIV class=richtext>
+<P>跑Online冰上訓練營4之終極鍛鍊，齊齊進入冰之山脈，於冰天雪地的賽道，與世紀魔龍大混戰！！密切留意全新8心地圖登場！</P></DIV></DIV></DIV></DIV>
+<DIV id=right2 class="co1b1 co coa7 coc1 m3  zh-hk1" sizcache="43" sizset="143">
+<H2 class="h2 cf" sizcache="39" sizset="104"><SPAN>旅遊頻道</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="143">
+<DIV class="imglinkabs1 cf" sizcache="43" sizset="143"><IMG title=旅行靚相2011精彩作品 alt=旅行靚相2011精彩作品 src="http://kaw.stb01.s-msn.com/i/42/A6594A1B8EF0E4F2405AC03D665C71.jpg" width=85 height=85><A href="http://travel.hk.msn.com/gallery.aspx?cp-documentid=5833546"><STRONG>旅行靚相2011精彩作品</STRONG></A>
+<DIV class=richtext>
+<P>最近著名旅遊網站Wanderlust舉行了比賽，評選2011年由業餘旅遊人拍下的最佳攝影作品...</P></DIV></DIV></DIV></DIV>
+<DIV id=match class="co2b2 co coa7 coc1 m3  dating1" sizcache="43" sizset="144">
+<H2 class="h2 cf" sizcache="39" sizset="105"><SPAN>Match 交友</SPAN></H2>
+<DIV class="br br1" sizcache="43" sizset="144">
+<UL class="linkedimglinklist8 cf" sizcache="43" sizset="144">
+<LI class=first sizcache="43" sizset="144"><A href="http://dating.hk.msn.com/profile/showprofilenocontact.aspx?&amp;uid=nQ91vToxce1WqhjkCcwtNw%3d%3d&amp;handle=kyam6&amp;tp=MF&amp;trackingid=281329&amp;" sizcache="39" sizset="106"><IMG alt=kyam6 src="http://kaw.stb01.s-msn.com/i/90/61A3CB7F292ED9BDFAD59C532B5722.jpg" width=60 height=60><SPAN style="TEXT-ALIGN: left">kyam6</SPAN></A></LI>
+<LI sizcache="43" sizset="145"><A href="http://dating.hk.msn.com/profile/showprofilenocontact.aspx?&amp;uid=sbODj83ljrc%3d&amp;handle=Joe_No7&amp;tp=MF&amp;trackingid=281329&amp;" sizcache="39" sizset="107"><IMG alt=Joe_No7 src="http://kaw.stb01.s-msn.com/i/56/D6EF6A84C39882AEC443ECCE99893.jpg" width=60 height=60><SPAN style="TEXT-ALIGN: left">Joe_No7</SPAN></A></LI>
+<LI sizcache="43" sizset="146"><A href="http://dating.hk.msn.com/profile/showprofilenocontact.aspx?&amp;uid=0cGEwI0Q89wGiIaDixMu0w%3d%3d&amp;handle=Crispypypy&amp;tp=MF&amp;trackingid=281329&amp;" sizcache="39" sizset="108"><IMG alt=Crispypy src="http://kaw.stb01.s-msn.com/i/E8/9C7F9BD6CB701C4A114C6341122F69.jpg" width=60 height=60><SPAN style="TEXT-ALIGN: left">Crispypy</SPAN></A></LI>
+<LI class=last sizcache="43" sizset="147"><A href="http://dating.hk.msn.com/profile/showprofilenocontact.aspx?&amp;uid=EBx16QHGRL8%3d&amp;handle=hellokitty88&amp;tp=MF&amp;trackingid=281329&amp;" sizcache="39" sizset="109"><IMG alt=hellokit src="http://kaw.stb00.s-msn.com/i/39/EE428F1BCA2213C8ECFC1B23A1F18.jpg" width=60 height=60><SPAN style="TEXT-ALIGN: left">hellokit</SPAN></A></LI></UL></DIV>
+<DIV class="br br2 brl" sizcache="35" sizset="2">
+<FORM class="complex1 cf" method=get action=http://dating.hk.msn.com/search/search.aspx sizcache="33" sizset="1" jQuery1329228337096="6">
+<DIV sizcache="33" sizset="1">
+<FIELDSET id=cff1 sizcache="33" sizset="1"><LABEL for=mygender>我是</LABEL><SELECT id=mygender name=GC sizcache="30" sizset="13"><OPTION selected value=1>男性</OPTION><OPTION value=2>女性</OPTION></SELECT><LABEL id=theirgenderlbl for=theirgender>正在尋找</LABEL><SELECT id=theirgender name=TR sizcache="30" sizset="15"><OPTION selected value=2>女性</OPTION><OPTION value=1>男性</OPTION></SELECT></FIELDSET>
+<FIELDSET sizcache="33" sizset="3"><LABEL for=agemin>介於</LABEL><SELECT id=agemin name=LAge sizcache="30" sizset="17"><OPTION selected value=18>18</OPTION><OPTION value=19>19</OPTION><OPTION value=20>20</OPTION><OPTION value=21>21</OPTION><OPTION value=22>22</OPTION><OPTION value=23>23</OPTION><OPTION value=24>24</OPTION><OPTION value=25>25</OPTION><OPTION value=26>26</OPTION><OPTION value=27>27</OPTION><OPTION value=28>28</OPTION><OPTION value=29>29</OPTION><OPTION value=30>30</OPTION><OPTION value=31>31</OPTION><OPTION value=32>32</OPTION><OPTION value=33>33</OPTION><OPTION value=34>34</OPTION><OPTION value=35>35</OPTION><OPTION value=36>36</OPTION><OPTION value=37>37</OPTION><OPTION value=38>38</OPTION><OPTION value=39>39</OPTION><OPTION value=40>40</OPTION><OPTION value=41>41</OPTION><OPTION value=42>42</OPTION><OPTION value=43>43</OPTION><OPTION value=44>44</OPTION><OPTION value=45>45</OPTION><OPTION value=46>46</OPTION><OPTION value=47>47</OPTION><OPTION value=48>48</OPTION><OPTION value=49>49</OPTION><OPTION value=50>50</OPTION><OPTION value=51>51</OPTION><OPTION value=52>52</OPTION><OPTION value=53>53</OPTION><OPTION value=54>54</OPTION><OPTION value=55>55</OPTION><OPTION value=56>56</OPTION><OPTION value=57>57</OPTION><OPTION value=58>58</OPTION><OPTION value=59>59</OPTION><OPTION value=60>60</OPTION><OPTION value=61>61</OPTION><OPTION value=62>62</OPTION><OPTION value=63>63</OPTION><OPTION value=64>64</OPTION><OPTION value=65>65</OPTION><OPTION value=66>66</OPTION><OPTION value=67>67</OPTION><OPTION value=68>68</OPTION><OPTION value=69>69</OPTION><OPTION value=70>70</OPTION><OPTION value=71>71</OPTION><OPTION value=72>72</OPTION><OPTION value=73>73</OPTION><OPTION value=74>74</OPTION><OPTION value=75>75</OPTION><OPTION value=76>76</OPTION><OPTION value=77>77</OPTION><OPTION value=78>78</OPTION><OPTION value=79>79</OPTION><OPTION value=80>80</OPTION></SELECT><LABEL for=agemax>至</LABEL><SELECT id=agemax name=UAge sizcache="30" sizset="80"><OPTION selected value=25>25</OPTION><OPTION value=26>26</OPTION><OPTION value=27>27</OPTION><OPTION value=28>28</OPTION><OPTION value=29>29</OPTION><OPTION value=30>30</OPTION><OPTION value=31>31</OPTION><OPTION value=32>32</OPTION><OPTION value=33>33</OPTION><OPTION value=34>34</OPTION><OPTION value=35>35</OPTION><OPTION value=36>36</OPTION><OPTION value=37>37</OPTION><OPTION value=38>38</OPTION><OPTION value=39>39</OPTION><OPTION value=40>40</OPTION><OPTION value=41>41</OPTION><OPTION value=42>42</OPTION><OPTION value=43>43</OPTION><OPTION value=44>44</OPTION><OPTION value=45>45</OPTION><OPTION value=46>46</OPTION><OPTION value=47>47</OPTION><OPTION value=48>48</OPTION><OPTION value=49>49</OPTION><OPTION value=50>50</OPTION><OPTION value=51>51</OPTION><OPTION value=52>52</OPTION><OPTION value=53>53</OPTION><OPTION value=54>54</OPTION><OPTION value=55>55</OPTION><OPTION value=56>56</OPTION><OPTION value=57>57</OPTION><OPTION value=58>58</OPTION><OPTION value=59>59</OPTION><OPTION value=60>60</OPTION><OPTION value=61>61</OPTION><OPTION value=62>62</OPTION><OPTION value=63>63</OPTION><OPTION value=64>64</OPTION><OPTION value=65>65</OPTION><OPTION value=66>66</OPTION><OPTION value=67>67</OPTION><OPTION value=68>68</OPTION><OPTION value=69>69</OPTION><OPTION value=70>70</OPTION><OPTION value=71>71</OPTION><OPTION value=72>72</OPTION><OPTION value=73>73</OPTION><OPTION value=74>74</OPTION><OPTION value=75>75</OPTION><OPTION value=76>76</OPTION><OPTION value=77>77</OPTION><OPTION value=78>78</OPTION><OPTION value=79>79</OPTION><OPTION value=80>80</OPTION><OPTION value=81>81</OPTION><OPTION value=82>82</OPTION><OPTION value=83>83</OPTION><OPTION value=84>84</OPTION><OPTION value=85>85</OPTION><OPTION value=86>86</OPTION><OPTION value=87>87</OPTION><OPTION value=88>88</OPTION><OPTION value=89>89</OPTION><OPTION value=90>90</OPTION><OPTION value=91>91</OPTION><OPTION value=92>92</OPTION><OPTION value=93>93</OPTION><OPTION value=94>94</OPTION><OPTION value=95>95</OPTION><OPTION value=96>96</OPTION><OPTION value=97>97</OPTION><OPTION value=98>98</OPTION><OPTION value=99>99</OPTION></SELECT></FIELDSET>
+<FIELDSET class=last sizcache="33" sizset="5"><LABEL for=region>地區</LABEL><SELECT id=region name=SL sizcache="30" sizset="155"><OPTION selected value=0>所有地區</OPTION><OPTION value=3621>Hong Kong</OPTION></SELECT>
+<DIV><INPUT class=button title=搜尋 value=搜尋 type=submit></DIV></FIELDSET><INPUT value=GO type=hidden name=EXEC><INPUT value=Q type=hidden name=TP><INPUT value=1 type=hidden name=PO><INPUT value=281329 type=hidden name=TRACKINGID><INPUT value=1 type=hidden name=r2s><INPUT value=index type=hidden name=pg><INPUT value=quad type=hidden name=dir><INPUT value=quad type=hidden name=CPType><INPUT value=2 type=hidden name=do></DIV></FORM></DIV></DIV>
+<DIV id=facebooklike class="co1b1 co coa2 coc1 m3  cepintl_content1">
+<DIV class="br br1">
+<DIV class=fbact xmlns:fb="http://www.facebook.com/2008/fbml"><!--<fb:like-box href="http://www.facebook.com/pages/MSN-%E9%A6%99%E6%B8%AF/200756559976690" width="300" colorscheme="light" stream="false" header="false" border_color="white"></fb:like-box>--></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=area3 class=none></DIV>
+<DIV id=subfoot sizcache="39" sizset="110">
+<DIV id=footersch class="co1b1 co coa1 coc1 m5  searchbar4" sizcache="39" sizset="110">
+<DIV class="br br1 w6 hidechk" sizcache="39" sizset="110">
+<DIV class=websearch2 sizcache="39" sizset="110">
+<H2>Bing Search</H2>
+<FORM id=srchfrmfooter method=get action=http://hk.bing.com/search target=_blank sizcache="39" sizset="110" jQuery1329228337096="7">
+<DIV class="search cf" sizcache="39" sizset="110"><SPAN class=bo sizcache="39" sizset="111"><SPAN class=bi><LABEL class=hide for=qf>Search:</LABEL><INPUT accessKey=S id=qf class=text maxLength=250 size=69 name=q><INPUT style="WIDTH: 185px; HEIGHT: 33px" class=image title=搜尋 value=搜尋 alt=搜尋 src="http://kaw.stc.s-msn.com/br/sc/i/09/25846bade3c1ed62e5559bf90ba03b.gif" type=image><INPUT value=MSNH73 type=hidden name=form><INPUT value=zh-hk type=hidden name=mkt></SPAN></SPAN></DIV>
+<DIV class=opt></DIV></FORM></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=foot sizcache="43" sizset="148">
+<DIV class=ro sizcache="43" sizset="148">
+<DIV class="ce ce1 cel w12" sizcache="43" sizset="148">
+<DIV class="co1b1 co coa2 coc1 m3  footer3" sizcache="43" sizset="148">
+<DIV class="br br1" sizcache="43" sizset="148">
+<DIV class="msnfoot1 cf" sizcache="43" sizset="148">
+<UL class=primary sizcache="43" sizset="148">
+<LI class=first sizcache="43" sizset="148"><A href="http://g.msn.com.hk/0TO_/zhhk">使用規定</A></LI>
+<LI sizcache="43" sizset="149"><A href="http://advertising.microsoft.com/asia/home">廣告刊登</A></LI>
+<LI sizcache="43" sizset="150"><A href="http://go.microsoft.com/fwlink/?LinkId=74170">私隱權聲明</A></LI>
+<LI sizcache="43" sizset="151"><A href="http://go.microsoft.com/fwlink/?LinkId=117951">反垃圾郵件原則</A></LI>
+<LI class=last sizcache="43" sizset="152"><A href="http://www.msn.com/worldwide.aspx">全球MSN</A></LI></UL>
+<UL class=secondary sizcache="43" sizset="153">
+<LI class=first sizcache="43" sizset="153"><A href="https://support.msn.com/default.aspx?mkt=zh-hk&amp;wa=wsignin1.0&amp;scrx=1">技術支援</A></LI>
+<LI sizcache="43" sizset="154"><A href="http://feedback.msn.com/">您的意見</A></LI>
+<LI sizcache="43" sizset="155"><A href="http://news.hk.msn.com/coc.aspx">網站公告</A></LI>
+<LI class=last sizcache="43" sizset="156"><A href="http://g.msn.com/AIPRIV/zh-hk">有關我們的廣告訊息</A></LI></UL>
+<DIV class=copyright sizcache="43" sizset="157"><A href="http://www.microsoft.com/en/hk/" sizcache="39" sizset="112"><SPAN>本網站www.hk.msn.com之內容由合約承辦商Pixel Media HK Ltd負責提供及管理　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 Pixel Media HK Ltd. is contracted to source and manage content on this website www.hk.msn.com. © 2012 Microsoft</SPAN></A></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<SCRIPT type=text/javascript>/*<![CDATA[*/
+          (function($){$('#cb1').async('addCbnr',[[{id:'HKIE', b:'IEUpsell', f:7, r:1, iU:'http://kaw.stb00.s-msn.com/i/10/BA1E6F64527A293D58CF3E20237B18.jpg', iW:'980', iH:'40', iA:'升級到 Internet Explorer 9', iT:'IE9 Banner', lnk:'http://ie9.discoverbing.com/intl/zh_hk/index.html', cb:'black', eC:null, nW:1, jD:{msnOptTags: ['BOIE9'],ieVers: [9,8,7,6], winVers:[6.1,6.0,5.1,5.2]} }]]);})(jQuery);
+          //]]></SCRIPT>
+
+<SCRIPT type=text/javascript>/*<![CDATA[*/(function($){$(function(){$.async("asyncCanary",function(){$.sm("start");$.lazyLoad.timeout=5e4;$("#superbannerbigad").css("margin","0 auto");$("div.cogr.cotb").tabGroup();$("#DHP_Promo").dhpPromo();$("#srchfrm").async("bindDualSearch");$("<style>div.pgopt1 .signin,div.pgopt1 .optlink, div.pgopt1 .opt{line-height: 1.33em;}</style>").appendTo("head");$(window).load(function(){$("div.fbact").scrollBind("facebookAPI",[{init:{appId:"200037620020054"}}])});$("div.pgopt1").async("scrollBind",["pageOptions",[{delay:{open:100,close:100}}]]);$("div.pgopt1 #locsrch").async("scrollBind",["srchfrm"]);$("div.pgopt1,div.optuser1").async("scrollBind",["pageOptions",[{delay:{open:100,close:100}}]]);$("#addtostart ").async("addToStartMenu",[{LinkText:"將 MSN 香港加至開始功能表"}]);$("div.websearch2 form").scrollBind("bindSearch");$("div.websearch2 form").openNew();$("div.twitter").socialActivityList({serviceName:"twitter"});$("div.facebook").socialActivityList({serviceName:"facebook"});$("#wesdaser").bindHinting();$("div.weamulti1").async("weatherForecastMultiCities",[{spsUrl:"ajax/spswrite.aspx"}]);$.cep.register();$("#wea1").async("localModules");$("div.weamulti1 .locheading").async("cepLink");$("#ov1, #ov2, #ov3, #ov4, #ov5, #ov6, #ov7, #ov8, #ov9, #ov10, .ovideo a, #mv1, #mv2, #mv3, #mv4, #mv5, #mv6, #mv7, #mv8, #mv9, #mv10, .mvideo a, #slideshow_hops a, #infopane_hops a ").heroPlayer({flashvars:{mkt:"zh-hk",fontsizeoverride:"133%",configName:"divoverlayplayer_zh-hk",configCsid:"msnvideo"}});$.extend(true,{hotmail:{defaults:{expanded:1}}});$("div.hminbox1").previewInbox({dayformat:"EEEE MMMM dd"});$("div.wlcard1").previewlivescorecard();setTimeout(function(){$("a.opennew").async("openNew",[{asyncp:1}])},600);$("div.hrscop1").horoscope();$("div.DHP").setHomepage({url:"http://hk.msn.com/"});$("#mkhm").async("setIEUpsellLink",[{url:"http://video.hk.msn.com/",text:"今日精選Video"}]);setTimeout(function(){$("#q").focus()},0);$("div.ivideo").async("inlinevideo",[{param:{source:"http://img1.video.s-msn.com/sl/inlineV2.xap"},initParams:{radUrl:"http://rad.msn.com/ADSAdClient31.dll?GetAd?PG=",vce:"",vci:""},asyncp:1}]);$("div.menubar3").menuBar({isVerticalMenu:true});(function(){String.prototype.delCookie=function(a){var b=a?a:$.url.getDomain(window.location.hostname);document.cookie=this+"=;expires=Fri, 31 Dec 1999 23:59:59 GMT;domain="+b}})();"MUID".delCookie("hk.msn.com");$.iAwareness({expiryDays:4});$("#srchfrm, #srchfrmfooter").appendQueryParam();$("ul.linkedimglinklist8 a span").css("text-align","left");$.sm("end")},$.jsUrl)});$(window).load(function(){$.Polls.init()})})(jQuery)//]]></SCRIPT>
+
+<DIV class=ro>
+<DIV class="ce ce1 cel"></DIV></DIV></BODY></HTML>

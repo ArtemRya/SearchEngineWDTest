@@ -1,0 +1,42 @@
+.recently-updated-sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.recently-updated-sidebar li.update-item,
+.recently-updated-sidebar li.more-link-container {
+    padding: 5px 0;
+    overflow: hidden;
+    _height: 1%;
+}
+
+.recently-updated-sidebar li.update-item .icon-container {
+    padding-left: 1.75em;
+    display: block;
+    float: none;
+    color: #666;
+}
+
+.recently-updated-sidebar .update-item-changes {
+    margin-left: 0.5em;
+}
+
+.recently-updated-sidebar .update-item-changes,
+.recently-updated-sidebar .update-item-desc-and-date {
+    color: #666;
+    font-size: 0.85em;
+    float: left;
+}
+
+.recently-updated-sidebar .update-item-desc-and-misc {
+    padding-left: 1.75em;
+    padding-top: 2px;
+}
+
+.recently-updated-sidebar .update-item-changes a:link,
+.recently-updated-sidebar .update-item-changes a:hover,
+.recently-updated-sidebar .update-item-changes a:visited,
+.recently-updated-sidebar .update-item-changes a:active {
+    color: #666;
+}

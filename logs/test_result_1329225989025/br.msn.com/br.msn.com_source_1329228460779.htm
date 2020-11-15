@@ -1,0 +1,881 @@
+<HTML dir=ltr lang=pt-br xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" sizcache="23" sizset="0" xmlns:og = "http://ogp.me/ns#" xmlns:fb = "http://www.facebook.com/2008/fbml"><HEAD><TITLE>MSN Brasil - Hotmail, Messenger, Entretenimento, Notícias, Esportes e Vídeo</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=msapplication-task content="name=MSN Notícias;action-uri= http://noticias.br.msn.com/?ocid=ie9jumplist;icon-uri=http://col.stc.s-msn.com/br/sc/i/DF/854F4951FCBF6C450892031DA153B1.ico">
+<META name=msapplication-task content="name=MSN Entretenimento;action-uri= http://entretenimento.br.msn.com/?ocid=ie9jumplist;icon-uri=http://col.stc.s-msn.com/br/sc/i/DF/854F4951FCBF6C450892031DA153B1.ico">
+<META name=msapplication-task content="name=MSN Esportes;action-uri= http://esportes.br.msn.com/?ocid=ie9jumplist;icon-uri=http://col.stc.s-msn.com/br/sc/i/DF/854F4951FCBF6C450892031DA153B1.ico">
+<META name=msapplication-task content="name=MSN Vídeo;action-uri= http://video.br.msn.com/?ocid=ie9jumplist;icon-uri=http://col.stc.s-msn.com/br/sc/i/DF/854F4951FCBF6C450892031DA153B1.ico">
+<META name=google-site-verification content=2JtHmOUDqcKFLRt4ZYI4jiCPD3g3HP75o8IQUhi-ewM>
+<META name=msvalidate.01 content=896EF84837CFF35AA69848D05E0B4CF3><LINK rel="SHORTCUT ICON" type=image/x-icon href="http://col.stc.s-msn.com/br/gbl/lg/csl/favicon.ico">
+<META name=description content="MSN é o portal de conteúdo da Microsoft com notícias, fotos e vídeos sobre Brasil, mundo, entretenimento, celebridades, economia e esportes. Acesso ao Hotmail, Messenger e mais serviços Windows Live">
+<META name=keywords content="MSN Brasil, MSN, Hotmail, Windows Live Hotmail, Messenger, MSN Messenger, Windows Live, Entretenimento, Notícias, Esportes, Fotos, Vídeo, Vídeos, Shopping, Novelas, Horóscopo, Economia, Previsão do Tempo, Viagem, Tecnologia, Cinema">
+<META content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "Single file v2.0" l gen true for "http://br.msn.com" r (nz 1 vz 1 lz 1 oz 1 cz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://br.msn.com" r (n 0 s 0 v 0 l 0)' http-equiv=pics-label><LINK rel=canonical href="http://br.msn.com/"><LINK rel=stylesheet type=text/css href="http://col.stc.s-msn.com/br/sc/css/4f/044818c8ea7843201e8c3e2acb0b32.css" media=all>
+<SCRIPT type=text/javascript src="http://col.stj.s-msn.com/br/sc/js/jquery/jquery-1.4.2.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>/*<![CDATA[*/(function($){$.extend({dapUrl:"http://ads1.msn.com/library/dapmsn.js",signedIn:"False",jsUrl:"http://col.stj.s-msn.com/br/sc/js/07/f15e40ca8a67590a8b789a645f8905.js",cookie:document.cookie});})(jQuery);(function(b){function a(b,d,c){return typeof b=="number"&&(a(d)?b>=d:true)&&(a(c)?b<=c:true)}function d(c,b){return typeof c=="string"&&(a(b)?c.length>=b:true)}var c=b.isArray;b.extend({isNumber:a,isString:d,isObject:function(a){return typeof a=="object"&&a!==null},isDefined:function(a){return typeof a!="undefined"},isArray:function(d,b){return c(d)&&(a(b)?d.length>=b:true)}})})(jQuery);(function(a){var b,g={voteCookie:"pv",currentCookie:"current",groupCookie:"psid",hideclass:"hide",answerCookie:"pa"};function e(c){c=a.isDefined(c)&&!!c;a(".poll .question").toggleClass(b.hideclass,c);a(".poll .result").toggleClass(b.hideclass,!c)}function d(c){b.groupCookie.setCookie(a("#pollgroupid").val(),30);b.currentCookie.setCookie(c,30);window.location.hash="#scppoll";location.reload(true)}function c(c){c=a.isDefined(c)&&!!c;a(".poll .backtovoting").toggleClass(b.hideclass,!c);e(c)}function f(){var c=a(".poll .question input:checked");if(a("#signinUrl").length>0){c.length>0&&b.answerCookie.setCookie(c.attr("value"),30);window.location.href=a("#signinUrl").val()}else{if(c.length==0){alert(a("#pollnoanswer").val());return}if(a(".poll .firstvote").hasClass("active")){a(".poll .firstvote").removeClass(b.hideclass);a(".poll .question, .textonly .result, .poll .imageonly .result, .poll .textimage .result").addClass(b.hideclass);a(".poll .bottom .result").removeClass(b.hideclass)}else e(1);a(".poll .backtovoting").addClass(b.hideclass);a(".poll .backtovoting").parent().addClass(b.hideclass);var d="";if(typeof SCPFingerPrint!="undefined"){var f=new SCPFingerPrint;d=f.GetFingerPrint()}var g="{0}?pid={1}&aid={2}&scpfp={3}".format(a("#pollpath").val(),a("#pollid").val(),c.attr("value"),d);a.ajax({type:"POST",url:g,data:null})}}var h=function(e){b=a.extend(true,{},g,e);var h=a(".poll");if(h.length>0){a(".poll .votebtn").click(function(a){f();a.preventDefault()});a(".poll .skiptoresult").click(function(a){c(1);a.preventDefault()});a(".poll .backtovoting a").click(function(a){c(0);a.preventDefault()});a(".poll .prev").click(function(b){d(a("#pollidprevious").val());b.preventDefault()});a(".poll .next").click(function(b){d(a("#pollidnext").val());b.preventDefault()});a(".poll .pollreload").click(function(a){a.preventDefault();location.reload(true)});if(b.answerCookie.getCookie().length!=0&&a("#signinUrl").length==0){a(".poll .question input[value='"+b.answerCookie.getCookie()+"']")[0].checked=true;b.answerCookie.setCookie("",-1);f()}}return this};jQuery.Polls={init:h}})(jQuery);function SCPFingerPrint(){this.IntMax=4294967296;this.FlashList=["ShockwaveFlash.ShockwaveFlash","ShockwaveFlash.ShockwaveFlash.7","ShockwaveFlash.ShockwaveFlash.6"];this.PluginString="";this.HashCode=function(b){if(typeof b!="string")return 0;for(var d=0,a=0,c=0;c<b.length;c++){d+=b.charCodeAt(c)<<a;a=(a+8)%32}return d%this.IntMax};this.GetActiveX=function(b){var a=null;try{a=new ActiveXObject(b)}catch(c){}return a};this.GetFlash=function(){try{for(var a=0;a<this.FlashList.length;a++){var b=this.GetActiveX(this.FlashList[a]);if(b!==null)if(a==2){var c="6,0,21";try{b.AllowScriptAccess="always";c=b.GetVariable("$version")}catch(e){}return this.FlashList[a]+c}else return this.FlashList[a]+b.GetVariable("$version")}}catch(d){}return""};this.GetNextVersion=function(b,d){for(var c=[],a=0;a<b.length;a++)if(a==d)c[a]=b[a]+1;else c[a]=b[a];return c};this.GetVersionString=function(b){for(var c="",a=0;a<b.length;a++)if(a<b.length-1)c+=b[a]+".";else c+=b[a];return c};this.GetSilverLight=function(){try{var a=[1,0,0,0],d=this.GetActiveX("AgControl.AgControl");if(d!==null){for(var b=0;b<a.length;b++){while(a[b]<this.IntMax&&d.isVersionSupported(this.GetVersionString(a)))a[b]=a[b]===0?1:a[b]*2;var e=a[b],c=parseInt(a[b]/2,10);a[b]=parseInt((e+c)/2,10);while(a[b]>c){var g=this.GetNextVersion(a,b),f=d.isVersionSupported(this.GetVersionString(a));if(f&&!d.isVersionSupported(this.GetVersionString(g)))break;if(f)c=a[b];else e=a[b];a[b]=parseInt((e+c)/2,10)}}return"SilverLight "+this.GetVersionString(a)}}catch(h){}return""};this.GetWMPlayer=function(){try{var a=this.GetActiveX("wmplayer.ocx");if(a!==null)return"WMPlayer "+a.versionInfo}catch(b){}return""};this.GetAdobeReader=function(){try{var a=this.GetActiveX("AcroPDF.PDF");if(a===null)a=this.GetActiveX("PDF.PdfCtrl");if(a!==null)return"Adobe Reader "+a.GetVersions()}catch(b){}return""};this.GetPlugIns=function(){try{if(this.PluginString==""&&navigator.plugins){var c=navigator.plugins.length;if(c>0)for(var b=0;b<c;b++){var a=navigator.plugins[b];this.PluginString+=a.name+a.description+a.filename+a.length}else this.PluginString=[this.GetFlash(),this.GetWMPlayer(),this.GetAdobeReader(),this.GetSilverLight()].join("")}}catch(d){}return this.HashCode(this.PluginString)};this.GetTimezoneOffset=function(){try{var a=new Date;return a.getTimezoneOffset()}catch(b){return 0}};this.GetScreenSizeAndDepth=function(){try{var a=window.screen;return a.height+"X"+a.width+"X"+a.availHeight+"X"+a.availWidth+"X"+a.colorDepth}catch(b){return""}};this.GetFingerPrint=function(){return this.GetPlugIns()+"|"+this.GetTimezoneOffset()+"|"+this.GetScreenSizeAndDepth()}}(function(a){var g={timeout:50},h={},d=[],e=[],i,f=a.isString,l=a.isFunction,j=window;function n(n,e,o){var q;if(f(n,1)&&(q=this[n])){if(l(e))c(e,this);else if(l(q))if(a.isArray(e))c(q,this,e);else!a.isDefined(e)&&c(q,this)}else if(f(o)){var p=h[o];if(p)p.push(new b(n,e,this));else{h[o]=[new b(n,e,this)];a.ajax({url:o,dataType:"script",cache:1,success:function(){p=h[o];for(var a,b=0;a=p[b];++b)m(a)}})}}else if(f(n,1)){d.push(new b(n,e,this));if(!i)i=j.setTimeout(k,g.timeout)}}function c(f,c,d){if(c.selector&&c.size()==0){e.push(new b(f,d,c));return}if(c.selector&&a.isArray(d)&&d[0].asyncp){c=c.filter(o);e.push(new b(f,d,c.end()))}if(d)f.apply(c,d);else f.apply(c)}function o(){var b=a(this);if(b.data("asyncfilter"))return 0;b.data("asyncfilter",1);return 1}function p(){var g=e;e=[];for(var b,d,f=0;b=g[f];++f){d=a(b.callee.selector,b.callee.context);c(b.func,d,b.action)}}function k(){var c=d;d=[];for(var a,b=0;a=c[b];++b)m(a);i=d.length==0?0:j.setTimeout(k,g.timeout)}function m(a){n.call(a.callee,a.func,a.action)}function b(c,a,b){this.func=c;this.action=a;this.callee=b}a.async=a.fn.async=j.async=n;a.async.defaults=g;a.async.delayed=p})(jQuery);(function($){$.async(0,0,$.jsUrl);})(jQuery);(function(){String.prototype.getCookie=function(){var b=new RegExp("\\b"+this+"\\s*=\\s*([^;]*)","i"),a=b.exec(document.cookie);return a&&a.length>1?a[1]:""}})();(function(a){var b={bannerCookieName:"hppr"},d=1e4,e=1e6,f=9;function c(m,k){var j=a.extend(true,{},b,k),i,l=j.bannerCookieName.getCookie(),c=RegExp("(^|,)"+m+":([^,:]+):?([^,]*)","gi").exec(l);if(c){var h=+new Date;h=""+(c[3]&&c[3].length>=f?Math.round(h/d):Math.round(h/e));if(!c[3]||h<c[3]){i={value:c[2]};!j.iexp&&a.extend(i,{expiration:c[3],expirationTime:g(c[3])})}}return i}function g(a){var b;if(a)b=a.length>=f?new Date(a*d):new Date(a*e);return b}function h(g,f){var e=a.extend(true,{},b,f,{iexp:1}),d=c(g,e);return d&&d.value?d.value:null}a.extend(true,{condition:{getCookie:h,getCookieInfo:c,defaults:b}})})(jQuery);(function(b){var d="IntTickler",f="iab",c=/[?&]rd=1(&|$)/i,a;if(c.test(window.location)){a="redirect";if(d.getCookie()){var e=b.condition.getCookie(f);if(!e)a="banner"}else a="dialog"}a&&b.extend(true,{dapAd:{defaults:{disabled:a=="dialog"}},iaState:a})})(jQuery);document.write("<style type='text/css'>.cogr .co{display:none}.cogr .cof .co{display:block}</style>");(function(){String.prototype.format=function(){for(var b=this,a=0;a<arguments.length;++a)b=b.replace(new RegExp("\\{"+a+"\\}","g"),arguments[a]);return b};String.prototype.findKey=function(g,b,a){b=b||"|";a=a||":";var f=null,c=this.split(b);if(c)for(var d=0;d<c.length;d++){var e=c[d].split(a);if(e[0]==g){f=e[1];break}}return f}})();(function(a){var b={silverlightVersions:["5.0","4.0","3.0","2.0"],silverlightMimeType:"application/x-silverlight-2"};function c(l){var h=a.extend(true,{},b,l),j=window,c;if(!a.isArray(h.silverlightVersions,1))return 0;var d=0;try{var m=j.navigator,f=m.plugins;if(f&&f.length){c=f["Silverlight Plug-In"];if(c)d=/^\d+\.\d+/.exec(c.description)[0];c=0}else if(j.ActiveXObject){var k=new ActiveXObject("AgControl.AgControl");if(k){d=1;var e=a("<OBJECT/>")[0];e.codeType=h.silverlightMimeType;if(typeof e.IsVersionSupported!="undefined")for(var g,i=0;g=h.silverlightVersions[i];++i)if(e.IsVersionSupported(g)){d=g;break}e=0}}}catch(n){}return d}function d(){var c=window.navigator.userAgent.toLowerCase(),d={"windows nt":"windows","mozilla/4.0 (compatible; msie 6.0)":"windows","intel mac os x":"macintel"},a,b={};for(a in d)if(c.indexOf(a)>=0){b.os=d[a];b.version=c.match(/(windows|intel mac os)\s(nt|xp|ce|x)?\s*(\d+\[._]\d+|\d+)/);break}return b}function e(){var d=navigator.userAgent.toLowerCase(),a={},c={chrome:"chrome",webkit:"safari",opera:"opera",msie:"msie",mozilla:"mozilla"};for(var b in c)if(d.indexOf(b)>=0){a.browser=c[b];break}a.version=(d.match(/.+(?:rv|it|ra|ie)[\/: ](\d+\.\d+)/)||[0,"0"])[1];return a}function g(){var f=false,c=d().os,a=e(),i={windows:{mozilla:1.5,msie:6},macintel:{mozilla:1.5,safari:1}};if(c&&a.browser){var g=i[c];if(g){var b=g[a.browser];if(b){var h=parseFloat(a.version);f=h>=b}}}return f}function f(e,b){var a=[],c,d;a.push("<object");for(c in b.attr)a.push(" ",c,'="',b.attr[c],'"');a.push(">");for(d in b.params)a.push('<param name="',d,'" value="',b.params[d],'"/>');a.push(e.innerHTML,"</object>");e.innerHTML=a.join("")}a.silverlight=c;a.silverlight.version=c();a.silverlight.isSupported=g;a.silverlight.createObject=f;a.silverlight.defaults=b})(jQuery);(function(){var a=function(d,g,b,c,e,f){if(d){var a=[d,"=",g];b&&a.push(";expires=",b);c&&a.push(";domain=",c);e&&a.push(";path=",e);f&&a.push(";secure");document.cookie=a.join("")}};String.prototype.setCookie=function(g,d,e,h,f){var c;if(d){var b=new Date;b.setTime(b.getTime()+d*8.64e7);c=b.toUTCString()}a(this,g,c,e,h,f)};String.prototype.delCookie=function(b,d,c){a(this,"","Fri, 31 Dec 1999 23:59:59 GMT",b,d,c)}})();(function(a){a.fireAndForget=function(b){if(b){var a=new Image;a.onload=a.onerror=function(){a.onload=a.onerror=null};a.src=b.replace(/&amp;/gi,"&")}}})(jQuery);(function(a){var b=a.dapUrl,c={acb:0,imm:1};function d(k,m,j,e,d){d=a.extend(true,{},a.dapAd.defaults,d);var l=!!d.acb,i=!!d.imm,c=a("#"+e).parents("div.co");if(c.length){var g=c.parents("div.cogr.cotb");if(g.length)h("OnTabFocus");else{g=c.parents("div.cogr.coss");if(g.length)h("OnSlideFocus");else f()}}else f();function h(a){c.bind(a,function(){c.unbind(a,arguments.callee);f()})}function f(){i?c():a(c);function c(){if(!d.disabled){var a=window;a.async("dapMgr",function(){a.dapMgr.enableACB(e,l);a.dapMgr.renderAd(e,k,m,j)},b)}}}}a.extend(true,{dap:d,dapAd:{defaults:c}});b&&a.async(0,0,b)})(jQuery);(function($){$.sm = (location.href.match(/[?&]ll=0(&|$)/i)) ? (function(a){$.fireAndForget("http://col.stj.s-msn.com/br/sc/i/f8/614595fba50d96389708a4135776e4.gif?loc="+ a + "&ts="+ +new Date);}):$.noop;})(jQuery);$.sm("ab1");$(window).load(function(){$.sm("onload");setTimeout(function(){$.sm("ab2")},2000);});(function(a){var c=document,f=window,i=f.location,g="aop",h="tcm",k="tevt=",e,j={evtType:"click",spinTimeout:150,nonNavClckEvt:"click_nonnav",navMouseEnterEvt:"mouseenter_nav",trackInfoOpts:{notrack:"notrack",cmSeparator:">",defaultModule:"body",defaultFormHeadline:"[form submit]",piitxt:"piitxt",piiurl:"piiurl",wrapperId:"wrapper",defaultConnectionType:"LAN",smpCookie:"Sample",smpExp:182,MUIDCookie:"MUID",event:{},sitePage:{},userStatic:{}}};function b(n){var c=a.extend(true,{},j,n);b.recipients=[];b.trackInfo=new d(c.trackInfoOpts);b.register=function(){b.recipients=b.recipients.concat(Array.prototype.slice.call(arguments));return b};b.trackEvent=function(i,g,a,d,h,j,c){b.trackInfo.event=i;b.trackInfo.createReport(g,a,d,h,j,c)&&f("getEventTrackingUrl",true);e=""};b.trackPage=function(){f("getPageViewTrackingUrl",false)};a.fn.trackForms=function(){return this.each(function(){var b=a(this);b=!b.is("form")?a("form",b):b;b.bind("submit",i)})};function f(d,f){b.trackInfo.incrementEventNumber();for(var g in b.recipients){var e=b.recipients[g];a.isFunction(e[d])&&a.fireAndForget(e[d](b.trackInfo))}l(f,c.spinTimeout)}function l(d,a){if(d&&!b.trackInfo.client.isIE()){if(null==a)a=c.spinTimeout;var e=a+ +new Date;while(e>+new Date);}}function m(d){if(d&&d.target&&d.button!=2){var f=a(d.target),e=f.filter("*[href]:first");if(!e.length)e=f.closest("*[href]");if(e.length&&e[0].href){if(e[0].href.indexOf("#")!=-1){var h=g(e[0].href);if(h)d.type=h}d.type==c.nonNavClckEvt&&d.preventDefault();b.trackEvent(d,e[0])}}}function g(a){var b=null;if(a)if(a.indexOf(k)==-1){if(window.location.href.split("#")[0].toUpperCase()==a.split("#")[0].toUpperCase())b=c.nonNavClckEvt}else b=h(a);return b}function h(d){var b=null,c=/#tevt=([A-Za-z0-9]+_[A-Za-z0-9]+)(;*)/g,a=c.exec(d);if(a&&a.length>=1&&a[1])b=a[1];return b}function i(a){b.trackEvent(a)}a(document).bind([c.evtType,c.nonNavClckEvt,c.navMouseEnterEvt].join(" "),m).bind("impr",b.trackEvent);a(window).bind("load unload",b.trackEvent);a(function(){a("body").trackForms()});return b}a.track=b;function d(u){var p=screen,g=d.prototype,e=a.extend(true,{},u);g.sitePage=e.sitePage;g.userStatic=e.userStatic;g.cmSeparator=e.cmSeparator;g.wrapperId=e.wrapperId;var k,l,o,j=-1,n,m;g.client=a.extend({screenResolution:function(){return p.width+"x"+p.height},clientId:function(){if(!m){var a=e.MUIDCookie.getCookie();m=a?a:e.userStatic.requestId}return m},colorDepth:p.colorDepth,cookieSupport:function(){return c.cookie?"Y":"N"},height:function(){!k&&r();return k},width:function(){!l&&r();return l},isIE:function(){if(!a.isDefined(o))o=a.isDefined(f.ActiveXObject);return o},connectionType:function(){return e.defaultConnectionType},pageUrl:i.href,referrer:c.referrer,sample:function(){if(j==-1){var c=e.smpCookie.getCookie();j=parseInt(c);j=!isNaN(j)?j%100:Math.floor(Math.random()*100);var a=location.hostname.match(/([^.]+\.[^.]*)$/),b=a?a[0]:"";e.smpCookie.setCookie(j,e.smpExp,b)}return j},timezone:function(){if(!n){var b=new Date,a=new Date;a.setMonth(b.getMonth()+6);var c=Math.round(b.getTimezoneOffset()/60)*-1,d=Math.round(a.getTimezoneOffset()/60)*-1;n=c<d?c:d}return n}},g.client);g.createReport=function(c,n,g,v,x,s){var d,j=this;if(!c&&j.event&&j.event.target)c=j.event.target;if(c&&!a(c).attr(e.notrack)){var f=a(c);d={destinationUrl:n,campaignId:"",contentElement:x,contentModule:v,headline:g,sourceIndex:c.sourceIndex?c.sourceIndex:"",nodeName:c.nodeName};if(!n){var w=c.href||c.action;d.destinationUrl=f.attr(e.piiurl)||w||""}if(!g){g=f.attr(e.piitxt);if(!g)if(f.filter("form").length)g=e.defaultFormHeadline;else try{g=f.text()||f.attr("alt")||a("[alt]",f).attr("alt")}catch(z){g=""}d.headline=g}var u=c.className||(c.getAttribute?c.getAttribute("class",2):c["class"])||"";d.campaignId=s||(/GT1-(\d+)\b/i.exec(u)?RegExp.$1:"")||t(d.destinationUrl);var k=f.parents("[id]");if(!d.contentModule){for(var l=[],o,p=0;o=k[p];++p){var r=o.id;if(r==e.wrapperId)break;l.splice(0,0,r)}var y=b.trackInfo,i=y.userDynamic.getTrackingParam(h);if(i&&i.length){i=l.concat(i);d.contentModule=i.join(e.cmSeparator)}else d.contentModule=l.join(e.cmSeparator);if(!d.contentModule)d.contentModule=e.defaultModule}if(!d.contentElement){var m=0;if(f.attr("id"))m=1;else if(k.length)m=q(k[0],c,-1);d.contentElement=m}}j.report=d;return d};g.report={};g.incrementEventNumber=function(){this.userDynamic.eventNumber++};g.isSampled=function(a){return!(g.client.sample()>a)};g.generateUrl=function(i,j,h,k,b){var f="",d=a.extend(true,{},k,j);b=a.extend(true,{},h,b);if(b)for(var c in b)if(this[c]){var g=s(b[c],this[c]);d=a.extend(true,{},g,d)}var e=a.param(d);if(e.length>0)f=i+e;return f};function s(c,d){var e={};if(c&&d)for(var f in c){var g=c[f],b=d[g];if(b)e[f]=a.isFunction(b)?b():b}return e}function q(h,f,b){if(!b)b=-1;for(var i=a(h).children(),c,g=0;b<0&&(c=i[g]);++g){if(c==f)return-b;var d=a(c);if(!d.attr("id")){if(d.attr("href")&&!d.attr(e.notrack))--b;b=q(c,f,b)}}return b}function t(b){var a=/\bGT1=(\d+)/i.exec(b);return a?a[1]:""}function r(){if(a.isNumber(f.innerWidth)){l=f.innerWidth;k=f.innerHeight}else{var b=c.documentElement;if(b)if(b.clientWidth){l=b.clientWidth;k=b.clientHeight}else if(b.offsetWidth){l=b.offsetWidth;k=b.offsetHeight}}}}d.prototype.client={};d.prototype.userDynamic={isHomePage:function(){var b=c.documentElement,e=0,d="behaviorAdded";try{if(a.isDefined(b.addBehavior)&&(a(c).data(d)=="1"||b.addBehavior("#default#homePage")&&a(c).data(d,"1")))e=b.isHomePage(i.href)?"Y":"N"}catch(f){}return e},anid:function(){return"ANON".getCookie()},timeStamp:function(){return+new Date},getJSonFromElement:function(b){try{if(b&&b.length>0){var c=a(b[0]).attr("value");if(c)return a.parseJSON(c)}}catch(e){}return null},AOP:function(){if(a.isDefined(e)&&e.length<=0){var d=b.trackInfo,c=d.userDynamic.getTrackingParam(g);if(c.length>0)e=c.join(d.cmSeparator)}return e},getTrackingParam:function(e){var k=b.trackInfo.event,d=[];if(k){var c,n=">.trak",m=a(k.target).parents(),i,f=a(n,k.target),j=b.trackInfo;c=j.userDynamic.getJSonFromElement(f);e==g&&c&&c.taop&&d.splice(0,0,c.taop);if(e==h&&c&&c.tcm){d.splice(0,0,c.tcm);return d}for(var l=0;l<m.length;++l){i=m[l];if(i.id==j.wrapperId)break;f=a(n,i);c=j.userDynamic.getJSonFromElement(f);e==g&&c&&c.taop&&d.splice(0,0,c.taop);if(e==h&&c&&c.tcm){d.splice(0,0,c.tcm);break}}}return d},eventNumber:0};b.trackInfo=d})(jQuery);(function(c){var a={itemSeparator:",",keyValueSeparator:":",trueValue:"t",falseValue:"f",socialTrackList:[{uid:"facebook_userid",trk:"fb"},{uid:"twitter_userid",trk:"tw"}]},e=c.track,b,d;if(e&&(b=e.trackInfo)&&(d=b.prototype.userDynamic))d.settings=function(){var d=[];for(var i in a.socialTrackList){var f=a.socialTrackList[i],g=f.trk,h=f.uid;g&&h&&d.push(g+a.keyValueSeparator+(c.isString(h.getCookie(),1)?a.trueValue:a.falseValue))}var e=b.prototype.userStatic;e&&e.settings&&d.push(e.settings);return d.join(a.itemSeparator)};c.fn.pageSettingsDefaults=a})(jQuery);(function(b){var a={cookieName:"stvs",crossSessionCookieName:"stvx",itemSeparator:",",keyvalueSeparator:":"};b.fn.stickyTabDefaults=a;if(b.track&&b.track.trackInfo&&b.track.trackInfo.prototype.userDynamic)b.track.trackInfo.prototype.userDynamic.defaultSlotTrees=function(){var f=a.cookieName.getCookie()||"",e=a.crossSessionCookieName.getCookie()||"",d=[];e&&d.push(e);if(f){d.length&&d.push(a.itemSeparator);d.push(f)}var g=b.track.trackInfo.userStatic.defaultSlotTrees||"";return c(g,d.join(""))};function c(j,i){var d=i.split(a.itemSeparator),e=j.split(a.itemSeparator),f=[];for(var h in e){var b=e[h].split(a.keyvalueSeparator);for(var g in d){var c=d[g].split(a.keyvalueSeparator);if(c[0]==b[0]){b[1]=c[1];break}}f.push(b.join(a.keyvalueSeparator))}return f.join(a.itemSeparator)}})(jQuery);(function(a){function d(){if(b==-1)b=a.silverlight&&a.silverlight.version?a.silverlight.version:"";return b}if(a.track&&a.track.trackInfo){var c=a.track.trackInfo.prototype.client,b=-1;if(c){c.silverlightVersion=d;c.silverlightEnabled=function(){return Number(d()>0)}}}})(jQuery);(function(b){function g(){return a.userStatic&&a.userStatic.userGroup}if(b.track&&b.track.trackInfo){var a=b.track.trackInfo.prototype,f=a.client;if(f){var d,c,e;f=b.extend(f,{flightKey:function(){if(!d){var a=g();d=a&&a.substring(0,a.indexOf(":"))||"default"}return d},groupAssignment:function(){if(!c){var a=g();c=a&&parseInt(a.substring(a.indexOf(":")+1))?"S":"P"}return c},optKey:function(){if(!e)e=a.userStatic.optKey||"default";return e}})}}})(jQuery);(function(a){var b={base:"",samplingRate:100,eventAlias:{submit:"click",mouseenter:"click",mouseleave:"click",click_nonnav:"click",mouseenter_nav:"click"}};a.track.genericTracking=function(e){var d=this,c=d.opts=a.extend(true,{},b,e);d.getEventTrackingUrl=function(f,d){var g="";if(f.isSampled(c.samplingRate)){d=d?d:f.event.type;var b=c[d];if(!a.isDefined(b)&&a.isDefined(c.eventAlias[d]))b=c[c.eventAlias[d]];if(a.isDefined(b)){var e=b.condition;if(!a.isDefined(e)||a.isNumber(e)&&e||a.isFunction(a[e])&&a[e].call()){var h=c.base+(b.url?b.url:"");g=f.generateUrl(h,c.common,c.commonMap,b.param,b.paramMap)}}}return g};d.getPageViewTrackingUrl=function(a){return d.getEventTrackingUrl(a,"impr")}}})(jQuery);(function(b){var a=new Date,d={base:"",linkTrack:1,samplingRate:100,common:{v:"Y",j:"1.3"},commonMap:{client:{c:"colorDepth"}},page:{v1:a.getMonth()+1+"/"+a.getFullYear(),v2:a.getMonth()+1+"/"+a.getDate()+"/"+a.getFullYear(),t:c()},pageMap:{sitePage:{c3:"pageVersion"}},link:{t:c(),ndh:1,pidt:1,pe:"lnk_o"},linkMap:{sitePage:{c38:"pageVersion"}},eventList:["click","mouseenter","mouseleave","submit","click_nonnav","mouseenter_nav"]};b.track.omniTracking=function(e){var c=this,a=c.opts=b.extend(true,{},d,e);c.getEventTrackingUrl=function(c){var e="";if(c.isSampled(a.samplingRate)){var d=c.event?c.event.type:"";if(a.linkTrack&&b.inArray(d,a.eventList)!=-1){var g=b.extend(true,{},a.link,{c11:d=="mouseenter"||d=="mouseleave"?"hover":d,events:"events4"}),f=c.generateUrl("",a.common,a.commonMap,g,a.linkMap);e=a.base.format(c.userDynamic.timeStamp(),f)}}return e};c.getPageViewTrackingUrl=function(b){var c="";if(b.isSampled(a.samplingRate)){var d=b.generateUrl("",a.common,a.commonMap,a.page,a.pageMap);c=a.base.format(b.userDynamic.timeStamp(),d)}return c}};function c(){var b=[a.getDate(),"/",a.getMonth(),"/",a.getFullYear()," ",a.getHours(),":",a.getMinutes(),":",a.getSeconds()," ",a.getDay()," ",a.getTimezoneOffset()];return b.join("")}b.track.omniTracking.defaults=d})(jQuery);$.track({trackInfoOpts:{sitePage:{lang:"pt-br",siteGroupId:"MSFT",pageName:"MSN Brasil",pageVersion:"V15",omniPageName:"MSN Brasil:MSFT",domainId:"200",propertyId:"9566",propertySpecific:"10274",sourceUrl:"http://br.msn.com/",pageId:"6731790"},userStatic:{signedIn:"False",birthdate:"",gender:"",userGroup:"D1:default",optKey:"",beginRequestTicks:"634648252546386160",requestId:"8294573d40de4e3086d88233aa3e72ea",defaultSlotTrees:"idspec:na,infopane_hops:na,maintabs:entretenimiento,socialtg:windowslive"}},spinTimeout:150}).register(new $.track.genericTracking({base:"http://amer.rel.msn.com/default.aspx?",linkTrack:1,common:{parsergroup:'hops'},commonMap:{client:{fk:'flightKey',gp:'groupAssignment',optkey:'optKey'},sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',pageid:'pageId',mk:'lang'}},impr:{paramMap:{client:{rf:'referrer'},sitePage:{tp:'sourceUrl',tv:'defaultSlotTrees'}}},click:{paramMap:{sitePage:{su:'sourceUrl',pn:'pageName'},report:{ce:'contentElement',cm:'contentModule',hl:'headline', gt1:'campaignId',du:'destinationUrl'}}}}),new $.track.genericTracking({base:"http://g.msn.com/_0USHP/32?",linkTrack:1,click:{paramMap:{sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',su:'sourceUrl'},report:{ce:'contentElement',cm:'contentModule',hl:'headline', gt1:'campaignId',du:'destinationUrl'}}}}),new $.track.genericTracking({base:"http://udc.msn.com/c.gif?",linkTrack:1,common:{parsergroup:'hops'},commonMap:{event:{evt:'type'},userStatic:{rid:'requestId',exa:'expContext'},userDynamic:{cts:'timeStamp',aop:'AOP',expac:'expCookie'},client:{fk:'flightKey',gp:'groupAssignment',optkey:'optKey',clid:'clientId'},sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',mk:'lang',pn:'pageName',pid:'pageId',su:'sourceUrl',pageid:'pageId'}},impr:{param:{evt:'impr',js:'1'},paramMap:{client:{rf:'referrer',cu:'pageUrl',sl:'silverlightEnabled',slv:'silverlightVersion',bh:'height',bw:'width',cu:'pageUrl',scr:'screenResolution',sd:'colorDepth'},sitePage:{di:'domainId',pi:'propertyId',ps:'propertySpecific',br:'siteGroupId',mk:'lang', pn:'pageName',pid:'pageId',mv:'pageVersion',su:'sourceUrl'},userStatic:{pp:'signedIn',bd:'birthdate',gnd:'gender'},userDynamic:{'dv.SNLogin':'settings','dv.GrpFrMod':'defaultSlotTrees',hp:'isHomePage'}}},click:{paramMap:{report:{ce:'contentElement',cm:'contentModule',hl:'headline',gt1:'campaignId',du:'destinationUrl'},userDynamic:{aop:'AOP'}}},unload:{/**/}, br: { paramMap:{ event:{ evt:'type'}, report: {ce:'contentElement', hl:'headline', cm:'contentModule'} }}}),new $.track.genericTracking({base:"http://view.atdmt.com/action/drv_MSN_Homepage/nc?",linkTrack:0,impr:{param:{a:'1'}}}),new $.track.genericTracking({base:"http://b.scorecardresearch.com/b?",linkTrack:1,impr:{param:{c1:'2',c2:'3000001'},paramMap:{client:{c7:'pageUrl',c9:'referrer'},userDynamic:{rn:'timeStamp'}}},cbcomp:{param:{ty:'TACB'}},domcomp:{param:{ty:'TBCB'}},load:{param:{ty:'tl'}}}),new $.track.genericTracking({base:"http://c.br.msn.com/c.gif?",linkTrack:0,impr:{param:{udc:'true'},paramMap:{client:{scr:'screenResolution'},sitePage:{tp:'sourceUrl',di:'domainId',pi:'propertyId',ps:'propertySpecific',lng: 'lang'},userStatic:{rid:'requestId'},userDynamic:{rnd:'timeStamp'}}}}),new $.track.omniTracking({base:"http://msnportal.112.2o7.net/b/ss/msnportalbrhome/1/H.1-pdv-2/{0}?[AQB]&{1}&[AQE]",linkTrack:1,samplingRate:9,common:{ns:"msnportalbrhome"},commonMap:{client:{bh:'height',bw:'width',g:'pageUrl',s:'screenResolution',k:'cookieSupport'},sitePage:{pageName:'pageName'},userDynamic:{hp:'isHomePage'}},page:{server:"msn.com",cc:"BRL",c1:"Portal"},pageMap:{client:{c29:'pageUrl',c42:'silverlightVersion',ct:'connectionType',r:'referrer'},sitePage:{c2:'lang',ch:'siteGroupId'},userStatic:{c22:'signedIn',c25:'birthdate',c26:'gender'},userDynamic:{c19:'settings',c7:'defaultSlotTrees',c23:'anid'}},link:{events:"events4"},linkMap:{report:{c12:'destinationUrl',c13:'contentModule',c15:'contentElement',c16:'headline',c18:'campaignId',oi:'sourceIndex',oid:'destinationUrl',ot:'nodeName',pev1:'destinationUrl',pev2:'headline',v11:'headline',v12:'destinationUrl'},sitePage:{pid:'pageName',c17:'omniPageName'},userDynamic:{hp:'isHomePage'}}}));//]]></SCRIPT>
+
+<STYLE type=text/css>.cogr .co{display:none}.cogr .cof .co{display:block}</STYLE>
+</HEAD>
+<BODY style="BACKGROUND-IMAGE: url(http://msfs.nspmotion.com/files/142/creatives/46305/120972.jpg); BACKGROUND-ATTACHMENT: fixed; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center top" sizcache="23" sizset="0" jQuery1329228455169="26">
+<DIV style="DISPLAY: inline" id=admFlashContainer>
+<OBJECT style="CLIP: rect(auto auto auto auto); Z-INDEX: 10; POSITION: absolute; MARGIN: 0px; WIDTH: 141px; HEIGHT: 770px; VERTICAL-ALIGN: top; TOP: 0px; LEFT: 1094px" id=adm_62543116 name=adm_62543116 type=application/x-shockwave-flash><PARAM NAME="_cx" VALUE="3730"><PARAM NAME="_cy" VALUE="20372"><PARAM NAME="FlashVars" VALUE="clickTAG=http%3A//www.provougostou.com.br//%3Futm_campaign%3DAviao4%26utm_source%3DMSN_Home%26utm_medium%3DIntervencao&amp;sessionId=session_id_13580515&amp;assets=%7B%7D&amp;cookieCount=-1&amp;eventValues={}&amp;browser=IE&amp;browserVer=8&amp;advKeys=&amp;URLAdvKey=http%3A//ia.nspmotion.com/advKey/%3Fadv%3D406%26key%3D%5Bkey%5D&amp;instanceCount=0"><PARAM NAME="Movie" VALUE="http://msfs.nspmotion.com/files/142/creatives/46305/121024.swf"><PARAM NAME="Src" VALUE="http://msfs.nspmotion.com/files/142/creatives/46305/121024.swf"><PARAM NAME="WMode" VALUE="Transparent"><PARAM NAME="Play" VALUE="0"><PARAM NAME="Loop" VALUE="-1"><PARAM NAME="Quality" VALUE="High"><PARAM NAME="SAlign" VALUE=""><PARAM NAME="Menu" VALUE="-1"><PARAM NAME="Base" VALUE=""><PARAM NAME="AllowScriptAccess" VALUE="always"><PARAM NAME="Scale" VALUE="ShowAll"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE=""><PARAM NAME="SWRemote" VALUE=""><PARAM NAME="MovieData" VALUE=""><PARAM NAME="SeamlessTabbing" VALUE="1"><PARAM NAME="Profile" VALUE="0"><PARAM NAME="ProfileAddress" VALUE=""><PARAM NAME="ProfilePort" VALUE="0"><PARAM NAME="AllowNetworking" VALUE="all"><PARAM NAME="AllowFullScreen" VALUE="true"></OBJECT></DIV>
+<DIV style="DISPLAY: inline" id=admFlashContainer>
+<OBJECT style="CLIP: rect(auto auto auto auto); Z-INDEX: 5000; POSITION: absolute; MARGIN: 0px; WIDTH: 141px; HEIGHT: 770px; VERTICAL-ALIGN: top; TOP: 0px; LEFT: -27px" id=adm_77106273 name=adm_77106273 type=application/x-shockwave-flash><PARAM NAME="_cx" VALUE="3730"><PARAM NAME="_cy" VALUE="20372"><PARAM NAME="FlashVars" VALUE="clickTAG=http%3A//www.provougostou.com.br//%3Futm_campaign%3DAviao4%26utm_source%3DMSN_Home%26utm_medium%3DIntervencao&amp;sessionId=session_id_13580515&amp;assets=%7B%7D&amp;cookieCount=-1&amp;eventValues={}&amp;browser=IE&amp;browserVer=8&amp;advKeys=&amp;URLAdvKey=http%3A//ia.nspmotion.com/advKey/%3Fadv%3D406%26key%3D%5Bkey%5D&amp;instanceCount=0"><PARAM NAME="Movie" VALUE="http://msfs.nspmotion.com/files/142/creatives/46305/121023.swf"><PARAM NAME="Src" VALUE="http://msfs.nspmotion.com/files/142/creatives/46305/121023.swf"><PARAM NAME="WMode" VALUE="Transparent"><PARAM NAME="Play" VALUE="0"><PARAM NAME="Loop" VALUE="-1"><PARAM NAME="Quality" VALUE="High"><PARAM NAME="SAlign" VALUE=""><PARAM NAME="Menu" VALUE="-1"><PARAM NAME="Base" VALUE=""><PARAM NAME="AllowScriptAccess" VALUE="always"><PARAM NAME="Scale" VALUE="ShowAll"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE=""><PARAM NAME="SWRemote" VALUE=""><PARAM NAME="MovieData" VALUE=""><PARAM NAME="SeamlessTabbing" VALUE="1"><PARAM NAME="Profile" VALUE="0"><PARAM NAME="ProfileAddress" VALUE=""><PARAM NAME="ProfilePort" VALUE="0"><PARAM NAME="AllowNetworking" VALUE="all"><PARAM NAME="AllowFullScreen" VALUE="true"></OBJECT></DIV>
+<DIV style="DISPLAY: inline" id=admFlashContainer>
+<OBJECT style="CLIP: rect(64px 967px 314px 667px); Z-INDEX: 1; POSITION: absolute; MARGIN: 0px; WIDTH: 980px; HEIGHT: 314px; VERTICAL-ALIGN: top; TOP: 557px; LEFT: 114px" id=adm_53440739 name=adm_53440739 type=application/x-shockwave-flash><PARAM NAME="_cx" VALUE="25929"><PARAM NAME="_cy" VALUE="8307"><PARAM NAME="FlashVars" VALUE="clickTAG=http%3A//www.provougostou.com.br//%3Futm_campaign%3DAviao4%26utm_source%3DMSN_Home%26utm_medium%3DIntervencao&amp;sessionId=session_id_13580515&amp;assets=%7B%7D&amp;cookieCount=-1&amp;eventValues={}&amp;browser=IE&amp;browserVer=8&amp;advKeys=&amp;URLAdvKey=http%3A//ia.nspmotion.com/advKey/%3Fadv%3D406%26key%3D%5Bkey%5D&amp;instanceCount=0"><PARAM NAME="Movie" VALUE="http://msfs.nspmotion.com/files/142/creatives/46305/120968.swf"><PARAM NAME="Src" VALUE="http://msfs.nspmotion.com/files/142/creatives/46305/120968.swf"><PARAM NAME="WMode" VALUE="Transparent"><PARAM NAME="Play" VALUE="-1"><PARAM NAME="Loop" VALUE="-1"><PARAM NAME="Quality" VALUE="High"><PARAM NAME="SAlign" VALUE=""><PARAM NAME="Menu" VALUE="-1"><PARAM NAME="Base" VALUE=""><PARAM NAME="AllowScriptAccess" VALUE="always"><PARAM NAME="Scale" VALUE="ShowAll"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE=""><PARAM NAME="SWRemote" VALUE=""><PARAM NAME="MovieData" VALUE=""><PARAM NAME="SeamlessTabbing" VALUE="1"><PARAM NAME="Profile" VALUE="0"><PARAM NAME="ProfileAddress" VALUE=""><PARAM NAME="ProfilePort" VALUE="0"><PARAM NAME="AllowNetworking" VALUE="all"><PARAM NAME="AllowFullScreen" VALUE="true"></OBJECT></DIV>
+<DIV style="DISPLAY: inline" id=admFlashContainer>
+<OBJECT style="CLIP: rect(0px 977px 90px 0px); Z-INDEX: 1; POSITION: absolute; MARGIN: 0px; WIDTH: 977px; HEIGHT: 90px; VERTICAL-ALIGN: top; TOP: 6px; LEFT: 114px" id=adm_73912154 name=adm_73912154 type=application/x-shockwave-flash><PARAM NAME="_cx" VALUE="25849"><PARAM NAME="_cy" VALUE="2381"><PARAM NAME="FlashVars" VALUE="clickTAG=http%3A//www.provougostou.com.br//%3Futm_campaign%3DAviao4%26utm_source%3DMSN_Home%26utm_medium%3DIntervencao&amp;sessionId=session_id_13580515&amp;assets=%7B%7D&amp;cookieCount=-1&amp;eventValues={}&amp;browser=IE&amp;browserVer=8&amp;advKeys=&amp;URLAdvKey=http%3A//ia.nspmotion.com/advKey/%3Fadv%3D406%26key%3D%5Bkey%5D&amp;instanceCount=0"><PARAM NAME="Movie" VALUE="http://msfs.nspmotion.com/files/142/creatives/46305/121609.swf"><PARAM NAME="Src" VALUE="http://msfs.nspmotion.com/files/142/creatives/46305/121609.swf"><PARAM NAME="WMode" VALUE="Transparent"><PARAM NAME="Play" VALUE="0"><PARAM NAME="Loop" VALUE="-1"><PARAM NAME="Quality" VALUE="High"><PARAM NAME="SAlign" VALUE=""><PARAM NAME="Menu" VALUE="-1"><PARAM NAME="Base" VALUE=""><PARAM NAME="AllowScriptAccess" VALUE="always"><PARAM NAME="Scale" VALUE="ShowAll"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE=""><PARAM NAME="SWRemote" VALUE=""><PARAM NAME="MovieData" VALUE=""><PARAM NAME="SeamlessTabbing" VALUE="1"><PARAM NAME="Profile" VALUE="0"><PARAM NAME="ProfileAddress" VALUE=""><PARAM NAME="ProfilePort" VALUE="0"><PARAM NAME="AllowNetworking" VALUE="all"><PARAM NAME="AllowFullScreen" VALUE="true"></OBJECT></DIV>
+<DIV class=none>
+<SCRIPT type=text/javascript>/*<![CDATA[*/jQuery.track.trackPage();//]]></SCRIPT>
+<NOSCRIPT></NOSCRIPT><IMG alt="" src="http://www.bing.com/partner/primedns.gif" width=1 height=1></DIV>
+<DIV id=wrapper class="pa w12" sizcache="23" sizset="0">
+<DIV id=head sizcache="8" sizset="1">
+<DIV class=ro>
+<DIV class="ce ce1 cel w12">
+<DIV class="co1b1 co coa1 coc1 m3  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=superbanner><IFRAME style="WIDTH: 977px; DISPLAY: inline-block; HEIGHT: 90px; VISIBILITY: hidden" id=dapIfM0Child height=90 src="javascript:void(document.write('<html><head><title>Advertisement</title></head><body id=&quot;dapIfM0Child&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;window.setTimeout(&quot;document.close();&quot;,30000);</script><script type=&quot;text/javascript&quot;>\nvar ADM_click = \'http://g.msn.com/_2AD0006Z/18000000000073076.1?!&amp;amp;&amp;amp;PID=9812606&amp;amp;UIT=G&amp;amp;TargetID=8071562&amp;amp;AN=973734116&amp;amp;PG=BZHMPG&amp;amp;ASID=0e499c1d3c0a427c81078a8a5fa5db08\';\ndocument.write(\'<scr\'+\'ipt type=&quot;text/javascr\'+\'ipt&quot; src=&quot;http://ia.nspmotion.com/delivery/?p=47808&amp;sc=599&amp;r=\'+Math.round(Math.random()*99999)+\'&quot;></scr\'+\'ipt>\');\n</script>\n</body></html>'));" frameBorder=0 width=977 scrolling=no></IFRAME><IFRAME id=dapIfM0 height=0 frameBorder=0 width=0 allowTransparency name=dapIfM0 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BZHMPG&amp;AP=1390",977,90,"superbanner");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w12">
+<DIV class="co2b1 cf co coa1 coc1  promobar2">
+<DIV class="br br1 w8">
+<DIV class=advertisement>
+<DIV id=TextAdTop><SPAN><A title="Clique aqui!" href="http://g.msn.com/2AD0006V/58000000000073370.1?!&amp;&amp;PID=9795357&amp;UIT=G&amp;TargetID=42629997&amp;AN=36176313&amp;PG=BRHPTA&amp;ASID=0ed38bb7fe5342e5852992ed30afc5ed" target=_blank>Não fique para trás! Fale INGLÊS FLUENTE</A></SPAN><IFRAME style="DISPLAY: none" id=dapIfM1 height=1 frameBorder=0 width=1 allowTransparency name=dapIfM1 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRHPTA&amp;AP=1440",1,1,"TextAdTop");</SCRIPT>
+</DIV></DIV></DIV>
+<DIV id=signin class="br br2 brl w4">
+<DIV class=signin><A class=dMSNME_1 href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1329228454&amp;rver=5.5.4177.0&amp;wp=MBI_SSL&amp;wreply=https:%2F%2Flogin.secure.co1.msn.com%2Fwlsignin.aspx%3Fru%3Dhttp%253a%252f%252fbr.msn.com%252f&amp;lc=1046&amp;id=1184">Entrar</A></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro sizcache="8" sizset="1">
+<DIV class="ce ce1 cel w12" sizcache="8" sizset="1">
+<DIV id=header class="co4b11 cf co coa1 coc1  headerbar1" sizcache="8" sizset="1">
+<DIV class="br br1 w2"><IMG title="MSN Brasil" alt="MSN Brasil" src="http://col.stb01.s-msn.com/i/D5/30CB95BA50C6BC884FFEC9AAD113D4.gif" width=118 height=51></DIV>
+<DIV class="br br2 w6" sizcache="0" sizset="6">
+<DIV class=websearch2 sizcache="0" sizset="6">
+<H2>Bing Search</H2>
+<FORM id=srchfrm method=get action=http://www.bing.com/search target=_blank sizcache="0" sizset="6" jQuery1329228455169="24">
+<DIV class="scopes cf" sizcache="0" sizset="0"><A class="first selected" href="http://www.bing.com/search?mkt=pt-br&amp;form=&amp;q=" jQuery1329228455169="18">Web</A><SPAN> | </SPAN><A href="http://www.bing.com/search?q1=site:br.msn.com&amp;mkt=pt-br&amp;form=&amp;q=" jQuery1329228455169="19">MSN</A><SPAN> | </SPAN><A href="http://www.bing.com/?scope=news&amp;mkt=pt-BR&amp;form=&amp;q=" jQuery1329228455169="20">Notícias</A><SPAN> | </SPAN><A href="http://www.bing.com/images/search?q=&amp;form=&amp;mkt=pt-br" jQuery1329228455169="21">Imagens</A><SPAN> | </SPAN><A href="http://video.br.msn.com/search/?q=" jQuery1329228455169="22">Vídeos</A><SPAN> | </SPAN><A class=last href="http://msn.buscape.com.br/cprocura?q=" jQuery1329228455169="23">Shopping</A></DIV>
+<DIV class="search cf"><SPAN class=bo><SPAN class=bi><LABEL class=hide for=pq>Search:</LABEL><INPUT accessKey=S id=pq class=text value="lesão não é grave" maxLength=250 size=69 type=text name=q><INPUT class=image title=Buscar value=Buscar alt=Buscar src="http://col.stc.s-msn.com/br/sc/i/66/22614ba0edc080304aad6d0d0b7a7c.gif" type=image><INPUT value=MSNH55 type=hidden name=form></SPAN></SPAN></DIV>
+<DIV class=opt sizcache="0" sizset="6">
+<DIV class=delimited sizcache="0" sizset="6"><STRONG>Buscas Populares: </STRONG><A href="http://br.bing.com/search?q=Julgamento+caso+Elo%C3%A1&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">Julgamento caso Eloá</A><SPAN> | </SPAN><A href="http://br.bing.com/search?q=Fina+Estampa&amp;go=&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">Fina Estampa</A><SPAN> | </SPAN><A href="http://br.bing.com/search?q=Oscar&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">Oscar</A></DIV></DIV></FORM></DIV></DIV><BR class=b3>
+<DIV class="br br3 wlcard1" sizcache="8" sizset="1">
+<UL class="linkedimglinklist8 cf" sizcache="8" sizset="1">
+<LI class=first><A id=to_inbox class=opennew href="http://mail.live.com/?id=64855&amp;mkt=pt-BR&amp;form=MWGELB&amp;publ=MSNTOOL&amp;crea=TEXT_CIMS015888_Hotmail_PT-BR_0x0_33485" target="[object Object]" sizcache="8" sizset="0" jQuery1329228455169="65"><IMG title=Hotmail alt=Hotmail src="http://col.stb00.s-msn.com/i/75/8FF4B9A56BDBC487A7D53DDDA864C.gif" width=46 height=50><SPAN>Hotmail</SPAN></A></LI>
+<LI sizcache="8" sizset="1"><A class=opennew href="http://ie9.discoverbing.com/intl/pt-BR/index.html" target="[object Object]" sizcache="8" sizset="1" jQuery1329228455169="39"><IMG title="Internet Explorer" alt="Internet Explorer" src="http://col.stb00.s-msn.com/i/CC/6F1657C58A211C82B14FDC1D9638A6.gif" width=50 height=50><SPAN>Instale IE9</SPAN></A></LI>
+<LI sizcache="8" sizset="2"><A class=opennew href="http://windowslive.com.br/public/product.aspx/view/2?form=MWGELB&amp;publ=MSNTOOL&amp;crea=TEXT_CIMS015889_Messenger_PT-BR_0x0_33490" target="[object Object]" sizcache="8" sizset="2" jQuery1329228455169="66"><IMG title=Messenger alt=Messenger src="http://col.stb00.s-msn.com/i/2C/E5FA81DC84D8DBC7D1919CED59970.gif" width=46 height=50><SPAN>Messenger</SPAN></A></LI>
+<LI class=last sizcache="8" sizset="3"><A class=opennew href="http://msn.buscape.com.br/" target="[object Object]" sizcache="8" sizset="3" jQuery1329228455169="67"><IMG title=Shopping alt=Shopping src="http://col.stb00.s-msn.com/i/66/F912CBA73D8F450D1A4E33E10DEA.gif" width=46 height=50><SPAN>Shopping</SPAN></A></LI></UL></DIV>
+<DIV class="br br4 brl"></DIV></DIV></DIV></DIV></DIV>
+<DIV id=page sizcache="23" sizset="0">
+<DIV id=nav sizcache="5" sizset="0">
+<DIV class="co1b1 co coa1 coc1  navbar1" sizcache="5" sizset="0">
+<DIV class="br br1" sizcache="5" sizset="0">
+<DIV class="menubar1 cf" sizcache="5" sizset="0" jQuery1329228455169="27">
+<UL class=js sizcache="6" sizset="0">
+<LI class="coc1 first" sizcache="6" sizset="0"><A href="http://entretenimento.br.msn.com/carnaval/2012/default.aspx">Carnaval</A>
+<UL sizcache="6" sizset="1">
+<LI class="first new" sizcache="6" sizset="1"><A href="http://entretenimento.br.msn.com/especiais/camarote-brahma/">Camarote Brahma</A></LI>
+<LI sizcache="6" sizset="2"><A href="http://entretenimento.br.msn.com/carnaval/2012/artigo.aspx?cp-documentid=31649497">Curiosidades</A></LI>
+<LI sizcache="6" sizset="3"><A href="http://entretenimento.br.msn.com/carnaval/2012/default-galeria-de-fotos.aspx">Fotos</A></LI>
+<LI sizcache="6" sizset="4"><A href="http://entretenimento.br.msn.com/carnaval/2012/noticias.aspx">Notícias</A></LI>
+<LI sizcache="6" sizset="5"><A href="http://entretenimento.br.msn.com/carnaval/2012/default-rio-de-janeiro.aspx">Rio de Janeiro</A></LI>
+<LI sizcache="6" sizset="6"><A href="http://entretenimento.br.msn.com/carnaval/2012/default-salvador.aspx">Salvador</A></LI>
+<LI class=last sizcache="6" sizset="7"><A href="http://entretenimento.br.msn.com/carnaval/2012/default-sao-paulo.aspx">São Paulo</A></LI></UL></LI>
+<LI class=coc2 sizcache="6" sizset="8"><A href="http://msn.icarros.com.br/">Carros</A>
+<UL sizcache="6" sizset="9">
+<LI class=first sizcache="6" sizset="9"><A href="http://msncaminhoes.icarros.com.br/msn/">Caminhões</A></LI>
+<LI sizcache="6" sizset="10"><A href="http://msn.icarros.com.br/ache/index.jsp;jsessionid=Mojpy8Xmo7LkStAb0UyRRg__">Compra</A></LI>
+<LI sizcache="6" sizset="11"><A href="http://msn.icarros.com.br/manutencao/index.jsp">Manutenção</A></LI>
+<LI sizcache="6" sizset="12"><A href="http://msnmotos.icarros.com.br/msn/">Motos</A></LI>
+<LI sizcache="6" sizset="13"><A href="http://msn.icarros.com.br/noticias/">Notícias</A></LI>
+<LI sizcache="6" sizset="14"><A href="http://msn.icarros.com.br/tabela-fipe/">Tabela Fipe</A></LI>
+<LI sizcache="6" sizset="15"><A href="http://msn.icarros.com.br/vender/indexfaces.jsf;jsessionid=DuYNv6h0cSmiH8CEg1r1MQ__?endo_id=73&amp;reiniciar=true">Venda</A></LI>
+<LI class=last sizcache="6" sizset="16"><A href="http://video.br.msn.com/browse/noticias/automoveis/">Vídeos</A></LI></UL></LI>
+<LI class=coc3 sizcache="6" sizset="17"><A href="http://dinheiro.br.msn.com/">Dinheiro</A>
+<UL sizcache="6" sizset="18">
+<LI class=first sizcache="6" sizset="18"><A href="http://web.infomoney.com.br/clientes/msn/acoes/">Ações</A></LI>
+<LI sizcache="6" sizset="19"><A href="http://dinheiro.br.msn.com/calculadoras/">Calculadoras</A></LI>
+<LI sizcache="6" sizset="20"><A href="http://msn.clickcarreira.com.br/">Carreiras</A></LI>
+<LI sizcache="6" sizset="21"><A href="http://dinheiro.br.msn.com/cotacoes/">Cotações</A></LI>
+<LI sizcache="6" sizset="22"><A href="http://msn.catho.com.br/?sc_source=msn&amp;sc_medium=link&amp;sc_content=home-menu-servicos&amp;sc_redir=msn-canaldeempregos">Empregos</A></LI>
+<LI sizcache="6" sizset="23"><A href="http://dinheiro.br.msn.com/guias/">Guias</A></LI>
+<LI sizcache="6" sizset="24"><A href="http://msn.imovelweb.com.br/">Imóveis</A></LI>
+<LI class=last sizcache="6" sizset="25"><A href="http://dinheiro.br.msn.com/tributos/">Tributos</A></LI></UL></LI>
+<LI class=coc4 sizcache="6" sizset="26"><A href="http://msnencontros.parperfeito.com.br/">Encontros</A>
+<UL sizcache="6" sizset="27">
+<LI class=first sizcache="6" sizset="27"><A href="http://msnencontros.parperfeito.com.br/Artigos/oplist/articleid-1/p-1/f1/n-1/?orig=1468&amp;id=375914">Artigos</A></LI>
+<LI sizcache="6" sizset="28"><A href="http://msnencontros.parperfeito.com.br/servlet/NewRegistration?orig=1468&amp;id=375914">Cadastro</A></LI>
+<LI sizcache="6" sizset="29"><A href="http://msnencontros.parperfeito.com.br/sejamais/dicas.jsp?orig=1468&amp;id=375914">Dicas</A></LI>
+<LI class=last sizcache="6" sizset="30"><A href="http://msnencontros.parperfeito.com.br/Responde/oplist/answerid-1/p-1/f1/n50/?orig=1468&amp;id=375914">Dúvidas</A></LI></UL></LI>
+<LI class=coc5 sizcache="6" sizset="31"><A href="http://entretenimento.br.msn.com/">Entretenimento</A>
+<UL sizcache="6" sizset="32">
+<LI class="first new" sizcache="6" sizset="32"><A href="http://entretenimento.br.msn.com/bbb/default.aspx">BBB 12</A></LI>
+<LI sizcache="6" sizset="33"><A href="http://entretenimento.br.msn.com/cinema/">Cinema</A></LI>
+<LI sizcache="6" sizset="34"><A href="http://entretenimento.br.msn.com/famosos/">Famosos</A></LI>
+<LI sizcache="6" sizset="35"><A href="http://entretenimento.br.msn.com/famosos/fotos.aspx">Fotos</A></LI>
+<LI sizcache="6" sizset="36"><A href="http://entretenimento.br.msn.com/guias-rj/default.aspx">Guias RJ</A></LI>
+<LI sizcache="6" sizset="37"><A href="http://entretenimento.br.msn.com/guias-sp/default.aspx">Guias SP</A></LI>
+<LI sizcache="6" sizset="38"><A href="http://entretenimento.br.msn.com/videos-humor.aspx">Humor</A></LI>
+<LI sizcache="6" sizset="39"><A href="http://imusica.br.msn.com/">Música</A></LI>
+<LI sizcache="6" sizset="40"><A href="http://entretenimento.br.msn.com/famosos/novelas.aspx">Resumo das Novelas</A></LI>
+<LI class=last sizcache="6" sizset="41"><A href="http://entretenimento.br.msn.com/famosos/testes.aspx">Testes</A></LI></UL></LI>
+<LI class=coc6 sizcache="6" sizset="42"><A href="http://esportes.br.msn.com/">Esportes</A>
+<UL sizcache="6" sizset="43">
+<LI class=first sizcache="6" sizset="43"><A href="http://esportes.br.msn.com/colunistas/">Colunistas</A></LI>
+<LI sizcache="6" sizset="44"><A href="http://esportes.br.msn.com/fotos/">Fotos</A></LI>
+<LI sizcache="6" sizset="45"><A href="http://esportes.br.msn.com/f1/">Fórmula 1</A></LI>
+<LI sizcache="6" sizset="46"><A href="http://esportes.br.msn.com/futebol/">Futebol</A></LI>
+<LI class=custom1 sizcache="6" sizset="47"><A href="http://esportes.br.msn.com/olimpiadas/default.aspx">Londres 2012</A></LI>
+<LI sizcache="6" sizset="48"><A href="http://esportes.br.msn.com/esportes/">Mais Esportes</A></LI>
+<LI sizcache="6" sizset="49"><A href="http://esportes.br.msn.com/futebol/jogo-minha-vida.aspx">O Jogo da Minha Vida</A></LI>
+<LI sizcache="6" sizset="50"><A href="http://espn.estadao.com.br/resultados/campeonato.initMsn.logic">Tabelas</A></LI>
+<LI sizcache="6" sizset="51"><A href="http://esportes.br.msn.com/ultimas/">Últimas Notícias</A></LI>
+<LI class=last sizcache="6" sizset="52"><A href="http://esportes.br.msn.com/video/">Vídeos</A></LI></UL></LI>
+<LI class=coc7 sizcache="6" sizset="53"><A href="http://estadao.br.msn.com/">Estadão</A>
+<UL sizcache="6" sizset="54">
+<LI class=first sizcache="6" sizset="54"><A href="http://estadao.br.msn.com/ciencia/">Ciência</A></LI>
+<LI sizcache="6" sizset="55"><A href="http://estadao.br.msn.com/cultura/">Cultura</A></LI>
+<LI sizcache="6" sizset="56"><A href="http://estadao.br.msn.com/economia/">Economia</A></LI>
+<LI sizcache="6" sizset="57"><A href="http://estadao.br.msn.com/educacao/">Educação</A></LI>
+<LI sizcache="6" sizset="58"><A href="http://estadao.br.msn.com/fotos/">Fotos</A></LI>
+<LI sizcache="6" sizset="59"><A href="http://estadao.br.msn.com/link/">Link</A></LI>
+<LI sizcache="6" sizset="60"><A href="http://video.br.msn.com/browse/tvestadao/">TV Estadão</A></LI>
+<LI class=last sizcache="6" sizset="61"><A href="http://estadao.br.msn.com/ultimas-noticias/">Últimas Notícias</A></LI></UL></LI>
+<LI class=coc8 sizcache="6" sizset="62"><A href="http://estilo.br.msn.com/tempodemulher/">Estilo</A>
+<UL sizcache="6" sizset="63">
+<LI class=first sizcache="6" sizset="63"><A href="http://msn.minhavida.com.br/Site/">Corpo e Saúde</A></LI>
+<LI sizcache="6" sizset="64"><A href="http://englishtown.msn.com.br/online/home.aspx?etag=msn_canal">Inglês Online</A></LI>
+<LI sizcache="6" sizset="65"><A href="http://meubebe.br.msn.com/?WT.mc_id=lifestyleBRA">Meu Bebê</A></LI>
+<LI sizcache="6" sizset="66"><A href="http://msn.lilianpacce.com.br/">Moda</A></LI>
+<LI sizcache="6" sizset="67"><A href="http://br.msn.recepedia.com/">Receitas</A></LI>
+<LI class=new sizcache="6" sizset="68"><A href="http://estilo.br.msn.com/tempodemulher/">Tempo de Mulher</A></LI>
+<LI sizcache="6" sizset="69"><A href="http://viagem.br.msn.com/">Viagem</A></LI>
+<LI class=last sizcache="6" sizset="70"><A href="http://live.axe.com.br/axe-university/">Universidade por AXE</A></LI></UL></LI>
+<LI class=coc1 sizcache="6" sizset="71"><A href="http://entretenimento.br.msn.com/astrologia/">Horóscopo</A>
+<UL sizcache="6" sizset="72">
+<LI class=first sizcache="6" sizset="72"><A href="http://entretenimento.br.msn.com/astrologia/">Horóscopo do Dia</A></LI>
+<LI sizcache="6" sizset="73"><A href="http://msn.lilianpacce.com.br/horoscopo-fashion/">Horóscopo Fashion</A></LI>
+<LI sizcache="6" sizset="74"><A href="http://entretenimento.br.msn.com/astrologia/revista-personare.aspx">Revista Personare</A></LI>
+<LI class=last sizcache="6" sizset="75"><A href="http://entretenimento.br.msn.com/astrologia/tarot-do-dia.aspx">Tarot do Dia</A></LI></UL></LI>
+<LI class=coc2 sizcache="6" sizset="76"><A href="http://jogos.br.msn.com/">Jogos</A>
+<UL sizcache="6" sizset="77">
+<LI class=first sizcache="6" sizset="77"><A href="http://msn.clubedemeninas.com.br/">Clube de Meninas</A></LI>
+<LI sizcache="6" sizset="78"><A href="http://jogos.msn.com.br/jogos-disney/">Jogos Disney </A></LI>
+<LI sizcache="6" sizset="79"><A href="http://jogos.msn.com.br/jogos_gratis.jsp">Jogos Grátis</A></LI>
+<LI sizcache="6" sizset="80"><A href="http://jogos.msn.com.br/">Jogos Online</A></LI>
+<LI sizcache="6" sizset="81"><A href="http://jogos.br.msn.com/reviews/">Reviews</A></LI>
+<LI sizcache="6" sizset="82"><A href="http://tecnologia.br.msn.com/">Tecnologia</A></LI>
+<LI class=last sizcache="6" sizset="83"><A href="http://jogos.br.msn.com/videos/">Vídeos</A></LI></UL></LI>
+<LI class=coc3 sizcache="6" sizset="84"><A href="http://noticias.br.msn.com/">Notícias</A>
+<UL sizcache="6" sizset="85">
+<LI class=first sizcache="6" sizset="85"><A href="http://noticias.br.msn.com/brasil/">Brasil</A></LI>
+<LI sizcache="6" sizset="86"><A href="http://noticias.br.msn.com/economia/">Economia</A></LI>
+<LI sizcache="6" sizset="87"><A href="http://www.sorteonline.com.br/default.asp?id=1104">Loterias</A></LI>
+<LI sizcache="6" sizset="88"><A href="http://noticias.br.msn.com/mundo/">Mundo</A></LI>
+<LI sizcache="6" sizset="89"><A href="http://tecnologia.br.msn.com/">Tecnologia</A></LI>
+<LI sizcache="6" sizset="90"><A href="http://noticias.br.msn.com/tempo/">Tempo</A></LI>
+<LI sizcache="6" sizset="91"><A href="http://verde.br.msn.com/">Verde</A></LI>
+<LI class=last sizcache="6" sizset="92"><A href="http://noticias.br.msn.com/video/">Vídeos</A></LI></UL></LI>
+<LI class=coc4 sizcache="6" sizset="93"><A href="http://nytsyn.br.msn.com/">NY Times</A>
+<UL sizcache="6" sizset="94">
+<LI class=first sizcache="6" sizset="94"><A href="http://nytsyn.br.msn.com/cienciaetecnologia/">Ciência e Tecnologia</A></LI>
+<LI sizcache="6" sizset="95"><A href="http://nytsyn.br.msn.com/colunistas/">Colunistas</A></LI>
+<LI sizcache="6" sizset="96"><A href="http://nytsyn.br.msn.com/estilodevida/">Estilo de Vida</A></LI>
+<LI sizcache="6" sizset="97"><A href="http://nytsyn.br.msn.com/fotos/">Fotos</A></LI>
+<LI sizcache="6" sizset="98"><A href="http://nytsyn.br.msn.com/moda/">Moda</A></LI>
+<LI sizcache="6" sizset="99"><A href="http://nytsyn.br.msn.com/negocios/">Negócios</A></LI>
+<LI sizcache="6" sizset="100"><A href="http://nytsyn.br.msn.com/viagem/">Viagem</A></LI>
+<LI class=last sizcache="6" sizset="101"><A href="http://nytsyn.br.msn.com/videos/">Vídeos</A></LI></UL></LI>
+<LI class="coc5 last" sizcache="6" sizset="102"><A href="http://video.br.msn.com/">Vídeo</A>
+<UL sizcache="6" sizset="103">
+<LI class=first sizcache="6" sizset="103"><A href="http://video.br.msn.com/browse/bemsimples/">Bem Simples</A></LI>
+<LI sizcache="6" sizset="104"><A href="http://video.br.msn.com/browse/entretenimento/cinema/">Cinema</A></LI>
+<LI sizcache="6" sizset="105"><A href="http://video.br.msn.com/browse/discovery-channel/">Discovery Channel</A></LI>
+<LI sizcache="6" sizset="106"><A href="http://video.br.msn.com/browse/esportes/">ESPN</A></LI>
+<LI sizcache="6" sizset="107"><A href="http://video.br.msn.com/browse/estilo-de-vida/">Estilo de Vida</A></LI>
+<LI sizcache="6" sizset="108"><A href="http://video.br.msn.com/browse/entretenimento/famosos/">Famosos</A></LI>
+<LI sizcache="6" sizset="109"><A href="http://video.br.msn.com/browse/entretenimento/humor/">Humor</A></LI>
+<LI sizcache="6" sizset="110"><A href="http://video.br.msn.com/browse/noticias/">Notícias</A></LI>
+<LI sizcache="6" sizset="111"><A href="http://video.br.msn.com/browse/the-new-york-times/">The New York Times</A></LI>
+<LI class=last sizcache="6" sizset="112"><A href="http://video.br.msn.com/browse/turner/">Turner</A></LI></UL></LI></UL></DIV></DIV></DIV></DIV>
+<DIV id=content sizcache="23" sizset="0">
+<DIV id=subhead>
+<DIV class=ro>
+<DIV class="ce ce1 cel w12">
+<DIV class="condbanner1 cf"></DIV></DIV></DIV>
+<DIV style="BACKGROUND-COLOR: #fff5ea" id=specialmodulehome class=ro>
+<DIV class="ce ce1 cel w12">
+<DIV class=ro>
+<DIV class="ce ce1 cel w12"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" id=ImgSpecialModuleHeader alt="MSN no Carnaval 2012" src="http://col.stb01.s-msn.com/i/67/A752E7A38751DCEF32ABDDF8623A.jpg" useMap=#ImgMapSpecial><MAP id=ImgMapSpecial name=ImgMap0><AREA href="http://entretenimento.br.msn.com/carnaval/2012/default.aspx" shape=rect alt="" coords="0, 0, 147, 56"><AREA href="http://entretenimento.br.msn.com/carnaval/2012/default-rio-de-janeiro.aspx" shape=rect alt="" coords="202, 1, 257, 56"><AREA href="http://entretenimento.br.msn.com/carnaval/2012/default-sao-paulo.aspx" shape=rect alt="" coords="258, 0, 332, 56"><AREA href="http://entretenimento.br.msn.com/carnaval/2012/default-salvador.aspx" shape=rect alt="" coords="333, 0, 395, 56"><AREA href="https://www.facebook.com/TridentBrasil" shape=rect alt="" coords="805, 1, 871, 56"><AREA href="http://entretenimento.br.msn.com/especiais/camarote-brahma/" shape=rect alt="" coords="882, 1, 947, 56"></MAP>
+<DIV class="condbanner1 cf"></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 w8">
+<DIV id=idspec class="cogr coss coj">
+<DIV id=SlidesSpecial1 class=cof>
+<DIV id=headlinepaneSpecial1 class="co1b1 co coa2 coc1">
+<DIV class="br br1">
+<DIV class="scp1 cf">
+<DIV class=linkimage><A href="http://entretenimento.br.msn.com/carnaval/2012/julgadores-afinal-quem-s%c3%a3o-eles"><IMG title=Divulgação alt="Afinal, quem define o vencedor do Carnaval?" src="http://col.stb01.s-msn.com/i/78/19754AD5F01F1C2719839D41365DF4.jpg" width=619 height=211></A></DIV></DIV></DIV></DIV><INPUT class=trak value='{"taop":"slidespecial1"}' type=hidden></DIV></DIV></DIV>
+<DIV class="ce ce2 cel w4">
+<DIV class="co1b1 co coa2 coc1 m1  hlcpm1">
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<UL>
+<LI class="sec ">
+<DIV style="WIDTH: 128px; FLOAT: right"><A href="http://entretenimento.br.msn.com/especiais/camarote-brahma/core%c3%b3grafo-diz-que-jennifer-lopez-aprendeu-samba-em-30-minutos"><IMG class=landscape title=Divulgação alt="J-Lo aprendeu samba em apenas 30 minutos, afirma coreógrafo" src="http://col.stb01.s-msn.com/i/92/41B1E44B925205A16B55F984394B5.jpg" width=128 height=73></A></DIV>
+<DIV style="PADDING-RIGHT: 10px; MARGIN-RIGHT: 128px"><A href="http://entretenimento.br.msn.com/especiais/camarote-brahma/core%c3%b3grafo-diz-que-jennifer-lopez-aprendeu-samba-em-30-minutos"><STRONG>Jennifer Lopez aprendeu a sambar em apenas 30 minutos, diz coreógrafo</STRONG></A>
+<DIV class=richtext>
+<P>Cantora vai ser uma das atrações do Carnaval no Rio</P></DIV></DIV></LI>
+<LI class="sec last">
+<DIV style="WIDTH: 128px; FLOAT: right"><A href="http://entretenimento.br.msn.com/carnaval/2012/artigo.aspx?cp-documentid=31649497"><IMG class=landscape title=AgNews alt="Dicionário do folião" src="http://col.stb00.s-msn.com/i/9A/750661458162DA0F8AEE14A234692.jpg" width=128 height=73></A></DIV>
+<DIV style="PADDING-RIGHT: 10px; MARGIN-RIGHT: 128px"><A href="http://entretenimento.br.msn.com/carnaval/2012/artigo.aspx?cp-documentid=31649497"><STRONG>Dicionário do folião te ajuda a não ficar por fora</STRONG></A>
+<DIV class=richtext>
+<P>Reco-reco, repique, afoxé, cordão, filhó, pipoca... Descubra o que esses termos significam!</P></DIV></DIV></LI>
+<LI class=ter><A href="http://entretenimento.br.msn.com/carnaval/2012/noticias.aspx">Últimas notícias </A><SPAN class=piped>| <A href="http://entretenimento.br.msn.com/carnaval/2012/default-galeria-de-fotos.aspx">Galerias de fotos</A> | <A href="http://entretenimento.br.msn.com/especiais/camarote-brahma/">Camarote Brahma</A></SPAN></LI></UL></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel">
+<SCRIPT type=text/javascript>/*<![CDATA[*/$("#specialmodulehome").css("background-color","#fff5ea");$("#ImgSpecialModuleHeader").css("border","0");$("html body div#wrapper.pa div#page div#content div#subhead div#specialmodulehome.ro div.ce div.ro div.ce div.ro div.ce div#idspec.cogr div#SlidesSpecial1.cof div#headlinepaneSpecial1.co1b1 div.br div.scp1 div.linkimage span.imgmap1 img").attr("usemap","#imagemap11")//]]></SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=area1 class="re w8" sizcache="17" sizset="1">
+<DIV class=ro sizcache="17" sizset="1">
+<DIV class="ce ce1 w3">
+<DIV id=datebar class="co1b1 co coa2 coc1 m3  cepintl_content1">
+<DIV class="br br1">
+<DIV class=link><A href="http://www.bing.com/search?q=fevereiro+14&amp;mkt=pt-br&amp;FORM=MSNHBR">terça-feira, 14 de fevereiro de 2012</A></DIV></DIV></DIV></DIV>
+<DIV id=miniwea_w5 class="ce ce2 cel w5" sizcache="17" sizset="1">
+<DIV id=wea_mini class="co1b1 co coa1 coc1 m3  cepintl_content1" sizcache="17" sizset="1">
+<DIV class="br br1" sizcache="17" sizset="1">
+<DIV class=weamulti2 sizcache="17" sizset="1">
+<UL class=wsl sizcache="17" sizset="1">
+<LI style="DISPLAY: list-item; VISIBILITY: inherit" class=forecast sizcache="17" sizset="1" jQuery1329228455169="46">
+<DIV sizcache="17" sizset="1">
+<H3 sizcache="17" sizset="0"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS" rel=wc:RSXX0063>Moscou, RUS</A></H3><A class=img href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS"><IMG title="Parcialmente Nublado" alt="Parcialmente Nublado" src="http://blst.msn.com/as/wea3/i/pt/30.gif" width=30 height=18></A><A class=temp href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS" sizcache="13" sizset="0"><SPAN class=celcius>-12°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="40">10°</SPAN>/ <SPAN class=celcius>-16°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="41">3°</SPAN></A><SPAN style="DISPLAY: none" class=attr sizcache="17" sizset="3" jQuery1329228455169="43"><A href="#" rel=C jQuery1329228455169="42">°F</A> <SPAN>°C</SPAN></SPAN><SPAN class=extended sizcache="17" sizset="4"><A style="DISPLAY: none" class=5day href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS#fivedayforecast" jQuery1329228455169="44">5-day</A><A style="DISPLAY: none" class=10day href="http://noticias.br.msn.com/tempo/tenday.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS+forecast:tenday" jQuery1329228455169="45">10-day</A></SPAN></DIV></LI></UL><A class=cepedit href="#" jQuery1329228455169="56">Editar</A></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro sizcache="7" sizset="0">
+<DIV class="ce ce1 cel w8" sizcache="7" sizset="0">
+<DIV id=infopane_hops class="cogr coss coj" sizcache="7" sizset="0" jQuery1329228455169="28">
+<DIV id=slide1 class=cof>
+<DIV style="HEIGHT: 17.58em" id=headlinepane1 class="co1b1 co coa2 coc1">
+<DIV class="br br1">
+<DIV class="scp1 cf">
+<DIV class="npane n3"><SPAN><A href="http://estilo.br.msn.com/tempodemulher/beleza-e-saude/artigo.aspx?cp-documentid=32386747" jQuery1329228455169="29">As dicas do cabeleireiro das celebridades </A></SPAN>
+<UL>
+<LI style="WIDTH: 206px" class=first><A href="http://estilo.br.msn.com/tempodemulher/beleza-e-saude/artigo.aspx?cp-documentid=32386747" jQuery1329228455169="30"><IMG title="Tempo de Mulher" alt="As dicas do cabeleireiro das famosas" src="http://col.stb00.s-msn.com/i/F5/55D8CD57E373851DE51A5C6FBC264.jpg" width=206 height=144></A><A href="http://estilo.br.msn.com/tempodemulher/beleza-e-saude/artigo.aspx?cp-documentid=32386747" jQuery1329228455169="31">Marco Antônio de Biaggi recomenda</A></LI>
+<LI style="WIDTH: 206px"><A href="http://estilo.br.msn.com/tempodemulher/beleza-e-saude/artigo.aspx?cp-documentid=32386747" jQuery1329228455169="32"><IMG title="Tempo de Mulher" alt="Tenha visual de estrela com Marco Antônio de Biaggi" src="http://col.stb00.s-msn.com/i/9C/909889B59216AABFED35CB1DC6BFEE.jpg" width=206 height=144></A><A href="http://estilo.br.msn.com/tempodemulher/beleza-e-saude/artigo.aspx?cp-documentid=32386747" jQuery1329228455169="33">Óleo de argan, dormir com tranças</A></LI>
+<LI style="WIDTH: 206px" class=last><A href="http://estilo.br.msn.com/tempodemulher/beleza-e-saude/artigo.aspx?cp-documentid=32386747" jQuery1329228455169="34"><IMG title="Tempo de Mulher" alt="As dicas do cabeleireiro das celebridades " src="http://col.stb00.s-msn.com/i/1E/6636040519B6DF49798CE2FAD28F0.jpg" width=206 height=144></A><A href="http://estilo.br.msn.com/tempodemulher/beleza-e-saude/artigo.aspx?cp-documentid=32386747" jQuery1329228455169="35">E diz que franjas serão hit do inverno</A></LI></UL></DIV></DIV></DIV></DIV><INPUT class=trak value='{"taop":"slideshow1"}' type=hidden></DIV>
+<DIV id=slide2>
+<DIV style="HEIGHT: 17.58em" id=headlinepane2 class="co1b1 co coa2 coc1"></DIV><INPUT class=trak value='{"taop":"slideshow2"}' type=hidden></DIV>
+<DIV id=slide3>
+<DIV style="HEIGHT: 17.58em" id=headlinepane3 class="co1b1 co coa2 coc1"></DIV><INPUT class=trak value='{"taop":"slideshow3"}' type=hidden></DIV>
+<DIV id=slide4>
+<DIV style="HEIGHT: 17.58em" id=headlinepane4 class="co1b1 co coa2 coc1"></DIV><INPUT class=trak value='{"taop":"slideshow4"}' type=hidden></DIV>
+<DIV id=slide5>
+<DIV style="HEIGHT: 17.58em" id=headlinepane5 class="co1b1 co coa2 coc1"></DIV><INPUT class=trak value='{"taop":"slideshow5"}' type=hidden></DIV>
+<DIV id=slide6>
+<DIV style="HEIGHT: 17.58em" id=headlinepane6 class="co1b1 co coa2 coc1"></DIV><INPUT class=trak value='{"taop":"slideshow6"}' type=hidden></DIV>
+<DIV id=slide7>
+<DIV style="HEIGHT: 17.58em" id=headlinepane7 class="co1b1 co coa2 coc1"></DIV><INPUT class=trak value='{"taop":"slideshow7"}' type=hidden></DIV>
+<DIV id=slide8>
+<DIV style="HEIGHT: 17.58em" id=headlinepane8 class="co1b1 co coa2 coc1"></DIV><INPUT class=trak value='{"taop":"slideshow8"}' type=hidden></DIV>
+<DIV class=coss sizcache="7" sizset="0">
+<UL class=cf sizcache="7" sizset="0">
+<LI class=first sizcache="7" sizset="0"><A class=prev title=anterior href="#" sizcache="7" sizset="0" jQuery1329228455169="36"><SPAN>anterior</SPAN></A></LI>
+<LI sizcache="7" sizset="1"><A class=pause title=pausar href="#" sizcache="7" sizset="1" jQuery1329228455169="38"><SPAN>pausar</SPAN></A></LI>
+<LI sizcache="7" sizset="2"><A class=next title=próximo href="#" sizcache="7" sizset="2" jQuery1329228455169="37"><SPAN>próximo</SPAN></A></LI>
+<LI class=last sizcache="7" sizset="3"><SPAN>1 de 8</SPAN></LI></UL></DIV></DIV></DIV></DIV>
+<DIV class=ro></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w8">
+<DIV id=maintabs class="cogr cotb cogrsx coj">
+<DIV class="cotb js">
+<UL class="cotb cf coc1">
+<LI class=first><A class=coc1 href="#" jQuery1329228455169="4">ESTADÃO</A></LI>
+<LI><A class=coc1 href="#" jQuery1329228455169="7">NOTÍCIAS</A></LI>
+<LI class=tabsel><A style="DISPLAY: none" class=coc1 href="#" jQuery1329228455169="10">ENTRETENIMENTO</A><SPAN class="coc1 tabsel">ENTRETENIMENTO</SPAN></LI>
+<LI><A class=coc1 href="#" jQuery1329228455169="13">ESPORTES</A></LI>
+<LI class=last><A class=coc1 href="#" jQuery1329228455169="16">DINHEIRO</A></LI></UL></DIV>
+<DIV id=estadao>
+<DIV style="HEIGHT: 190px" id=tabbedmodule4 class="co1b1 co coa2 coc1 m3  ruled hlcpm1" jQuery1329228455169="5">
+<H2 style="DISPLAY: none" class="h2 cf" jQuery1329228455169="3"><SPAN>ESTADÃO</SPAN></H2></DIV></DIV>
+<DIV id=noticias>
+<DIV style="HEIGHT: 190px" id=tabbedmodule class="co1b1 co coa2 coc1 m3  ruled hlcpm1" jQuery1329228455169="8">
+<H2 style="DISPLAY: none" class="h2 cf" jQuery1329228455169="6"><SPAN>NOTÍCIAS</SPAN></H2></DIV></DIV>
+<DIV id=entretenimiento class=cof>
+<DIV style="DISPLAY: block; HEIGHT: 190px" id=tabbedmodule1 class="co1b1 co coa2 coc1 m3  ruled hlcpm1" jQuery1329228455169="11">
+<H2 style="DISPLAY: none" class="h2 cf" jQuery1329228455169="9"><SPAN>ENTRETENIMENTO</SPAN></H2>
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp1 cf">
+<DIV style="WIDTH: 303px; FLOAT: left" class=pri>
+<DIV class=first>
+<DIV><A href="http://entretenimento.br.msn.com/famosos/corpo-de-whitney-houston-chega-em-nova-jersey"><IMG class=landscape title=AP alt="Corpo de Whitney Houston chega ao local do funeral" src="http://col.stb01.s-msn.com/i/ED/D9D1F28A17A491B52B7B1C2EBEB44.jpg" width=303 height=107></A></DIV>
+<DIV><A href="http://entretenimento.br.msn.com/famosos/corpo-de-whitney-houston-chega-em-nova-jersey">Corpo de Whitney Houston chega à cidade natal da cantora para funeral</A>
+<DIV class=richtext>
+<P><A href="http://entretenimento.br.msn.com/famosos/corpo-de-whitney-houston-teria-ficado-30-minutos-debaixo-d%c3%a1gua">Whitney teria ficado trinta minutos debaixo da água</A></P></DIV></DIV></DIV></DIV>
+<UL style="PADDING-LEFT: 25px; MARGIN-LEFT: 303px">
+<LI class="sec ">
+<DIV style="WIDTH: 128px; FLOAT: right"><A href="http://entretenimento.br.msn.com/famosos/lollapalooza-ingressos-para-primeiro-dia-est%c3%a3o-esgotados"><IMG class=landscape title=Divulgação alt="Ingressos para o primeiro dia do Lollapalooza estão esgotados" src="http://col.stb01.s-msn.com/i/17/7B21AFBB9A2A3186C4205AE09D5811.jpg" width=128 height=73></A></DIV>
+<DIV style="PADDING-RIGHT: 10px; MARGIN-RIGHT: 128px"><A href="http://entretenimento.br.msn.com/famosos/lollapalooza-ingressos-para-primeiro-dia-est%c3%a3o-esgotados"><STRONG>Ingressos para o 1º dia do Lollapalooza estão esgotados</STRONG></A>
+<DIV class=richtext>
+<P>Foo Fighters é a principal atração do dia no festival</P></DIV></DIV></LI>
+<LI class="sec last">
+<DIV style="WIDTH: 128px; FLOAT: right"><A href="http://entretenimento.br.msn.com/famosos/selena-gomez-ir%C3%A1-substituir-miley-cyrus-em-dublagem-de-filme"><IMG class=landscape title=Divulgação alt="Selena Gomez irá substituir Miley Cyrus em dublagem de filme" src="http://col.stb01.s-msn.com/i/67/BDC7A9E9056ABA3E1E9ABD48A3F34.jpg" width=128 height=73></A></DIV>
+<DIV style="PADDING-RIGHT: 10px; MARGIN-RIGHT: 128px"><A href="http://entretenimento.br.msn.com/famosos/selena-gomez-ir%C3%A1-substituir-miley-cyrus-em-dublagem-de-filme"><STRONG>Selena Gomez irá substituir Miley Cyrus em dublagem de filme</STRONG></A>
+<DIV class=richtext>
+<P>'Hotel Transylvania' conta também com Adam Sandler</P></DIV></DIV></LI></UL></DIV></DIV></DIV></DIV>
+<DIV id=esportes>
+<DIV style="HEIGHT: 190px" id=tabbedmodule2 class="co1b1 co coa2 coc1 m3  ruled hlcpm1" jQuery1329228455169="14">
+<H2 style="DISPLAY: none" class="h2 cf" jQuery1329228455169="12"><SPAN>ESPORTES</SPAN></H2></DIV></DIV>
+<DIV id=dinheiro>
+<DIV style="HEIGHT: 190px" id=tabbedmodule3 class="co1b1 co coa2 coc1 m3  ruled hlcpm1" jQuery1329228455169="17">
+<H2 style="DISPLAY: none" class="h2 cf" jQuery1329228455169="15"><SPAN>DINHEIRO</SPAN></H2></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w8">
+<DIV id=videomodule_hops class="co1b1 co coa2 coc1 m3  ruled hlcpm1">
+<H2 class="h2 cf"><A href="http://video.br.msn.com/"><SPAN>VÍDEOS do MSN</SPAN></A></H2>
+<DIV class="br br1 m3">
+<DIV style="CLEAR: both" class="hlcp1 cf">
+<DIV style="WIDTH: 303px; FLOAT: left" class=pri>
+<DIV class=first>
+<DIV><A href="http://video.br.msn.com/watch/video/odeio-o-meu-corpo/rw21ukd3"><IMG class=landscape alt="Programa ajuda mulheres a recuperar autoestima (Discovery Home &amp; Health)" src="http://col.stb00.s-msn.com/i/E9/EC1234D0FBFACA263DA4910D08DE4.jpg" width=303 height=211></A></DIV>
+<DIV><SPAN class=media><A href="http://video.br.msn.com/watch/video/odeio-o-meu-corpo/rw21ukd3"><STRONG>Uma ajuda pela autoestima</STRONG></A></SPAN>
+<DIV class=richtext>
+<P>Ela sofre de mal terrível: detesta seu próprio corpo</P></DIV></DIV></DIV></DIV>
+<UL style="PADDING-LEFT: 25px; MARGIN-LEFT: 303px">
+<LI class="sec ">
+<DIV style="WIDTH: 128px; FLOAT: right"><A href="http://video.br.msn.com/?mkt=pt-br&amp;vid=4c1d8164-705c-4792-a0ef-6922d88b4182"><IMG class=landscape alt="Samba da paz (AFP)" src="http://col.stb00.s-msn.com/i/B1/ECA476B8D181CEBE41B3D6B8580AD.jpg" width=128 height=73></A></DIV>
+<DIV style="PADDING-RIGHT: 10px; MARGIN-RIGHT: 128px"><SPAN class=media><A href="http://video.br.msn.com/?mkt=pt-br&amp;vid=4c1d8164-705c-4792-a0ef-6922d88b4182"><STRONG>Samba pela paz no Rio de Janeiro</STRONG></A></SPAN>
+<DIV class=richtext>
+<P>Policiais e moradores do Morro do Tuiuti fazem desfile</P></DIV></DIV></LI>
+<LI class="sec ">
+<DIV style="WIDTH: 128px; FLOAT: right"><A href="http://video.br.msn.com/watch/video/o-fim-dos-dinossauros/rvs2hz4l"><IMG class=landscape alt="Você sabe o que causou a extinção dos dinossauros? (Animal Planet)" src="http://col.stb00.s-msn.com/i/44/7FD052370ED558018473BFF58B224.jpg" width=128 height=73></A></DIV>
+<DIV style="PADDING-RIGHT: 10px; MARGIN-RIGHT: 128px"><SPAN class=media><A href="http://video.br.msn.com/watch/video/o-fim-dos-dinossauros/rvs2hz4l"><STRONG>A extinção dos dinossauros</STRONG></A></SPAN>
+<DIV class=richtext>
+<P>Animal Planet conta o que causou fim da espécie</P></DIV></DIV></LI>
+<LI class="sec last">
+<DIV style="WIDTH: 128px; FLOAT: right"><A href="http://video.br.msn.com/?mkt=pt-br&amp;vid=741afb07-ae52-4d60-8a98-085700ca9434"><IMG class=landscape alt="Carnaval bom pra cachorro (AFP)" src="http://col.stb01.s-msn.com/i/FB/FADD60D1D6F88BE7F3DEF56CA63517.jpg" width=128 height=73></A></DIV>
+<DIV style="PADDING-RIGHT: 10px; MARGIN-RIGHT: 128px"><SPAN class=media><A href="http://video.br.msn.com/?mkt=pt-br&amp;vid=741afb07-ae52-4d60-8a98-085700ca9434"><STRONG>Carnaval bom pra cachorro</STRONG></A></SPAN>
+<DIV class=richtext>
+<P>Cães, gatos e outros 'pets' também caem na folia</P></DIV></DIV></LI></UL></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 w4">
+<DIV id=stockmodule class="co2b2 co coa2 coc1 m3  money2">
+<H2 class="h2 cf"><A href="http://web.infomoney.com.br/clientes/msn/acoes/"><SPAN>AÇÕES</SPAN></A></H2>
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<UL>
+<LI class="sec last">
+<DIV><A href="http://dinheiro.br.msn.com/artigo.aspx?page=0&amp;cp-documentid=32445318#"><STRONG>Ibovespa segue mercado internacional e abre em alta de 0,20%</STRONG></A>
+<DIV class=richtext>
+<P>Moody's corta nota de crédito de países europeus, mas mercado se mantém no campo positivo; BB revela balanço trimestral</P></DIV></DIV></LI></UL></DIV></DIV>
+<DIV class=hr></DIV>
+<DIV class="br br2 brl">
+<DIV class=indices1>
+<TABLE summary="Market update">
+<CAPTION>Market update</CAPTION>
+<THEAD>
+<TR>
+<TH id=siindex abbr=Symbol>Symbol</TH>
+<TH id=silast abbr=Last>Last</TH>
+<TH id=sichange abbr=Change>Change</TH></TR></THEAD>
+<TBODY>
+<TR class=first>
+<TD class=siidx headers=siindex><A href="http://web.infomoney.com.br/clientes/msn/acoes/?company=IBOVESPA">Ibovespa </A></TD>
+<TD class=silast headers=silast>65.512</TD>
+<TD class=neg headers=sichange>-0,27</TD></TR>
+<TR>
+<TD class=siidx headers=siindex><A href="http://web.infomoney.com.br/clientes/msn/acoes/?company=DOLCOM">Dólar Comercial </A></TD>
+<TD class=silast headers=silast>1,72</TD>
+<TD class=pos headers=sichange>+0,22</TD></TR>
+<TR class=last>
+<TD class=siidx headers=siindex><A href="http://web.infomoney.com.br/clientes/msn/acoes/?company=Real por Euro">Real por Euro</A></TD>
+<TD class=silast headers=silast>2,26</TD>
+<TD class=neg headers=sichange>-0,41</TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class=hr></DIV></DIV></DIV>
+<DIV class="ce ce2 cel w4">
+<DIV id=maisdomsn_hops class="co1b1 co coa2 coc1 m3  ruled hlcpm1">
+<H2 class="h2 cf"><SPAN>MAIS do MSN</SPAN></H2>
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<DIV class="pri cf">
+<DIV class=first>
+<DIV><A href="http://entretenimento.br.msn.com/cinema/galeria-fotos.aspx?cp-documentid=32419816&amp;page=1"><IMG class=landscape alt="Cineclick lista os filmes da Whitney Houston" src="http://col.stb00.s-msn.com/i/7A/AB7072DDA8A16DEEFDDB5489E5CD9.jpg" width=300 height=107></A></DIV>
+<DIV><A href="http://entretenimento.br.msn.com/cinema/galeria-fotos.aspx?cp-documentid=32419816&amp;page=1">Os filmes de Whitney Houston</A>
+<DIV class=richtext>
+<P>O romance 'O Guarda-Costas' não foi sua única aparição nos cinemas; conheça outros papéis da diva</P></DIV></DIV></DIV></DIV>
+<UL>
+<LI class=ter><A href="http://nytsyn.br.msn.com/fotos/galeria-de-fotos.aspx?cp-documentid=32339881">Vestidos de festa na passarela</A></LI>
+<LI class=ter><A href="http://esportes.br.msn.com/fotos/uniformes-euro-2013">Uniformes para a Eurocopa de 2012</A></LI></UL></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w8">
+<DIV class=ro>
+<DIV class="ce ce1 w33">
+<DIV class="co1b1 co coa1 coc1 m3  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=decad1><IFRAME id=dapIfM2 height=60 frameBorder=0 width=190 allowTransparency name=dapIfM2 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRHPSB&amp;AP=1443",190,60,"decad1");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV>
+<DIV class="ce ce2 w33">
+<DIV class="co1b1 co coa1 coc1 m3  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=decad2><IFRAME id=dapIfM3 height=60 frameBorder=0 width=190 allowTransparency name=dapIfM3 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRHPSC&amp;AP=1443",190,60,"decad2");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV>
+<DIV class="ce ce3 cel w33">
+<DIV class="co1b1 co coa1 coc1 m3  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=decad4><IFRAME id=dapIfM4 height=60 frameBorder=0 width=190 allowTransparency name=dapIfM4 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRHPSD&amp;AP=1443",190,60,"decad4");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w8">
+<DIV id=serviços class="co3b1 cf co coa2 coc1  ruled triple1">
+<H2 class="h2 cf"><A href="http://servicos.br.msn.com/"><SPAN>SERVIÇOS</SPAN></A></H2>
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<DIV style="WIDTH: 192px; FLOAT: left" class=pri>
+<DIV class=first>
+<DIV><A href="http://msn.imovelweb.com.br/Noticias/Casa-e-Cia/Como-deixar-sua-casa-segura-enquanto-voce-viaja-no.aspx"><IMG class=landscape title=Divulgação alt="Imóvel (Divulgação)" src="http://col.stb01.s-msn.com/i/14/10D3CF5FC47B43761920A6A76990D3.JPG" width=190 height=100></A></DIV>
+<DIV><A href="http://msn.imovelweb.com.br/Noticias/Casa-e-Cia/Como-deixar-sua-casa-segura-enquanto-voce-viaja-no.aspx">Proteja sua casa</A>
+<DIV class=richtext>
+<P>Saiba como deixar seu imóvel seguro enquanto você viaja</P></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="br br2">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<DIV style="WIDTH: 192px; FLOAT: left" class=pri>
+<DIV class=first>
+<DIV><A href="http://noticias.br.msn.com/tempo/"><IMG class=landscape title=Divulgação alt="Tempo (Divulgação)" src="http://col.stb01.s-msn.com/i/3F/588354A467761AAE7B2CC9D45EEC.JPG" width=190 height=100></A></DIV>
+<DIV><A href="http://noticias.br.msn.com/tempo/">Previsão do tempo</A>
+<DIV class=richtext>
+<P>Sol ou chuva? Confira a previsão e programe melhor sua semana</P></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="br br3 brl">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<DIV style="WIDTH: 192px; FLOAT: left" class=pri>
+<DIV class=first>
+<DIV><A href="http://msn.clickcarreira.com.br/queroumavaga/2012/2/13/3314/leroy-merlin-abre-15-vagas-para-trainees.html"><IMG class=landscape title=Divulgação alt="Carreiras (Divulgação)" src="http://col.stb00.s-msn.com/i/76/0DC225A4163D2CE8237CB49F5F462.jpg" width=190 height=100></A></DIV>
+<DIV><A href="http://msn.clickcarreira.com.br/queroumavaga/2012/2/13/3314/leroy-merlin-abre-15-vagas-para-trainees.html">Novas vagas</A>
+<DIV class=richtext>
+<P>Loja de artigos de construção tem 15 vagas abertas para trainee</P></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 w4">
+<DIV id=bingmodule class="co1b1 co coa2 coc1 m3  hlcpm1">
+<H2 class="h2 cf"><A href="http://bing.com/"><SPAN>PESQUISAS no Bing</SPAN></A></H2>
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<UL>
+<LI class="sec last">
+<DIV style="WIDTH: 128px; FLOAT: left"><A href="http://br.bing.com/images/search?q=Whitney+Houston&amp;FORM=MSNHED&amp;mkt=pt-br"><IMG class=landscape alt="Whitney Houston (Divulgação)" src="http://col.stb01.s-msn.com/i/B0/165D0A9E99B1FFB58E209FB9FC7D.jpg" width=128 height=85></A></DIV>
+<DIV style="PADDING-LEFT: 10px; MARGIN-LEFT: 128px"><A href="http://br.bing.com/images/search?q=Whitney+Houston&amp;FORM=MSNHED&amp;mkt=pt-br"><STRONG>Vida e carreira de Whitney Houston</STRONG></A>
+<DIV class=richtext>
+<P>Veja fotos da diva da música pop, encontrada morta esta semana nos EUA</P></DIV></DIV></LI>
+<LI class=ter><A href="http://br.bing.com/images/search?q=Celine+Dion&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">Fotos: Celine Dion</A><SPAN class=piped> | <A href="http://br.bing.com/images/search?q=Mariah+Carey&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">Mariah Carey</A> | <A href="http://br.bing.com/images/search?q=Michael+Jackson&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">Michael Jackson</A></SPAN></LI>
+<LI class=ter><A href="http://br.bing.com/search?q=campeonato+paulista&amp;go=&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">Links: Campeonato Paulista</A><SPAN class=piped> | <A href="http://br.bing.com/search?q=UFC&amp;go=&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">UFC</A> | <A href="http://br.bing.com/search?q=carnaval+2012&amp;go=&amp;qs=n&amp;FORM=MSNHED&amp;mkt=pt-br">Carnaval</A></SPAN></LI></UL></DIV></DIV>
+<DIV class=hr></DIV></DIV></DIV>
+<DIV class="ce ce2 cel w4">
+<DIV id=techmodule class="co1b1 co coa2 coc1 m3  hlcpm1">
+<H2 class="h2 cf"><SPAN>JOGOS &amp; TECNOLOGIA</SPAN></H2>
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<UL>
+<LI class="sec last">
+<DIV style="WIDTH: 128px; FLOAT: right"><A href="http://tecnologia.br.msn.com/noticias/sebrae-promove-reality-show-dentro-da-campus-party"><IMG class=landscape title=AP alt="Sebrae promove reality show dentro da Campus Party (Divulgação)" src="http://col.stb01.s-msn.com/i/BE/9EFDD02BAE3AFF5C65E34671DA7A.jpg" width=128 height=85></A></DIV>
+<DIV style="PADDING-RIGHT: 10px; MARGIN-RIGHT: 128px"><A href="http://tecnologia.br.msn.com/noticias/sebrae-promove-reality-show-dentro-da-campus-party"><STRONG>Sebrae realiza evento na Campus Party</STRONG></A>
+<DIV class=richtext>
+<P>Programa acompanhou passo a passo as decisões de jovens empreendedores</P></DIV></DIV></LI>
+<LI class=ter><A href="http://msn.techguru.com.br/guerra-de-patentes-motorola-quer-225-de-vendas-de-iphone/">Motorola quer 2,25% das vendas de iPhones</A></LI>
+<LI class=ter><A href="http://msn.techguru.com.br/rumor-google-estaria-preparando-servico-de-armazenamento-na-nuvem/">Google estaria preparando serviço na nuvem</A></LI></UL></DIV></DIV>
+<DIV class=hr></DIV></DIV></DIV></DIV>
+<DIV class="ro m3">
+<DIV class="ce ce1 w4 m3">
+<DIV id=recipesmodule class="co3b4 co coa2 coc1  triple1">
+<H2 class="h2 cf"><A href="http://br.msn.recepedia.com/"><SPAN>RECEITAS por Recepedia</SPAN></A></H2>
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<DIV class="pri cf">
+<DIV class=first>
+<DIV><A href="http://br.msn.recepedia.com/pais/receita/bobo-de-frango-bbb"><IMG class=landscape alt="Bobó de frango é fácil de fazer" src="http://col.stb01.s-msn.com/i/B2/98A9D8266863C4A6581FCF48D37C.jpg" width=300 height=107></A></DIV>
+<DIV><A href="http://br.msn.recepedia.com/pais/receita/bobo-de-frango-bbb">Bobó de frango é bem fácil de fazer</A></DIV></DIV></DIV></DIV></DIV>
+<DIV class="br br2">
+<FORM class="simple8 cf" method=post action=http://msbrasil.cloudapp.net/msnhp/RecipeFormBR.aspx jQuery1329228455169="58">
+<P>Buscar</P>
+<DIV><LABEL for=recipe>O que você quer comer hoje?</LABEL>
+<DIV><INPUT id=recipe class=text maxLength=42 size=30 type=text name=q><INPUT style="WIDTH: 70px; HEIGHT: 26px" class=image title=Buscar value=Buscar alt=Buscar src="http://col.stb00.s-msn.com/i/3C/E5CA5DE4E4CE941A973117B813725.gif" type=image></DIV></DIV></FORM></DIV>
+<DIV class="br br3 brl"></DIV></DIV></DIV>
+<DIV class="ce ce2 cel w4">
+<DIV id=eurimodule class="co1b1 co coa2 coc1  ruled hlcpm1">
+<H2 class="h2 cf"><A href="http://entretenimento.br.msn.com/videos-humor.aspx"><SPAN>HUMOR</SPAN></A></H2>
+<DIV class="br br1">
+<DIV style="CLEAR: both" class="hlcp2 cf">
+<DIV class="pri cf">
+<DIV class=first>
+<DIV><A href="http://video.br.msn.com/watch/video/dog-wants-to-play-with-penguin/bpcfwsac"><IMG class=landscape alt="Cachorro quer brincar com o pinguim (Stupid Videos)" src="http://col.stb01.s-msn.com/i/92/DCEBCCFBD6B1F13D61CBA75F442284.jpg" width=300 height=107></A></DIV>
+<DIV><A href="http://video.br.msn.com/watch/video/dog-wants-to-play-with-penguin/bpcfwsac">Cachorro quer brincar com o pinguim</A></DIV></DIV></DIV>
+<UL>
+<LI class="ter media"><A href="http://video.br.msn.com/watch/video/wolf-and-bear-are-best-friends/1jimyum2w">Lobo e urso são melhores amigos em zoo</A></LI></UL></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=area2 class="re w4" sizcache="23" sizset="0">
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV class="co1b1 co coa2 coc1 m3  linklisttar">
+<DIV class="br br1">
+<UL class="linklist9 cf">
+<LI class=first><A class=opennew href="http://twitter.com/portalmsn/" target="[object Object]" jQuery1329228455169="68">MSN no Twitter</A></LI>
+<LI class=last><A class=opennew href="http://www.facebook.com/pages/Portal-MSN-Brasil/121389567925045" target="[object Object]" jQuery1329228455169="69">MSN no Facebook</A></LI></UL></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV class="co1b1 co coa1 coc1 m1  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=ad><IFRAME style="WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px; VISIBILITY: hidden" id=dapIfM5Child height=250 src="javascript:void(document.write('<html><head><title>Advertisement</title></head><body id=&quot;dapIfM5Child&quot; leftmargin=&quot;0&quot; topmargin=&quot;0&quot;><script type=&quot;text/javascript&quot;>var inDapIF=true; var inDapMgrIf=true;window.setTimeout(&quot;document.close();&quot;,30000);</script><script type=&quot;text/javascript&quot;> new(function(){var I,id,d=document,getWindowAccess=function(_window){try{if(_window.location.href)return true;}catch(_){}return false;},getTopAccessWindow=function(win){var w,lastAccess,count=0;w=lastAccess=win||window;while(w!=w.parent&amp;&amp;count<20){try{w=w.parent;}catch(_){return win||window;}if(getWindowAccess(w))lastAccess=w;count++;}return lastAccess;},w=getTopAccessWindow(),n=\'ADM_addTAG\'+\'_v3_0_0\',p=\'secondPosition\';if(window==w){id=\'adm_\'+Math.round(Math.random()*9999999999);d.write(\'<div id=&quot;\'+id+\'&quot;></div>\');}if(w[n]){w[n](!!1,p,window,id);}else{I=setInterval(function(){try{if(w[n]){w[n](!!0,p,window,id);clearInterval(I);}}catch(_){}},50);}}); </script>\n</body></html>'));" frameBorder=0 width=300 scrolling=no></IFRAME><IFRAME id=dapIfM5 height=0 frameBorder=0 width=0 allowTransparency name=dapIfM5 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRHPRC&amp;AP=1443",300,250,"ad");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV class="co1b1 co coa1 coc1 m1  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=Ad300x60><IFRAME id=dapIfM6 height=60 frameBorder=0 width=300 allowTransparency name=dapIfM6 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRMHP4&amp;AP=1443",300,60,"Ad300x60");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4"></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV id=shoppingmodule class="co3b4 co coa2 coc1 m3  shopping2">
+<H2 class="h2 cf"><A href="http://msn.buscape.com.br/"><SPAN>SHOPPING</SPAN></A></H2>
+<DIV class="br br1 m3">
+<UL class="linklist9 cf">
+<LI class=first><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.brandsclub.com.br%3bh4F%3bshop%3bh4F%3blandingpageregistration%3bh4F%3bgenerico_novo%3bh4F%3b131740874975524%3bh4F%3bmsn%3bh4F%3bbanner%3bh4F%3bPartner%3bh4F%3bcontent%3bh5F%3butm_source%3bh3D%3bMSN%3bh46%3butm_medium%3bh3D%3btext_shop%3bh46%3butm_campaign%3bh3D%3bPartner&amp;cd_space=8&amp;cd_space_type=-1&amp;cd_entity=4910&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=4&amp;n=2">BrandsClub</A></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3baltfarm.mediaplex.com%3bh4F%3bad%3bh4F%3bck%3bh4F%3b12255-83808-27893-23&amp;cd_space=8&amp;cd_space_type=-1&amp;cd_entity=1342&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=4&amp;n=2">Dell</A></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.netshoes.com.br%3bh5F%3bcampaign%3bh3D%3bc*me-r_t*msnshop_x*u_i*_ct*_tm*_m*_r*_p*%3bh46%3butm_source%3bh3D%3bme-r_msn_shop_%3bh46%3butm_medium%3bh3D%3b88x30%3bh46%3butm_campaign%3bh3D%3bme-r_msn-_-___shop__-_-88x30-_-_var_me__selo-shopping-88x30__120109&amp;cd_space=8&amp;cd_space_type=-1&amp;cd_entity=4689&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=4&amp;n=2">NetShoes</A></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bmsn.buscape.com.br%3bh4F%3bprod_unico%3bh5F%3bidu%3bh3D%3b174580%3bh46%3bpos%3bh3D%3b1%3bh46%3bordem%3bh3D%3bprec%3bh46%3bpr%3bh3D%3b3627&amp;cd_space=8&amp;cd_space_type=-1&amp;cd_entity=4862&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=4&amp;n=2">XBOX 360</A></LI>
+<LI class=last><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bmsn.buscape.com.br%3bh4F%3b&amp;cd_space=8&amp;cd_space_type=-1&amp;cd_entity=4862&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=4&amp;n=2">+ Ofertas</A></LI></UL></DIV>
+<DIV class="br br2 borderimage">
+<UL class="imglinkabslist1 cf">
+<LI class=first><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.netshoes.com.br%3bh4F%3bproduto%3bh4F%3b004-7791-252-37%3bh5F%3bcampaign%3bh3D%3bc*me-r_t*msnhome_x*u_i*_ct*_tm*_m*nk1_r*_p*%3bh46%3butm_source%3bh3D%3bme-r_msn_home_%3bh46%3butm_medium%3bh3D%3bvitrine%3bh46%3butm_campaign%3bh3D%3bme-r_msn-_-tndria__tcdria_home__-_-vitrine-_-_var_me_nk_nike-free-tr-twist-w-czalarj-pos1a__120214&amp;cd_space=8&amp;cd_space_type=25&amp;cd_entity=157080&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><IMG title="Lançamento Nike Free por apenas 12x de R$23,33 com Frete Grátis&#9;" alt="Netshoes // Netshoes" src="http://col.stb00.s-msn.com/i/1C/1B7AFFB0492B431785975BE12D5C4.gif" width=50 height=50></A><SPAN class=media><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.netshoes.com.br%3bh4F%3bproduto%3bh4F%3b004-7791-252-37%3bh5F%3bcampaign%3bh3D%3bc*me-r_t*msnhome_x*u_i*_ct*_tm*_m*nk1_r*_p*%3bh46%3butm_source%3bh3D%3bme-r_msn_home_%3bh46%3butm_medium%3bh3D%3bvitrine%3bh46%3butm_campaign%3bh3D%3bme-r_msn-_-tndria__tcdria_home__-_-vitrine-_-_var_me_nk_nike-free-tr-twist-w-czalarj-pos1a__120214&amp;cd_space=8&amp;cd_space_type=25&amp;cd_entity=157080&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><STRONG>Netshoes</STRONG></A></SPAN>
+<DIV class=richtext>
+<P><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.netshoes.com.br%3bh4F%3bproduto%3bh4F%3b004-7791-252-37%3bh5F%3bcampaign%3bh3D%3bc*me-r_t*msnhome_x*u_i*_ct*_tm*_m*nk1_r*_p*%3bh46%3butm_source%3bh3D%3bme-r_msn_home_%3bh46%3butm_medium%3bh3D%3bvitrine%3bh46%3butm_campaign%3bh3D%3bme-r_msn-_-tndria__tcdria_home__-_-vitrine-_-_var_me_nk_nike-free-tr-twist-w-czalarj-pos1a__120214&amp;cd_space=8&amp;cd_space_type=25&amp;cd_entity=157080&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank>Lançamento Nike Free por apenas 12x de R$23,33 com Frete Grátis</A></P></DIV></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.peixeurbano.com.br%3bh4F%3blanding%3bh4F%3bbemvindo%3bh5F%3bvid%3bh3D%3b51%3bh46%3butm_source%3bh3D%3bmicrosoft%3bh46%3butm_medium%3bh3D%3bdisplay%3bh46%3butm_term%3bh3D%3b1000192F%3bh46%3butm_content%3bh3D%3b5050_cel_preto%3bh46%3butm_campaign%3bh3D%3bshopping&amp;cd_space=8&amp;cd_space_type=26&amp;cd_entity=157034&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><IMG title="Somente hoje! Não perca! Ofertas em até 98% Off" alt="Peixe Urbano // Peixe Urbano" src="http://col.stb01.s-msn.com/i/DF/78B3AECAFF9AE45CB4D10CC1CDE1B.gif" width=50 height=50></A><SPAN class=media><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.peixeurbano.com.br%3bh4F%3blanding%3bh4F%3bbemvindo%3bh5F%3bvid%3bh3D%3b51%3bh46%3butm_source%3bh3D%3bmicrosoft%3bh46%3butm_medium%3bh3D%3bdisplay%3bh46%3butm_term%3bh3D%3b1000192F%3bh46%3butm_content%3bh3D%3b5050_cel_preto%3bh46%3butm_campaign%3bh3D%3bshopping&amp;cd_space=8&amp;cd_space_type=26&amp;cd_entity=157034&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><STRONG>Peixe Urbano</STRONG></A></SPAN>
+<DIV class=richtext>
+<P><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.peixeurbano.com.br%3bh4F%3blanding%3bh4F%3bbemvindo%3bh5F%3bvid%3bh3D%3b51%3bh46%3butm_source%3bh3D%3bmicrosoft%3bh46%3butm_medium%3bh3D%3bdisplay%3bh46%3butm_term%3bh3D%3b1000192F%3bh46%3butm_content%3bh3D%3b5050_cel_preto%3bh46%3butm_campaign%3bh3D%3bshopping&amp;cd_space=8&amp;cd_space_type=26&amp;cd_entity=157034&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank>Somente hoje! Não perca! Ofertas em até 98% Off</A></P></DIV></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3baltfarm.mediaplex.com%3bh4F%3bad%3bh4F%3bck%3bh4F%3b12255-146122-27893-4&amp;cd_space=8&amp;cd_space_type=27&amp;cd_entity=157072&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><IMG title="Inspiron 14 com saída HDMI em 10x sem juros de R$ 119,90." alt="Dell // Dell" src="http://col.stb01.s-msn.com/i/98/486F485785FB91B2D8EE1ABAE95E.gif" width=50 height=50></A><SPAN class=media><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3baltfarm.mediaplex.com%3bh4F%3bad%3bh4F%3bck%3bh4F%3b12255-146122-27893-4&amp;cd_space=8&amp;cd_space_type=27&amp;cd_entity=157072&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><STRONG>Dell</STRONG></A></SPAN>
+<DIV class=richtext>
+<P><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3baltfarm.mediaplex.com%3bh4F%3bad%3bh4F%3bck%3bh4F%3b12255-146122-27893-4&amp;cd_space=8&amp;cd_space_type=27&amp;cd_entity=157072&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank>Inspiron 14 com saída HDMI em 10x sem juros de R$ 119,90.</A></P></DIV></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.hotelurbano.com.br%3bh4F%3blanding%3bh4F%3bpraia%3bh5F%3bcmp%3bh3D%3b587%3bh46%3butm_campaign%3bh3D%3bcostadosauipe%3bh46%3butm_source%3bh3D%3bportais_msn%3bh46%3butm_medium%3bh3D%3bboxshopping%3bh46%3butm_content%3bh3D%3b&amp;cd_space=8&amp;cd_space_type=28&amp;cd_entity=157084&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><IMG title="2 diárias para 2 pessoas na Costa do Sauípe em até 6x sem juros! Clique" alt="Hotel Urbano // Hotel Urbano" src="http://col.stb00.s-msn.com/i/56/1858050F2C724135DD87B54A87.gif" width=50 height=50></A><SPAN class=media><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.hotelurbano.com.br%3bh4F%3blanding%3bh4F%3bpraia%3bh5F%3bcmp%3bh3D%3b587%3bh46%3butm_campaign%3bh3D%3bcostadosauipe%3bh46%3butm_source%3bh3D%3bportais_msn%3bh46%3butm_medium%3bh3D%3bboxshopping%3bh46%3butm_content%3bh3D%3b&amp;cd_space=8&amp;cd_space_type=28&amp;cd_entity=157084&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><STRONG>Hotel Urbano</STRONG></A></SPAN>
+<DIV class=richtext>
+<P><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.hotelurbano.com.br%3bh4F%3blanding%3bh4F%3bpraia%3bh5F%3bcmp%3bh3D%3b587%3bh46%3butm_campaign%3bh3D%3bcostadosauipe%3bh46%3butm_source%3bh3D%3bportais_msn%3bh46%3butm_medium%3bh3D%3bboxshopping%3bh46%3butm_content%3bh3D%3b&amp;cd_space=8&amp;cd_space_type=28&amp;cd_entity=157084&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank>2 diárias para 2 pessoas na Costa do Sauípe em até 6x sem juros! Clique</A></P></DIV></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bpmstrk.mercadolivre.com.br%3bh4F%3bjm%3bh4F%3bPmsTrk%3bh5F%3btool%3bh3D%3b5669354%3bh46%3bword%3bh3D%3bter_140212_Joias_Box_5A%3bh46%3bgo%3bh3D%3bhttp%3a%3bh4F%3b%3bh4F%3bjoias.mercadolivre.com.br%3bh4F%3bjoias%3bh4F%3b_DisplayType_G_ItemTypeID_N_AuctTypeID_AFP_PriceRange_80-0&amp;cd_space=8&amp;cd_space_type=4596&amp;cd_entity=157092&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><IMG title="Lindas Jóias com Ofertas Imperdíveis! A Partir de R$ 88 em Até 18x." alt="MercadoLivre // MercadoLivre" src="http://col.stb01.s-msn.com/i/51/D833C4A09BA521E49C15F8D9B36DAC.gif" width=50 height=50></A><SPAN class=media><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bpmstrk.mercadolivre.com.br%3bh4F%3bjm%3bh4F%3bPmsTrk%3bh5F%3btool%3bh3D%3b5669354%3bh46%3bword%3bh3D%3bter_140212_Joias_Box_5A%3bh46%3bgo%3bh3D%3bhttp%3a%3bh4F%3b%3bh4F%3bjoias.mercadolivre.com.br%3bh4F%3bjoias%3bh4F%3b_DisplayType_G_ItemTypeID_N_AuctTypeID_AFP_PriceRange_80-0&amp;cd_space=8&amp;cd_space_type=4596&amp;cd_entity=157092&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><STRONG>MercadoLivre</STRONG></A></SPAN>
+<DIV class=richtext>
+<P><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bpmstrk.mercadolivre.com.br%3bh4F%3bjm%3bh4F%3bPmsTrk%3bh5F%3btool%3bh3D%3b5669354%3bh46%3bword%3bh3D%3bter_140212_Joias_Box_5A%3bh46%3bgo%3bh3D%3bhttp%3a%3bh4F%3b%3bh4F%3bjoias.mercadolivre.com.br%3bh4F%3bjoias%3bh4F%3b_DisplayType_G_ItemTypeID_N_AuctTypeID_AFP_PriceRange_80-0&amp;cd_space=8&amp;cd_space_type=4596&amp;cd_entity=157092&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank>Lindas Jóias com Ofertas Imperdíveis! A Partir de R$ 88 em Até 18x.</A></P></DIV></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bnewyorksports.com.br%3bh4F%3bXbox_360_Slim_4GB_com_Sensor_Kinect_Jogo_Kinect_Adventures_REF_217141165_Preco_de_R_759_90_Por_Tempo_Limitado-details.aspx%3bh5F%3butm_source%3bh3D%3bmsn_box%3bh46%3butm_medium%3bh3D%3bcpc%3bh46%3butm_campaign%3bh3D%3bxboxkinect&amp;cd_space=8&amp;cd_space_type=4597&amp;cd_entity=157060&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><IMG title="Xbox 360 c/ Kinect R$759,90 em 18x R$50,23. Frete Grátis p/ Todo Brasil." alt="New York Sports // New York Sports" src="http://col.stb01.s-msn.com/i/14/4F9B9C9A0D1FC1C1CC378D1EC6538.gif" width=50 height=50></A><SPAN class=media><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bnewyorksports.com.br%3bh4F%3bXbox_360_Slim_4GB_com_Sensor_Kinect_Jogo_Kinect_Adventures_REF_217141165_Preco_de_R_759_90_Por_Tempo_Limitado-details.aspx%3bh5F%3butm_source%3bh3D%3bmsn_box%3bh46%3butm_medium%3bh3D%3bcpc%3bh46%3butm_campaign%3bh3D%3bxboxkinect&amp;cd_space=8&amp;cd_space_type=4597&amp;cd_entity=157060&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><STRONG>New York Sports</STRONG></A></SPAN>
+<DIV class=richtext>
+<P><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bnewyorksports.com.br%3bh4F%3bXbox_360_Slim_4GB_com_Sensor_Kinect_Jogo_Kinect_Adventures_REF_217141165_Preco_de_R_759_90_Por_Tempo_Limitado-details.aspx%3bh5F%3butm_source%3bh3D%3bmsn_box%3bh46%3butm_medium%3bh3D%3bcpc%3bh46%3butm_campaign%3bh3D%3bxboxkinect&amp;cd_space=8&amp;cd_space_type=4597&amp;cd_entity=157060&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank>Xbox 360 c/ Kinect R$759,90 em 18x R$50,23. Frete Grátis p/ Todo Brasil.</A></P></DIV></LI>
+<LI><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.netshoes.com.br%3bh4F%3bproduto%3bh4F%3b004-5415-014-40%3bh5F%3bcampaign%3bh3D%3bc*me-r_t*msnhome_x*u_i*_ct*_tm*_m*nka1_r*_p*%3bh46%3butm_source%3bh3D%3bme-r_msn_home_%3bh46%3butm_medium%3bh3D%3bvitrine%3bh46%3butm_campaign%3bh3D%3bme-r_msn-_-tndria__tcdria_home__-_-vitrine-_-_var_me_nka_nike-air-ignite-br-sl-bco-pos7a__120214&amp;cd_space=8&amp;cd_space_type=4598&amp;cd_entity=157082&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><IMG title="Lançamento Nike Air Ignite por apenas 10x de R$ 19,99 com Frete Grátis. " alt="Netshoes // Netshoes" src="http://col.stb01.s-msn.com/i/99/A275538CFE9497D52E6161C19D58F.gif" width=50 height=50></A><SPAN class=media><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.netshoes.com.br%3bh4F%3bproduto%3bh4F%3b004-5415-014-40%3bh5F%3bcampaign%3bh3D%3bc*me-r_t*msnhome_x*u_i*_ct*_tm*_m*nka1_r*_p*%3bh46%3butm_source%3bh3D%3bme-r_msn_home_%3bh46%3butm_medium%3bh3D%3bvitrine%3bh46%3butm_campaign%3bh3D%3bme-r_msn-_-tndria__tcdria_home__-_-vitrine-_-_var_me_nka_nike-air-ignite-br-sl-bco-pos7a__120214&amp;cd_space=8&amp;cd_space_type=4598&amp;cd_entity=157082&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><STRONG>Netshoes</STRONG></A></SPAN>
+<DIV class=richtext>
+<P><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.netshoes.com.br%3bh4F%3bproduto%3bh4F%3b004-5415-014-40%3bh5F%3bcampaign%3bh3D%3bc*me-r_t*msnhome_x*u_i*_ct*_tm*_m*nka1_r*_p*%3bh46%3butm_source%3bh3D%3bme-r_msn_home_%3bh46%3butm_medium%3bh3D%3bvitrine%3bh46%3butm_campaign%3bh3D%3bme-r_msn-_-tndria__tcdria_home__-_-vitrine-_-_var_me_nka_nike-air-ignite-br-sl-bco-pos7a__120214&amp;cd_space=8&amp;cd_space_type=4598&amp;cd_entity=157082&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank>Lançamento Nike Air Ignite por apenas 10x de R$ 19,99 com Frete Grátis.</A></P></DIV></LI>
+<LI class=last><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.clickon.com.br%3bh4F%3bProdutos%3bh4F%3bD18060%3bh5F%3butm_source%3bh3D%3bMSN_Home%3bh46%3butm_medium%3bh3D%3b50x50%3bh46%3butm_campaign%3bh3D%3b50x50_SHO_L3_Of_Orelogio_Rot_20120214_20120213_E6048E&amp;cd_space=8&amp;cd_space_type=4599&amp;cd_entity=157114&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><IMG title="Relógio Mondaine com frete grátis. De R$298 por R$149. Compre já!" alt="clickOn // clickOn" src="http://col.stb01.s-msn.com/i/ED/5887D76FD9A85AE563308245C8CA1.jpg" width=50 height=50></A><SPAN class=media><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.clickon.com.br%3bh4F%3bProdutos%3bh4F%3bD18060%3bh5F%3butm_source%3bh3D%3bMSN_Home%3bh46%3butm_medium%3bh3D%3b50x50%3bh46%3butm_campaign%3bh3D%3b50x50_SHO_L3_Of_Orelogio_Rot_20120214_20120213_E6048E&amp;cd_space=8&amp;cd_space_type=4599&amp;cd_entity=157114&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank><STRONG>clickOn</STRONG></A></SPAN>
+<DIV class=richtext>
+<P><A href="http://www.admshopping.com.br/MSNShopping/click.aspx?ds_url=http%3a%3bh4F%3b%3bh4F%3bwww.clickon.com.br%3bh4F%3bProdutos%3bh4F%3bD18060%3bh5F%3butm_source%3bh3D%3bMSN_Home%3bh46%3butm_medium%3bh3D%3b50x50%3bh46%3butm_campaign%3bh3D%3b50x50_SHO_L3_Of_Orelogio_Rot_20120214_20120213_E6048E&amp;cd_space=8&amp;cd_space_type=4599&amp;cd_entity=157114&amp;cd_guide=-1&amp;cd_field=-1&amp;id_entity=2&amp;n=2" target=_blank>Relógio Mondaine com frete grátis. De R$298 por R$149. Compre já!</A></P></DIV></LI></UL></DIV>
+<DIV class=hr></DIV>
+<DIV class="br br3 brl">
+<FORM class="simple8 cf" method=get action=http://msn.buscape.com.br/cprocura jQuery1329228455169="59">
+<P>Legand</P>
+<DIV><LABEL for=produto>Procurar Ofertas</LABEL>
+<DIV><INPUT id=produto class=text maxLength=40 size=28 type=text name=produto><INPUT value=MSNHP14 type=hidden name=form><INPUT value=23182147 type=hidden name=mdsrc><INPUT style="WIDTH: 70px; HEIGHT: 26px" class=image title=Buscar value=Buscar alt=Buscar src="http://col.stb00.s-msn.com/i/3C/E5CA5DE4E4CE941A973117B813725.gif" type=image></DIV></DIV></FORM></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV class="co1b1 co coa1 coc1 m3  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=decad300><IFRAME id=dapIfM7 height=60 frameBorder=0 width=300 allowTransparency name=dapIfM7 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRHPSA&amp;AP=1443",300,60,"decad300");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4 m3">
+<DIV id=socialtg class="cogr cotb cogrsx">
+<DIV id=windowslive class=cof>
+<DIV class="co1b1 co coa2 coc1 m3  activitiesmodule1">
+<H2 class="h2 cf"><SPAN>Messenger</SPAN></H2>
+<DIV class="br br1">
+<DIV class="actfeed1 windowslive"><NOSCRIPT></NOSCRIPT>
+<DIV class="ac-head ac-error cf none">
+<DIV class=ac-errortext>Atividades não disponíveis neste momento <A class=ac-refreshlink href="#">Por favor, tente mais tarde</A></DIV>
+<DIV class=ac-signout><A class="ac-link dMSNME_1" href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1329228454&amp;rver=5.5.4177.0&amp;wp=MBI_SSL&amp;wreply=https:%2F%2Flogin.secure.co1.msn.com%2Fwlsignin.aspx%3Fru%3Dhttp%253a%252f%252fbr.msn.com%252f&amp;lc=1046&amp;id=1184" rel=False>Sair</A></DIV></DIV>
+<DIV class="ac-head  ac-signin none cf">
+<DIV class=ac-heading>Acompanhe o seu Messenger</DIV>
+<DIV class="ac-signinlink ac-signinupsell cf"><A class="ac-link wlsgnnlnk dMSNME_1" href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1329228454&amp;rver=5.5.4177.0&amp;wp=MBI_SSL&amp;wreply=https:%2F%2Flogin.secure.co1.msn.com%2Fwlsignin.aspx%3Fru%3Dhttp%253a%252f%252fbr.msn.com%252f&amp;lc=1046&amp;id=1184" rel=False><SPAN class=wlsignin></SPAN><SPAN class=signintxt>Clique para entrar no Messenger</SPAN></A></DIV>
+<DIV class=ac-spanupsell><SPAN>Não tem um Windows Live ID? <A class="ac-link dMSNME_1" href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1329228454&amp;rver=5.5.4177.0&amp;wp=MBI_SSL&amp;wreply=https:%2F%2Flogin.secure.co1.msn.com%2Fwlsignin.aspx%3Fru%3Dhttp%253a%252f%252fbr.msn.com%252f&amp;lc=1046&amp;id=1184" rel=False>Inscreva-se!</A></SPAN></DIV></DIV></DIV>
+<DIV class="ac-load none ac-updatestatus">Por favor, aguarde<BR>Isso pode levar alguns segundos</DIV>
+<DIV class="ac-error none ac-head ac-errortext">Atividades não disponíveis. Por favor, tente mais tarde</DIV></DIV></DIV></DIV>
+<DIV id=facebook>
+<DIV class="co1b1 co coa2 coc1 m3  facebook1">
+<H2 class="h2 cf"><SPAN>Facebook</SPAN></H2>
+<DIV class="br br1">
+<DIV class="actfeed1 facebook"><NOSCRIPT></NOSCRIPT>
+<DIV class="ac-head ac-error cf none">
+<DIV class=ac-errortext>Atividades não disponíveis neste momento <A class=ac-refreshlink href="#">Por favor, tente mais tarde</A></DIV>
+<DIV class=ac-signout><A class="ac-link ac-signinoutpopup" href="scp/AuthServiceFacebookLogOff.aspx?redirectTo=0&amp;mkt=pt-br&amp;format=Homepage">Sair</A></DIV></DIV>
+<DIV class="ac-head ac-signin ac-upsellfb none cf">
+<DIV class=ac-heading>Acompanhe o seu Facebook</DIV>
+<DIV class="ac-signinupsell fbsigninold cf">
+<DIV class="ac-signinlink fbsigninold"><A class="ac-link ac-signinoutpopup " href="scp/AuthServiceFacebook.aspx?redirectTo=0&amp;mkt=pt-br&amp;format=Homepage&amp;unifiedSignIn=false&amp;SPSAdapterAlias=SpsAdapter&amp;WLProductID=msnactivity" rel=facebook_480_440><SPAN>Entrar</SPAN></A>
+<DIV class=fbnonunified>Clique para entrar no Facebook</DIV></DIV></DIV>
+<DIV class=ac-spanupsell><SPAN>Veja em tempo real as atualizações compartilhadas pela sua rede de contatos</SPAN></DIV></DIV></DIV>
+<DIV class="ac-load none ac-updatestatus">Por favor, aguarde<BR>Isso pode levar alguns segundos</DIV>
+<DIV class="ac-error none ac-head ac-errortext">Atividades não disponíveis. Por favor, tente mais tarde</DIV></DIV></DIV></DIV>
+<DIV id=twitter>
+<DIV class="co1b1 co coa2 coc1 m3  twitter1">
+<H2 class="h2 cf"><SPAN>Twitter</SPAN></H2>
+<DIV class="br br1">
+<DIV class="actfeed1 twitter"><NOSCRIPT></NOSCRIPT>
+<DIV class="ac-head ac-error cf none">
+<DIV class=ac-errortext>Atividades não disponíveis neste momento <A class=ac-refreshlink href="#">Por favor, tente mais</A></DIV>
+<DIV class=ac-signout><A class="ac-link ac-signinoutajax" href="scp/AuthServiceTwitterLogOff.aspx?redirectTo=0&amp;mkt=pt-br&amp;format=Homepage">Sair</A></DIV></DIV>
+<DIV class="ac-head  ac-signin none cf">
+<DIV class=ac-heading>Acompanhe o seu Twitter</DIV>
+<DIV class="ac-signinlink ac-signinupsell cf"><A class="ac-link ac-signinoutpopup" href="scp/AuthServiceTwitter.aspx?redirectTo=0&amp;mkt=pt-br&amp;format=Homepage&amp;unifiedSignIn=false&amp;SPSAdapterAlias=SpsAdapter&amp;WLProductID=msnactivity" rel=twitter_800_390><SPAN class=ac-twsignin></SPAN><SPAN class=signintxt>Clique para entrar no Twitter</SPAN></A></DIV>
+<DIV class=ac-spanupsell>Veja em tempo real os tweets mais recentes publicados pelos seus contatos</DIV></DIV></DIV>
+<DIV class="ac-load none ac-updatestatus">Por favor, aguarde<BR>Isso pode levar alguns segundos</DIV>
+<DIV class="ac-error none ac-head ac-errortext">Atividades não disponíveis. Por favor, tente mais tarde</DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV id=hotmailmodule class="co1b1 co coa2 coc1 m3  hotmail1">
+<H2 class="h2 cf"><A href="http://mail.live.com/?id=64855&amp;mkt=pt-BR&amp;form=MWGELB&amp;publ=MSNTOOL&amp;crea=TEXT_CIMS015888_Hotmail_PT-BR_0x0_33485"><SPAN>HOTMAIL</SPAN></A></H2>
+<DIV class="br br1">
+<DIV class=hminbox1>
+<P>Windows Live Hotmail, um e-mail prático como você. Espaço ilimitado, mais segurança e é grátis!</P>
+<UL class="actions cf">
+<LI class=first><A class=dMSNME_1 href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=11&amp;ct=1329228454&amp;rver=5.5.4177.0&amp;wp=MBI_SSL&amp;wreply=https:%2F%2Flogin.secure.co1.msn.com%2Fwlsignin.aspx%3Fru%3Dhttp%253a%252f%252fbr.msn.com%252f&amp;lc=1046&amp;id=1184">Entrar</A></LI>
+<LI class=last><A href="http://mail.live.com/?id=64855&amp;mkt=pt-BR&amp;form=MWGELB&amp;publ=MSNTOOL&amp;crea=TEXT_CIMS015888_Hotmail_PT-BR_0x0_33485">Inscrever-se</A></LI></UL>
+<DIV class=logo></DIV>
+<DIV class=hr></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro sizcache="23" sizset="0">
+<DIV class="ce ce1 cel w4" sizcache="23" sizset="0">
+<DIV id=wea1 class="co1b1 co coa2 coc1 m3  pt-br1" sizcache="23" sizset="0">
+<H2 class="h2 cf"><A href="http://noticias.br.msn.com/tempo/"><SPAN>PREVISÃO DO TEMPO</SPAN></A></H2>
+<DIV class="br br1" sizcache="23" sizset="0">
+<DIV class=weamulti1 sizcache="23" sizset="0">
+<H3 class="h3 cf" sizcache="23" sizset="0"><A class=locheading href="#" jQuery1329228455169="57">Escolher minhas cidades</A><SPAN class=attr sizcache="23" sizset="1"><A href="#" rel=C jQuery1329228455169="55">°F</A> | <SPAN>°C</SPAN></SPAN></H3>
+<UL sizcache="23" sizset="2">
+<LI class=forecast sizcache="23" sizset="2">
+<H3 sizcache="23" sizset="2"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS" rel=wc:RSXX0063>Moscou, RUS</A></H3>
+<UL sizcache="23" sizset="3">
+<LI class=first sizcache="23" sizset="3">
+<H4 sizcache="23" sizset="3"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS">ter</A></H4><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS"><IMG title="Parcialmente Nublado" alt="Parcialmente Nublado" src="http://blst.msn.com/as/wea3/i/pt/30.gif"></A>
+<DIV sizcache="23" sizset="5"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS" sizcache="21" sizset="0"><SPAN class=celcius>-12°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="47">10°</SPAN> / <SPAN class=celcius>-16°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="48">3°</SPAN></A></DIV></LI>
+<LI sizcache="23" sizset="6">
+<H4 sizcache="23" sizset="6"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS">qua</A></H4><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS"><IMG title="Tempestades de Neve" alt="Tempestades de Neve" src="http://blst.msn.com/as/wea3/i/pt/13.gif"></A>
+<DIV sizcache="23" sizset="8"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS" sizcache="21" sizset="2"><SPAN class=celcius>-4°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="49">25°</SPAN> / <SPAN class=celcius>-11°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="50">12°</SPAN></A></DIV></LI>
+<LI sizcache="23" sizset="9">
+<H4 sizcache="23" sizset="9"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS">qui</A></H4><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS"><IMG title=Chuvas alt=Chuvas src="http://blst.msn.com/as/wea3/i/pt/16.gif"></A>
+<DIV sizcache="23" sizset="11"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS" sizcache="21" sizset="4"><SPAN class=celcius>-7°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="51">19°</SPAN> / <SPAN class=celcius>-12°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="52">10°</SPAN></A></DIV></LI>
+<LI class=last sizcache="23" sizset="12">
+<H4 sizcache="23" sizset="12"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS">sex</A></H4><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS"><IMG title=Chuvas alt=Chuvas src="http://blst.msn.com/as/wea3/i/pt/16.gif"></A>
+<DIV sizcache="23" sizset="14"><A href="http://noticias.br.msn.com/tempo/local.aspx?wealocations=wc:RSXX0063&amp;q=Moscou%2c+RUS" sizcache="21" sizset="6"><SPAN class=celcius>-8°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="53">18°</SPAN> / <SPAN class=celcius>-15°</SPAN><SPAN style="DISPLAY: none" class=fahrenheit jQuery1329228455169="54">5°</SPAN></A></DIV></LI></UL></LI></UL></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV id=datingmodule class="co2b2 co coa2 coc1 m3  ruled dating1">
+<H2 class="h2 cf"><A href="http://msnencontros.parperfeito.com.br/?orig=1468&amp;id=375906"><SPAN>ENCONTROS por ParPerfeito</SPAN></A></H2>
+<DIV class="br br1">
+<UL class="linkedimglinklist8 cf">
+<LI class=first><A href="http://msnencontros.parperfeito.com.br/servlet/ProfileViewer?b6bbc2cec8c8c9cfcaccca&amp;orig=1468&amp;id=375907"><IMG alt=romantic... src="http://col.stb01.s-msn.com/i/5C/885FEE10951BA66672628AB358C835.jpg" width=60 height=60><SPAN>romantic...</SPAN></A></LI>
+<LI><A href="http://msnencontros.parperfeito.com.br/servlet/ProfileViewer?b6bbc2cdcacecdcdcecfcbcc&amp;orig=1468&amp;id=375907"><IMG alt=rainha_d... src="http://col.stb00.s-msn.com/i/89/F5A65498B5C4237FA5253A84C9A0E.jpg" width=60 height=60><SPAN>rainha_d...</SPAN></A></LI>
+<LI><A href="http://msnencontros.parperfeito.com.br/servlet/ProfileViewer?b6bbc2cec8c8c9cec7cbce&amp;orig=1468&amp;id=375907"><IMG alt=beto9515 src="http://col.stb00.s-msn.com/i/73/657E6A2198687BEBF586AFECA423E1.jpg" width=60 height=60><SPAN>beto9515</SPAN></A></LI>
+<LI class=last><A href="http://msnencontros.parperfeito.com.br/servlet/ProfileViewer?b6bbc2cdcacecdcdcecccfc7&amp;orig=1468&amp;id=375907"><IMG alt=cecidevi... src="http://col.stb00.s-msn.com/i/76/A8AEE2D411C77CDE25CDE3D283931.jpg" width=60 height=60><SPAN>cecidevi...</SPAN></A></LI></UL></DIV>
+<DIV class="br br2 brl m3 w3">
+<FORM class="complex1 cf" method=post action=http://tracking.parperfeito.com.br/ppbanner/bannerTracker?originId=1468&amp;identifierId=375908&amp;actionId=1 jQuery1329228455169="60">
+<DIV>
+<P></P>
+<FIELDSET><LABEL for=gender>Busco:</LABEL><SELECT id=gender name=gender><OPTION selected value=1>Homem</OPTION><OPTION value=2>Mulher</OPTION></SELECT><LABEL for=stateb>Estado:</LABEL><SELECT id=stateb name=stateb><OPTION selected value=26>SP</OPTION><OPTION value=1>AC</OPTION><OPTION value=2>AL</OPTION><OPTION value=3>AM</OPTION><OPTION value=4>AP</OPTION><OPTION value=5>BA</OPTION><OPTION value=6>CE</OPTION><OPTION value=7>DF</OPTION><OPTION value=8>ES</OPTION><OPTION value=9>GO</OPTION><OPTION value=10>MA</OPTION><OPTION value=11>MG</OPTION><OPTION value=12>MS</OPTION><OPTION value=13>MT</OPTION><OPTION value=14>PA</OPTION><OPTION value=15>PB</OPTION><OPTION value=16>PE</OPTION><OPTION value=17>PI</OPTION><OPTION value=18>PR</OPTION><OPTION value=19>RJ</OPTION><OPTION value=20>RN</OPTION><OPTION value=21>RO</OPTION><OPTION value=22>RR</OPTION><OPTION value=23>RS</OPTION><OPTION value=24>SC</OPTION><OPTION value=25>SE</OPTION><OPTION value=26>SP</OPTION><OPTION value=27>TO</OPTION></SELECT></FIELDSET>
+<FIELDSET class=last><LABEL for=agerange>Idade:</LABEL><SELECT id=agerange name=agerange><OPTION selected value=18-24>18 a 24 anos</OPTION><OPTION value=25-35>25 a 35 anos</OPTION><OPTION value=36+>36 anos ou mais</OPTION></SELECT>
+<DIV><INPUT style="WIDTH: 70px; HEIGHT: 26px" class=image title=Buscar value=Buscar alt=Buscar src="http://col.stb00.s-msn.com/i/3C/E5CA5DE4E4CE941A973117B813725.gif" type=image></DIV></FIELDSET></DIV></FORM></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV id=pollmodule class="co1b1 co coa2 coc1 m3  poll1">
+<H2 class="h2 cf"><SPAN>ENQUETE</SPAN></H2>
+<DIV class="br br1">
+<SCRIPT type=text/javascript>/*<![CDATA[*/if (typeof($) === 'function' && $.scpTrack) $.scpTrack.add('scpPolls');/*]]>*/</SCRIPT>
+
+<DIV id=scplatformPolls_02cf5114-856d-42d7-b02e-f2538f9e681d class="content polls">
+<DIV class="child c1 first"><NOSCRIPT></NOSCRIPT>
+<DIV id=scppoll class=poll><INPUT id=pollid value=02cf5114-856d-42d7-b02e-f2538f9e681d type=hidden><INPUT id=pollpath value=PollVote.aspx type=hidden><INPUT id=pollnoanswer value="Escolha uma resposta" type=hidden><INPUT id=pollgroupid value=9a4415ee-9565-44ad-90fd-37a8a424fb90 type=hidden><INPUT id=pollidprevious value=00000000-0000-0000-0000-000000000000 type=hidden><INPUT id=pollidnext value=00000000-0000-0000-0000-000000000000 type=hidden><INPUT id=trackclick value=Disable type=hidden>
+<H4>Quem você acha que deve ser eliminado do BBB 12 nesta terça-feira?</H4>
+<DIV id=firstvote class="firstvote hide">
+<P>Obrigado por ser um dos primeiros a votar. Os resultados estarão disponíveis em breve.&nbsp;<A class=pollreload href="#" jQuery1329228455169="64">Clique para ver os resultados</A></P></DIV>
+<OL class=textimage>
+<LI>
+<DIV class=question><INPUT id=pollq1 value=cd524c3f-2a6d-4b41-b579-458933bc9bbb type=radio name=q1><IMG title="João Maurício" alt="João Maurício" src="http://media.social.s-msn.com/images/polls/0__20120214115825_enquete_joao.jpg" width=89 height=53>
+<DIV><LABEL for=pollq1>João Maurício</LABEL></DIV></DIV>
+<DIV class="result hide"><IMG class=pollimage title="João Maurício" alt="João Maurício" src="http://media.social.s-msn.com/images/polls/0__20120214115825_enquete_joao.jpg" width=89 height=53>
+<DIV class=resulttextcontainer>
+<DIV class=forresulttext>
+<DIV style="WIDTH: 57px" class="barimage maxvote">&nbsp;</DIV><SPAN class=maxpercentimagetype>57 % </SPAN></DIV>
+<DIV class=imagevote>
+<DIV class="forresulttext maxresulttext">João Maurício</DIV><SPAN class=forresultvote>21.094&nbsp;votos</SPAN></DIV></DIV></DIV></LI>
+<LI>
+<DIV class=question><INPUT id=pollq2 value=0f5afc40-c5eb-4d22-b569-bd215dd775c1 type=radio name=q1><IMG title=Jonas alt=Jonas src="http://media.social.s-msn.com/images/polls/0__20120214115832_enquete_jonas.jpg" width=89 height=53>
+<DIV><LABEL for=pollq2>Jonas</LABEL></DIV></DIV>
+<DIV class="result hide"><IMG class=pollimage title=Jonas alt=Jonas src="http://media.social.s-msn.com/images/polls/0__20120214115832_enquete_jonas.jpg" width=89 height=53>
+<DIV class=resulttextcontainer>
+<DIV class=forresulttext>
+<DIV style="WIDTH: 43px" class="barimage othervote">&nbsp;</DIV><SPAN class=percentimagetype>43 % </SPAN></DIV>
+<DIV class=imagevote>
+<DIV class=forresulttext>Jonas</DIV><SPAN class=forresultvote>15.601&nbsp;votos</SPAN></DIV></DIV></DIV></LI>
+<LI class=bottom>
+<DIV class=question><SPAN id=vote><INPUT class=votebtn value=VOTAR alt=vote type=button jQuery1329228455169="61"></SPAN><SPAN id=skipToResult><A class=skiptoresult href="#" jQuery1329228455169="62">Pular para resultados</A></SPAN></DIV>
+<DIV id=backtovoting class="result hide">
+<DIV class="backtovoting hide"><A href="#" jQuery1329228455169="63">Voltar para votar</A></DIV></DIV></LI></OL>
+<DIV class=bottom>
+<DIV class="result hide">
+<P>Total de respostas&nbsp;36.695<BR>Sem validade científica. Resultados atualizados a cada um minuto.</P>
+<DIV id=additionallinkgroup class="additionlinks polllink">
+<DIV id=linktopic>Veja mais </DIV>
+<UL id=additionallink1>
+<LI><A href="http://entretenimento.br.msn.com/bbb/">Tudo sobre o BBB 12 no MSN Entretenimento</A></LI></UL>
+<UL id=additionallink2>
+<LI><A href="http://entretenimento.br.msn.com/bbb/fotos.aspx">Fotos do que acontece na casa do BBB 12</A></LI></UL>
+<UL id=additionallink3>
+<LI><A href="http://entretenimento.br.msn.com/bbb/noticias.aspx">As últimas notícias do reality show</A></LI></UL></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4">
+<DIV class="co1b1 co coa1 coc1 m3  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=peelad><IFRAME id=dapIfM8 height=1 frameBorder=0 width=1 allowTransparency name=dapIfM8 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRHGEN&amp;AP=1443",1,1,"peelad");</SCRIPT>
+</DIV></DIV></DIV></DIV>
+<DIV class="co1b1 co coa1 coc1 m3  ad1">
+<DIV class="br br1">
+<DIV class=advertisement>
+<DIV id=marad><IFRAME id=dapIfM9 height=1 frameBorder=0 width=1 allowTransparency name=dapIfM9 scrolling=no></IFRAME>
+<SCRIPT type=text/javascript>$.dap("&amp;PG=BRVSKY&amp;AP=1443",1,1,"marad");</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=ro>
+<DIV class="ce ce1 cel w4"></DIV></DIV></DIV>
+<DIV id=area3 class=none></DIV>
+<DIV id=subfoot>
+<DIV class=ro>
+<DIV class="ce ce1 cel w12">
+<DIV id=sitemap class="co2b2 co coa2 coc1 m3  pt-br1">
+<H2 class="h2 cf"><SPAN>Explore o MSN</SPAN></H2>
+<DIV class="br br1 m3 sitemap">
+<UL class="linklist13 cf">
+<LI class=first><A href="http://dinheiro.br.msn.com/"><STRONG>Dinheiro</STRONG></A></LI>
+<LI><A href="http://entretenimento.br.msn.com/"><STRONG>Entretenimento</STRONG></A></LI>
+<LI><A href="http://esportes.br.msn.com/"><STRONG>Esportes</STRONG></A></LI>
+<LI><A href="http://estadao.br.msn.com/"><STRONG>Estadão</STRONG></A></LI>
+<LI><A href="http://mulher.br.msn.com/"><STRONG>Estilo</STRONG></A></LI>
+<LI><A href="http://web.infomoney.com.br/clientes/msn/acoes/">Ações</A></LI>
+<LI><A href="http://entretenimento.br.msn.com/cinema/">Cinema</A></LI>
+<LI><A href="http://esportes.br.msn.com/colunistas/">Colunistas</A></LI>
+<LI><A href="http://estadao.br.msn.com/ciencia/">Ciência</A></LI>
+<LI><A href="http://msn.minhavida.com.br/Site/">Corpo e Saúde </A></LI>
+<LI><A href="http://dinheiro.br.msn.com/tributos/agenda-indice.aspx">Agenda de Impostos</A></LI>
+<LI><A href="http://entretenimento.br.msn.com/famosos/">Famosos</A></LI>
+<LI><A href="http://esportes.br.msn.com/fotos/">Fotos</A></LI>
+<LI><A href="http://estadao.br.msn.com/cultura/">Cultura</A></LI>
+<LI><A href="http://msnencontros.parperfeito.com.br/">Encontros</A></LI>
+<LI><A href="http://dinheiro.br.msn.com/calculadoras/">Calculadoras</A></LI>
+<LI><A href="http://entretenimento.br.msn.com/famosos/fotos.aspx">Fotos</A></LI>
+<LI><A href="http://esportes.br.msn.com/f1/">Fórmula 1</A></LI>
+<LI><A href="http://estadao.br.msn.com/economia/">Economia</A></LI>
+<LI><A href="http://msn.lilianpacce.com.br/horoscopo-fashion/">Horóscopo Fashion</A></LI>
+<LI><A href="http://dinheiro.br.msn.com/comportamento/">Comportamento</A></LI>
+<LI><A href="http://entretenimento.br.msn.com/astrologia/">Horóscopo</A></LI>
+<LI><A href="http://esportes.br.msn.com/futebol/">Futebol</A></LI>
+<LI><A href="http://estadao.br.msn.com/educacao/">Educação</A></LI>
+<LI><A href="http://meubebe.br.msn.com/">Meu Bebê</A></LI>
+<LI><A href="http://dinheiro.br.msn.com/cotacoes/">Cotações</A></LI>
+<LI><A href="http://entretenimento.br.msn.com/videos-humor.aspx">Humor</A></LI>
+<LI><A href="http://esportes.br.msn.com/esportes/">Mais Esportes</A></LI>
+<LI><A href="http://estadao.br.msn.com/fotos/">Fotos</A></LI>
+<LI><A href="http://msn.lilianpacce.com.br/">Moda</A></LI>
+<LI><A href="http://dinheiro.br.msn.com/guias/">Guias</A></LI>
+<LI><A href="http://imusica.br.msn.com/">Música</A></LI>
+<LI><A href="http://esportes.br.msn.com/tabelas/futebol-campeonato-brasileiro-serie-a-classificacao.aspx">Tabelas</A></LI>
+<LI><A href="http://estadao.br.msn.com/link/">Link</A></LI>
+<LI><A href="http://br.msn.recepedia.com/">Receitas</A></LI>
+<LI><A href="http://dinheiro.br.msn.com/mercado/">Mercado</A></LI>
+<LI><A href="http://entretenimento.br.msn.com/astrologia/tarot-do-dia.aspx">Tarot do Dia</A></LI>
+<LI><A href="http://esportes.br.msn.com/ultimas/">Últimas Notícias</A></LI>
+<LI><A href="http://video.br.msn.com/browse/tvestadao/">TV Estadão</A></LI>
+<LI><A href="http://estilo.br.msn.com/tempodemulher/">Tempo de Mulher</A></LI>
+<LI><A href="http://dinheiro.br.msn.com/tributos/">Tributos</A></LI>
+<LI><A href="http://entretenimento.br.msn.com/famosos/novelas.aspx">Resumos das Novelas</A></LI>
+<LI><A href="http://esportes.br.msn.com/video/">Vídeos</A></LI>
+<LI><A href="http://estadao.br.msn.com/ultimas-noticias/">Últimas Notícias</A></LI>
+<LI class=last><A href="http://viagem.br.msn.com/">Viagem</A></LI></UL></DIV>
+<DIV class="br br2 brl m3 sitemap">
+<UL class="linklist13 cf">
+<LI class=first><A href="http://jogos.br.msn.com/"><STRONG>Jogos</STRONG></A></LI>
+<LI><A href="http://noticias.br.msn.com/"><STRONG>Notícias</STRONG></A></LI>
+<LI><A href="http://nytsyn.br.msn.com/"><STRONG>NY Times</STRONG></A></LI>
+<LI><A href="http://servicos.br.msn.com/"><STRONG>Serviços</STRONG></A></LI>
+<LI><A href="http://video.br.msn.com/"><STRONG>Vídeo</STRONG></A></LI>
+<LI><A href="http://msn.clubedemeninas.com.br/">Clube de Meninas</A></LI>
+<LI><A href="http://noticias.br.msn.com/brasil/">Brasil</A></LI>
+<LI><A href="http://nytsyn.br.msn.com/cienciaetecnologia/">Ciência e Tecnologia</A></LI>
+<LI><A href="http://msn.clickcarreira.com.br/">Carreiras</A></LI>
+<LI><A href="http://video.br.msn.com/browse/bemsimples">Bem Simples</A></LI>
+<LI><A href="http://jogos.br.msn.com/fotos/">Fotos</A></LI>
+<LI><A href="http://noticias.br.msn.com/economia/">Economia</A></LI>
+<LI><A href="http://nytsyn.br.msn.com/colunistas/">Colunistas</A></LI>
+<LI><A href="http://msn.icarros.com.br/">Carros</A></LI>
+<LI><A href="http://video.br.msn.com/browse/discovery-channel/">Discovery Channel</A></LI>
+<LI><A href="http://jogos.msn.com.br/jogos-disney/">Jogos Disney</A></LI>
+<LI><A href="http://noticias.br.msn.com/fotos/">Fotos</A></LI>
+<LI><A href="http://nytsyn.br.msn.com/estilodevida/">Estilo de Vida</A></LI>
+<LI><A href="http://especiais.br.msn.com/downloads-da-semana/">Download da Semana</A></LI>
+<LI><A href="http://video.br.msn.com/browse/esportes/">ESPN</A></LI>
+<LI><A href="http://jogos.msn.com.br/jogos_gratis.jsp">Jogos Grátis</A></LI>
+<LI><A href="http://noticias.br.msn.com/mundo/">Mundo</A></LI>
+<LI><A href="http://nytsyn.br.msn.com/fotos/">Fotos</A></LI>
+<LI><A href="http://msn.catho.com.br/?sc_source=msn&amp;sc_medium=link&amp;sc_content=home-footer-servicos&amp;sc_redir=msn-canaldeempregos">Empregos</A></LI>
+<LI><A href="http://video.br.msn.com/browse/estilo-de-vida/">Estilo de Vida</A></LI>
+<LI><A href="http://jogos.msn.com.br/">Jogos Online</A></LI>
+<LI><A href="http://noticias.br.msn.com/tempo/">Tempo</A></LI>
+<LI><A href="http://nytsyn.br.msn.com/moda/">Moda</A></LI>
+<LI><A href="http://msn.imovelweb.com.br/">Imóveis</A></LI>
+<LI><A href="http://video.br.msn.com/browse/entretenimento/famosos/">Famosos</A></LI>
+<LI><A href="http://jogos.br.msn.com/reviews/">Reviews</A></LI>
+<LI><A href="http://tecnologia.br.msn.com/">Tecnologia</A></LI>
+<LI><A href="http://nytsyn.br.msn.com/negocios/">Negócios</A></LI>
+<LI><A href="http://englishtown.msn.com.br/online/home.aspx?etag=msn_canal">Inglês Online</A></LI>
+<LI><A href="http://video.br.msn.com/browse/entretenimento/humor/">Humor</A></LI>
+<LI><A href="http://tecnologia.br.msn.com/">Tecnologia</A></LI>
+<LI><A href="http://verde.br.msn.com/">Verde</A></LI>
+<LI><A href="http://nytsyn.br.msn.com/viagem/">Viagem</A></LI>
+<LI><A href="http://www.sorteonline.com.br/default.asp?id=1104">Loterias</A></LI>
+<LI><A href="http://video.br.msn.com/browse/the-new-york-times/">The New York Times</A></LI>
+<LI><A href="http://jogos.br.msn.com/videos/">Vídeos</A></LI>
+<LI><A href="http://noticias.br.msn.com/video/">Vídeos</A></LI>
+<LI><A href="http://nytsyn.br.msn.com/videos/">Vídeos </A></LI>
+<LI><A href="http://noticias.br.msn.com/tempo/">Previsão do Tempo</A></LI>
+<LI class=last><A href="http://video.br.msn.com/browse/entretenimento/cinema/">Trailers</A></LI></UL></DIV></DIV></DIV></DIV>
+<DIV class="co1b1 co coa1 coc1 m3  searchbar2">
+<DIV class="br br1">
+<DIV class=websearch2>
+<H2>Bing Search</H2>
+<FORM id=footersrchfrm method=get action=http://www.bing.com/search?mkt=pt-br&amp;form=&amp;q= target=_blank jQuery1329228455169="25">
+<DIV class="search cf"><SPAN class=bo><SPAN class=bi><LABEL class=hide for=qf>Buscar:</LABEL><INPUT accessKey=S id=qf class=text maxLength=250 size=69 type=text name=q><INPUT class=image title=Buscar value=Buscar alt=Buscar src="http://col.stc.s-msn.com/br/sc/i/66/22614ba0edc080304aad6d0d0b7a7c.gif" type=image><INPUT value=MSNH55 type=hidden name=form></SPAN></SPAN></DIV>
+<DIV class=opt></DIV></FORM></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id=foot>
+<DIV class="co1b1 co coa1 coc1 m3  footer1">
+<DIV class="br br1">
+<DIV class="msnfoot1 cf">
+<UL class=primary>
+<LI class=first><A href="http://especiais.br.msn.com/codigo-de-conduta/default.aspx">Código de Conduta</A></LI>
+<LI><A href="http://g.msn.com.br/2privacy/1046">Declaração de Privacidade</A></LI>
+<LI><A href="http://g.msn.com.br/2privacy/as-ptbr">Política Anti-Spam</A></LI>
+<LI class=last><A href="http://g.msn.com.br/0TO_/ptbr">Termos de Uso</A></LI></UL>
+<UL class=secondary>
+<LI class=first><A href="http://ccc01.opinionlab.com/comment_card.asp?time1=1159484241715&amp;time2=1159484487790&amp;prev=&amp;referer=http%3A%2F%2Fbr%2Emsn%2Ecom%2F&amp;heig">Deixe seu comentário</A></LI>
+<LI><A href="http://www.windowslivehelp.com/">Suporte do Messenger</A></LI>
+<LI><A href="http://www.windowslivehelp.com/">Suporte do Hotmail</A></LI>
+<LI class=last><A href="http://advertising.microsoft.com/brasil">Anuncie no MSN</A></LI></UL>
+<DIV class=copyright><A href="http://www.microsoft.com/pt/br/"><SPAN>© 2012 Microsoft</SPAN></A></DIV></DIV></DIV></DIV></DIV></DIV>
+<SCRIPT type=text/javascript>/*<![CDATA[*/
+          (function($){$('#cb1').async('addCbnr',[[{id:'brie9', b:'IEUpsell', f:7, r:1, iU:'http://col.stb01.s-msn.com/i/D1/22BB6B7B79BE4A1ED41B4F7B3A105C.jpg', iW:'980', iH:'40', iA:'Atualize o seu navegador para o Internet Explorer 9', iT:'IE9 Banner', lnk:'http://ie9.discoverbing.com/intl/pt_br/index.html', cb:'black', eC:null, nW:1, jD:{msnOptTags: ['BOIE9'],ieVers: [9,8,7,6], winVers:[6.1,6.0,5.1,5.2]} }]]);})(jQuery);
+          //]]></SCRIPT>
+
+<SCRIPT type=text/javascript>/*<![CDATA[*/(function($){$.async("asyncCanary",function(){$.sm("start");$(".shopping2 ul.imglinkabslist1").find("a").live("click",function(){if(this.href&&this.href!="#"){var b=$(this).closest("div.shopping2");if(b.length>0){var a=$(".h2 a",b).attr("href");if(a!=null&&a!=""){var d=arguments[0],c=this.target||"_blank";d.preventDefault();window.open(this.href,c);window.location.href=a}}}}).openNew();$("div.cogr.cotb").scrollBind("tabGroup");window.$.openObservable={};window.$.closeObservable={};$(window.$.openObservable).async("obs");$(window.$.closeObservable).async("obs");$("#mkhm").parent("div").setHomepage({url:"http://br.msn.com/"});(function($){$.fn.setIEUpsellLink=function(a){return this.each(function(){if(!jQuery.browser.msie&&a.url)a.text?$(this).attr("href",a.url).html(a.text):$(this).attr("href",a.url)})}})(jQuery);$("#mkhm").async("setIEUpsellLink",[{url:"http://www.discover.msn.com/get/set-msn-as-your-homepage-1/?form=MFEHPG&publ=MSNHP&crea=TEXT_MFEHPG_DHP_Non-IEDHP_MSNDHP_1X1",text:"Faça do MSN sua homepage"}]);$("div.websearch2 form").bindSearch();$("#cobrandeula").scrollBind("cobrandeula");$("div.websearch2 form").openNew();$("#compaqspot,#hpholofote,#hpcomm").scrollBind("contentRotation");$.autoSuggest();$("#pq").trigger("focus");$("div.windowslive").async("scrollBind",["socialActivityList",[{serviceName:"windowslive"}]]);$("div.facebook").async("scrollBind",["socialActivityList",[{serviceName:"facebook"}]]);$("div.twitter").async("scrollBind",["socialActivityList",[{serviceName:"twitter"}]]);$("div.ivideo").async("scrollBind",["inlinevideo",[{initParams:{fg:"",fr:"pt-br_hpinlineplayer",linkBack:"",linkOverride:"",mkt:"pt-br",quality:"",radUrl:"",vmsUrl:"",vce:"",vci:""},asyncp:1}]]);$("#artists,#produto,#recipe,#company").scrollBind("bindHinting");$("body").bind("LLError",function(b,c){$("body").unbind("LLError");var a="LL Error ";switch(c){case 1:a+="Ajax";break;case 2:a+="Parse";break;case 3:a+="Timeout";break;case 4:a+="Content";break;default:a+="Undefined"}$.track.trackEvent(b,0,0,a)});$("div.menubar1").menuBar();$("div.cogr.coss").async("scrollBind",["slideshow"]);$.lazyLoad.timeout=5e4;$.refreshPage({idle:0});$("#cobrandeula").async("cobrandeula");$.extend(true,{hotmail:{defaults:{}}});$("div.hminbox1").previewInbox();$("div.wlcard1").previewlivescorecard({hotmail:"#to_inbox span",hmtemplate:" ({0})"});$("a.openpopup").async("openpopup",[{asyncp:1}]);$("a.mediapopup").async("mediaPopup",[{features:"width=200,height=200"}]);$("#srchfrm, div.wlcard1 li:eq(1) a,#footersrchfrm").appendQueryParam({});setTimeout(function(){$("a.opennew").async("openNew",[{asyncp:1}])},600);(function(){String.prototype.delCookie=function(a){var b=a?a:$.url.getDomain(window.location.hostname);document.cookie=this+"=;expires=Fri, 31 Dec 1999 23:59:59 GMT;domain="+b}})();$("div.weamulti1, div.weamulti2").async("weatherForecastMultiCities",[{spsUrl:"ajax/spswrite.aspx"}]);$.cep.register();$("#wea1,#wea_mini").async("localModules");$("div.weamulti1 .locheading, .weamulti2 .cepedit").async("cepLink");$.iAwareness();$.sm("end")},$.jsUrl);$(window).load(function(){$.Polls.init()})})(jQuery)//]]></SCRIPT>
+</BODY></HTML>

@@ -1,0 +1,7 @@
+tr.SKIPPED {
+    background-color: #808080;
+}
+
+.SKIPPEDoff tr.SKIPPED {
+    display: none;
+}

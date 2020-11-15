@@ -1,0 +1,226 @@
+16:26:29.087 +0 [INFO] Starting at Tue Feb 14 16:26:29 MSK 2012
+14.02.2012 16:26:33 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+14.02.2012 16:26:33 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: Retrying request
+16:26:33.369 +4 [FINE] Adding Test Data - Search Engine: http://google.com; search phrase: >>profile of downshifte<<; expected CCID: ccid=27048
+16:26:33.369 +0 [FINE] Adding Test Data - Search Engine: http://google.ro; search phrase: >>Hărţi Ramnicu<<; expected CCID: ccid=306501
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.com.hk; search phrase: >>又有明显的区别<<; expected CCID: ccid=306502
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.com.au; search phrase: >>Sydney opera house<<; expected CCID: ccid=306503
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.com.sg; search phrase: >>johor bahru<<; expected CCID: ccid=306504
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.co.uk; search phrase: >>due to inadequate sanitation<<; expected CCID: ccid=27031
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.co.nz; search phrase: >>Lower Hutt<<; expected CCID: ccid=306505
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.co.jp; search phrase: >>人気の要求する<<; expected CCID: ccid=27029
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.com.tr; search phrase: >>Küçük Kızın<<; expected CCID: ccid=309289
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.co.kr; search phrase: >>신선한어패류<<; expected CCID: ccid=27030
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://google.com.br; search phrase: >>Historia da Seleção<<; expected CCID: ccid=27328
+16:26:33.384 +0 [FINE] Adding Test Data - Search Engine: http://yahoo.com; search phrase: >>de Faction Collective<<; expected CCID: ccid=27211
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://nz.yahoo.com; search phrase: >>'virtual zoo' in luggage<<; expected CCID: ccid=306506
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://au.yahoo.com; search phrase: >>Wagga Wagga<<; expected CCID: ccid=306507
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://ro.yahoo.com; search phrase: >>Preşedintele României<<; expected CCID: ccid=306508
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://sg.yahoo.com; search phrase: >>Tit-for-tat over<<; expected CCID: ccid=306509
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://yahoo.co.jp; search phrase: >>私はあなたの債務者午前<<; expected CCID: ccid=27210
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://hk.yahoo.com; search phrase: >>利用少年運毒判囚30年<<; expected CCID: ccid=306897
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://tr.yahoo.com; search phrase: >>NoteBook Çantası<<; expected CCID: ccid=309290
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://kr.yahoo.com; search phrase: >>정말감사합니다<<; expected CCID: ccid=27128
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://br.yahoo.com; search phrase: >>Globo São Paulo<<; expected CCID: ccid=27348
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://altavista.com; search phrase: >>aggravated R&amp;B<<; expected CCID: ccid=26908
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://nz.altavista.com; search phrase: >>100% Chanel Coco Cabas<<; expected CCID: ccid=306898
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://au.altavista.com; search phrase: >>Antec Notebook Cooler 200$<<; expected CCID: ccid=306899
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://kr.altavista.com; search phrase: >>혈관의수축<<; expected CCID: ccid=27108
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://br.altavista.com; search phrase: >>confirmação do pedido<<; expected CCID: ccid=26929
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://rambler.ru; search phrase: >>appreciate the currency<<; expected CCID: ccid=27191
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://yandex.ru; search phrase: >>request in Hypertext Transfer Protocol<<; expected CCID: ccid=27212
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://aport.ru; search phrase: >>Find implement synonyms<<; expected CCID: ccid=26910
+16:26:33.400 +0 [FINE] Adding Test Data - Search Engine: http://lycos.com; search phrase: >>물론나도동의<<; expected CCID: ccid=27149
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://www.lycos.com.au; search phrase: >>Invasion of rabbit<<; expected CCID: ccid=306900
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://www.lycos.co.nz; search phrase: >>Current Weather for Auckland<<; expected CCID: ccid=306901
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://www.lycos.co.uk; search phrase: >>Rochdale A.F.C.<<; expected CCID: ccid=123675
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://www.lycos.co.kr; search phrase: >>잔해물<<; expected CCID: ccid=123674
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://www.lycos.com.br; search phrase: >>tribos da Amazônia<<; expected CCID: ccid=123673
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://www.lycos.co.jp; search phrase: >>携帯電話ノキア<<; expected CCID: ccid=290073
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://alltheweb.com; search phrase: >>application S&amp;P 500<<; expected CCID: ccid=26889
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://www.dmoz.org; search phrase: >>색인 S &amp; P는 500<<; expected CCID: ccid=26968
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://hotbot.com; search phrase: >>career D&amp;G criteria<<; expected CCID: ccid=27068
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://search.com; search phrase: >>가까운병원에<<; expected CCID: ccid=27193
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://bing.com; search phrase: >>provision of security<<; expected CCID: ccid=27152
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://msn.com; search phrase: >>관심축<<; expected CCID: ccid=26928
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://bing.com/?cc=sg; search phrase: >>Paper Monkey Theatre LTD<<; expected CCID: ccid=306510
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://bing.com/?cc=au; search phrase: >>Manly Bungalow<<; expected CCID: ccid=306511
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://nz.bing.com; search phrase: >>milking process<<; expected CCID: ccid=306512
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://kr.msn.com; search phrase: >>진행되다<<; expected CCID: ccid=27109
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://ninemsn.com.au; search phrase: >>Rugby league<<; expected CCID: ccid=306896
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://nz.msn.com; search phrase: >>Indian recipes<<; expected CCID: ccid=306903
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://xin.msn.com; search phrase: >>刘子绚为慈善开嗓 甘做Olivia师妹<<; expected CCID: ccid=306904
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://hk.msn.com; search phrase: >>沖繩看海<<; expected CCID: ccid=306905
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://jp.msn.com; search phrase: >>くそ食らえ<<; expected CCID: ccid=27088
+16:26:33.416 +0 [FINE] Adding Test Data - Search Engine: http://tr.msn.com; search phrase: >>Tektaş Pırlanta Yüzük<<; expected CCID: ccid=309291
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://br.msn.com; search phrase: >>lesão não é grave<<; expected CCID: ccid=305315
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://looksmart.com; search phrase: >>Release Information<<; expected CCID: ccid=27148
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://searchhippo.com; search phrase: >>compliance with orders<<; expected CCID: ccid=27208
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://pricegrabber.com; search phrase: >>process explorer help<<; expected CCID: ccid=27170
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://ask.com; search phrase: >>담당자<<; expected CCID: ccid=26911
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://a9.com INACTIVE; search phrase: >>representational art<<; expected CCID: ccid=26888
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://kanoodle.com; search phrase: >>In definition grammar about subject<<; expected CCID: ccid=27089
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://aol.com; search phrase: >>학원<<; expected CCID: ccid=26909
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://scrubtheweb.com; search phrase: >>reference<<; expected CCID: ccid=27192
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://metacrawler.com; search phrase: >>commitment ceremony invitations<<; expected CCID: ccid=27151
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://excite.com; search phrase: >>football transfer rumours<<; expected CCID: ccid=26989
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://excite.co.jp; search phrase: >>オープンアクセス<<; expected CCID: ccid=287233
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://dogpile.com; search phrase: >>job references<<; expected CCID: ccid=26969
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://naver.com; search phrase: >>자동차보험<<; expected CCID: ccid=27168
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://nate.com; search phrase: >>모기<<; expected CCID: ccid=26988
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://daum.net; search phrase: >>업무<<; expected CCID: ccid=26949
+16:26:33.431 +0 [FINE] Adding Test Data - Search Engine: http://korea.com; search phrase: >>맛있는치킨<<; expected CCID: ccid=27090
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://ebay.com; search phrase: >>womens shoes D&amp;G<<; expected CCID: ccid=27150
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://ebay.com.au; search phrase: >>Jewellery &amp; Watches<<; expected CCID: ccid=306906
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://ebay.com.sg; search phrase: >>Everything Else<<; expected CCID: ccid=306907
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://ebay.cn; search phrase: >>全球銷售支援服務<<; expected CCID: ccid=306908
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://ebay.com.hk; search phrase: >>商品<<; expected CCID: ccid=306909
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://ebay.co.kr; search phrase: >>이베이<<; expected CCID: ccid=27209
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://ebay.co.jp; search phrase: >>アカウント<<; expected CCID: ccid=289873
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://ebay.co.uk; search phrase: >>Contemporary Paintings<<; expected CCID: ccid=289893
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://chol.com; search phrase: >>변명<<; expected CCID: ccid=26948
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://paran.com; search phrase: >>전화<<; expected CCID: ccid=27169
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://www.amazon.com; search phrase: >>the lost symbol<<; expected CCID: ccid=287253
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://www.amazon.co.uk; search phrase: >>Download Linkin Park Reanimation<<; expected CCID: ccid=287273
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://www.amazon.cn; search phrase: >>輻射劑量計<<; expected CCID: ccid=306914
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://www.amazon.co.jp; search phrase: >>ギター<<; expected CCID: ccid=287293
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://japan.infoseek.com; search phrase: >>発送家具<<; expected CCID: ccid=287313
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://www.biglobe.ne.jp; search phrase: >>オレンジのシャツ<<; expected CCID: ccid=287373
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://www.ocn.ne.jp; search phrase: >>共和国<<; expected CCID: ccid=287333
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://goo.ne.jp; search phrase: >>難破船<<; expected CCID: ccid=287393
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://www.plala.or.jp; search phrase: >>カスタム化<<; expected CCID: ccid=287433
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://sensis.com.au; search phrase: >>Cultura aborigen de Australian islands<<; expected CCID: ccid=306513
+16:26:33.447 +0 [FINE] Adding Test Data - Search Engine: http://optuszoo.com.au; search phrase: >>Cricket news<<; expected CCID: ccid=306594
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://asia.ezilon.com; search phrase: >>Travel Agencies<<; expected CCID: ccid=306595
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://baidu.com; search phrase: >>加入百度推广<<; expected CCID: ccid=306596
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://buscador.terra.com.br; search phrase: >>Confeccões e Vestuário<<; expected CCID: ccid=306849
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://busca.uol.com.br; search phrase: >>R&amp;B Músicas Mais tocadas<<; expected CCID: ccid=306891
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.aonde.com; search phrase: >>Escola Politécnica da Universidade<<; expected CCID: ccid=306892
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://exploora.com.br; search phrase: >>Semana Amazônica<<; expected CCID: ccid=306893
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://gigabusca.com.br; search phrase: >>Agrotec Soluções<<; expected CCID: ccid=306894
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.buscar.com.br; search phrase: >>SP-160 "Rodovia dos Imigrantes" músicas<<; expected CCID: ccid=306895
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.zarp.net; search phrase: >>Criação de Sites<<; expected CCID: ccid=306896
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.rol.ro; search phrase: >>Declaraţia care<<; expected CCID: ccid=309280
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.afla.ro; search phrase: >>Bazele organizării<<; expected CCID: ccid=309281
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.myportal.ro; search phrase: >>pentru odată<<; expected CCID: ccid=309282
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.ecaut.ro; search phrase: >>propoziţiile prea leagă între<<; expected CCID: ccid=309283
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.ara.com.tr; search phrase: >>İşletme Çözümleri<<; expected CCID: ccid=309284
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.netarama.gen.tr; search phrase: >>kitap satışı<<; expected CCID: ccid=309285
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.turkiyearama.com INACTIVE; search phrase: >>yaygın eğitim<<; expected CCID: ccid=309286
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.ilanzi.com; search phrase: >>çıkanlar yayınevleri<<; expected CCID: ccid=309287
+16:26:33.463 +0 [FINE] Adding Test Data - Search Engine: http://www.arabul.com; search phrase: >>Türkiye'nin Dev Kitap<<; expected CCID: ccid=309288
+16:26:36.775 +3 [FINE] Opted in using http://cs.ocslab.com/cgi-bin/moo.cgi?ip=192.168.1.67&op=in&success_url=http://cs.ocslab.com/oi/s.htm&already_url=http://cs.ocslab.com/oi/a.htm&fail_url=http://cs.ocslab.com/oi/f.htm
+16:26:39.807 +3 [INFO] http://msn.com: [searchString='관심축', expectedDisplayCcid=26928, expectedTextCreatoText='관심축']
+16:26:47.292 +7 [FINE] Search Engine site opened
+No translation for key. Assuming unicode input: 44288
+No translation for key. Assuming unicode input: 49900
+No translation for key. Assuming unicode input: 52629
+16:26:50.745 +3 [INFO] Initial search is performed
+16:26:52.464 +1 [FINE] Test page opened
+16:26:53.542 +1 [INFO] 
+DCG Banner Check = true
+TEXT Banner Check = true
+16:26:53.542 +0 [FINE] slept
+16:26:53.574 +0 [INFO] http://kr.msn.com: [searchString='진행되다', expectedDisplayCcid=27109, expectedTextCreatoText='진행되다']
+16:32:18.711 +325 [FINE] Search Engine site opened
+No translation for key. Assuming unicode input: 51652
+No translation for key. Assuming unicode input: 54665
+No translation for key. Assuming unicode input: 46104
+No translation for key. Assuming unicode input: 45796
+16:32:34.900 +16 [INFO] Initial search is performed
+16:32:37.041 +2 [FINE] Test page opened
+16:32:38.072 +1 [INFO] 
+DCG Banner Check = true
+TEXT Banner Check = true
+16:32:38.072 +0 [FINE] slept
+16:32:38.072 +0 [INFO] http://ninemsn.com.au: [searchString='Rugby league', expectedDisplayCcid=306896, expectedTextCreatoText='Rugby league']
+16:33:16.076 +38 [FINE] Search Engine site opened
+16:33:20.388 +4 [INFO] Initial search is performed
+17:03:53.322 +1832 [FINE] Test page opened
+17:03:54.619 +1 [WARNING] 
+DCG Banner Check = false
+TEXT Banner Check = true
+17:03:54.619 +0 [FINE] slept
+17:03:54.619 +0 [INFO] Repeating the search and clicking one of results
+17:04:29.153 +34 [FINE] Search Engine site opened
+17:04:34.857 +5 [INFO] Search is performed
+17:04:37.451 +2 [WARNING] TEST FAILED: No search result links are found!
+17:04:37.482 +0 [INFO] http://nz.msn.com: [searchString='Indian recipes', expectedDisplayCcid=306903, expectedTextCreatoText='Indian recipes']
+17:05:14.641 +37 [FINE] Search Engine site opened
+17:05:17.985 +3 [INFO] Initial search is performed
+17:05:19.439 +1 [FINE] Test page opened
+17:05:20.470 +1 [INFO] 
+DCG Banner Check = true
+TEXT Banner Check = true
+17:05:20.470 +0 [FINE] slept
+17:05:20.486 +0 [INFO] http://xin.msn.com: [searchString='刘子绚为慈善开嗓 甘做Olivia师妹', expectedDisplayCcid=306904, expectedTextCreatoText='刘子绚为慈善开嗓 甘做Olivia师妹']
+17:05:27.361 +6 [FINE] Search Engine site opened
+No translation for key. Assuming unicode input: 21016
+No translation for key. Assuming unicode input: 23376
+No translation for key. Assuming unicode input: 32474
+No translation for key. Assuming unicode input: 20026
+No translation for key. Assuming unicode input: 24904
+No translation for key. Assuming unicode input: 21892
+No translation for key. Assuming unicode input: 24320
+No translation for key. Assuming unicode input: 21971
+No translation for key. Assuming unicode input: 29976
+No translation for key. Assuming unicode input: 20570
+No translation for key. Assuming unicode input: 24072
+No translation for key. Assuming unicode input: 22969
+17:05:32.409 +5 [INFO] Initial search is performed
+17:05:34.487 +2 [FINE] Test page opened
+17:05:35.612 +1 [INFO] 
+DCG Banner Check = true
+TEXT Banner Check = true
+17:05:35.612 +0 [FINE] slept
+17:05:35.628 +0 [INFO] http://hk.msn.com: [searchString='沖繩看海', expectedDisplayCcid=306905, expectedTextCreatoText='沖繩看海']
+17:06:08.615 +32 [FINE] Search Engine site opened
+No translation for key. Assuming unicode input: 27798
+No translation for key. Assuming unicode input: 32361
+No translation for key. Assuming unicode input: 30475
+No translation for key. Assuming unicode input: 28023
+17:06:11.146 +2 [INFO] Initial search is performed
+17:06:13.599 +2 [FINE] Test page opened
+17:06:14.600 +1 [INFO] 
+DCG Banner Check = true
+TEXT Banner Check = true
+17:06:14.600 +0 [FINE] slept
+17:06:14.615 +0 [INFO] http://jp.msn.com: [searchString='くそ食らえ', expectedDisplayCcid=27088, expectedTextCreatoText='くそ食らえ']
+17:06:47.399 +32 [FINE] Search Engine site opened
+No translation for key. Assuming unicode input: 12367
+No translation for key. Assuming unicode input: 12381
+No translation for key. Assuming unicode input: 39135
+No translation for key. Assuming unicode input: 12425
+No translation for key. Assuming unicode input: 12360
+17:06:50.634 +3 [INFO] Initial search is performed
+17:06:52.540 +1 [FINE] Test page opened
+17:06:53.587 +1 [INFO] 
+DCG Banner Check = true
+TEXT Banner Check = true
+17:06:53.587 +0 [FINE] slept
+17:06:53.603 +0 [INFO] http://tr.msn.com: [searchString='Tektaş Pırlanta Yüzük', expectedDisplayCcid=309291, expectedTextCreatoText='Tektaş Pırlanta Yüzük']
+17:07:25.887 +32 [FINE] Search Engine site opened
+No translation for key. Assuming unicode input: 351
+No translation for key. Assuming unicode input: 305
+No translation for key. Assuming unicode input: 252
+No translation for key. Assuming unicode input: 252
+17:07:30.340 +4 [INFO] Initial search is performed
+17:07:32.965 +2 [FINE] Test page opened
+17:07:34.075 +1 [INFO] 
+DCG Banner Check = true
+TEXT Banner Check = true
+17:07:34.075 +0 [FINE] slept
+17:07:34.075 +0 [INFO] http://br.msn.com: [searchString='lesão não é grave', expectedDisplayCcid=305315, expectedTextCreatoText='lesão não é grave']
+17:07:38.341 +4 [FINE] Search Engine site opened
+No translation for key. Assuming unicode input: 227
+No translation for key. Assuming unicode input: 227
+No translation for key. Assuming unicode input: 233
+17:07:43.123 +4 [INFO] Initial search is performed
+17:07:45.279 +2 [FINE] Test page opened
+17:07:46.310 +1 [INFO] 
+DCG Banner Check = true
+TEXT Banner Check = true
+17:07:46.310 +0 [FINE] slept
+17:07:46.373 +0 [INFO] http://www.plala.or.jp: [searchString='カスタム化', expectedDisplayCcid=287433, expectedTextCreatoText='カスタム化']
